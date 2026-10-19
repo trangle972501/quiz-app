@@ -1,0 +1,1745 @@
+[
+    {
+        "question": "Which of the following best describes a primary difference between a conventional software system and an AI-based system?",
+        "options": [
+            "A. Conventional systems are non-deterministic, whereas AI-based systems always produce identical outputs for given inputs.",
+            "B. Conventional systems rely on explicit step-by-step instructions written by developers, whereas AI-based systems learn patterns directly from data.",
+            "C. AI-based systems do not require continuous monitoring after deployment, whereas conventional systems require constant manual oversight.",
+            "D. Conventional systems adapt automatically to changes in their operating environment, whereas AI-based systems remain strictly static"
+        ],
+        "answer": ["B. Conventional systems rely on explicit step-by-step instructions written by developers, whereas AI-based systems learn patterns directly from data"],
+        "explaination": {
+            "A. Conventional systems are non-deterministic, whereas AI-based systems always produce identical outputs for given inputs.": "Incorrect! Conventional systems are typically deterministic, meaning they produce the same output for a given input. AI-based systems can be non-deterministic due to their learning nature and probabilistic models.",
+            "B. Conventional systems rely on explicit step-by-step instructions written by developers, whereas AI-based systems learn patterns directly from data.": "Correct! Conventional software systems are built using explicit programming, while AI-based systems learn from data and can adapt to new patterns without being explicitly programmed.",
+            "C. AI-based systems do not require continuous monitoring after deployment, whereas conventional systems require constant manual oversight.": "Incorrect! Both AI-based and conventional systems may require monitoring after deployment, especially in critical applications. AI systems may require monitoring to ensure they are performing as expected and to detect any drift in their learning.",
+            "D. Conventional systems adapt automatically to changes in their operating environment, whereas AI-based systems remain strictly static": "Incorrect! Conventional systems do not typically adapt automatically; they require updates or changes to their code. AI-based systems can adapt to changes in their environment through learning and retraining, although this may require additional data and intervention."
+        }
+    },
+    {
+        "question": "Which statement correctly reflects the adaptability of AI-based systems compared to conventional software?",
+        "options": [
+            "A. Conventional systems automatically rewrite their own code when encountering unseen data in production.",
+            "B. AI-based systems can continuously improve performance through self-learning, requiring ongoing alignment monitoring.",
+            "C. AI-based systems are static and can only be updated by manually modifying the source code statements.",
+            "D. Both conventional and AI-based systems exhibit identical self-learning capabilities in dynamic operational environments."
+        ],
+        "answer": ["B. AI-based systems can continuously improve performance through self-learning, requiring ongoing alignment monitoring."],
+        "explaination": {
+            "A. Conventional systems automatically rewrite their own code when encountering unseen data in production.": "Incorrect! Conventional systems do not automatically rewrite their own code. They require manual updates or modifications to handle new data.",
+            "B. AI-based systems can continuously improve performance through self-learning, requiring ongoing alignment monitoring.": "Correct! AI-based systems can learn from new data and improve their performance over time, but this requires ongoing monitoring to ensure they are functioning as expected.",
+            "C. AI-based systems are static and can only be updated by manually modifying the source code statements.": "Incorrect! AI-based systems are designed to be dynamic and can adapt to new data without requiring manual code modifications.",
+            "D. Both conventional and AI-based systems exhibit identical self-learning capabilities in dynamic operational environments.": "Incorrect! Conventional systems do not have self-learning capabilities, while AI-based systems are specifically designed to learn from data."
+        }
+    },
+    {
+        "question": "Which of the following statements regarding the spectrum of AI capabilities is TRUE?",
+        "options": [
+            "A. General AI is widely deployed in current commercial applications such as facial recognition and translation tools.",
+            "B. Frontier AI represents a class of General AI that has successfully matched human cognitive versatility across all domains.",
+            "C. All AI-based systems deployed in operational environments today are classified as Narrow AI.",
+            "D. Super AI refers specifically to rule-based expert systems operating within a single well-defined task domain"
+        ],
+        "answer": ["C. All AI-based systems deployed in operational environments today are classified as Narrow AI."],
+        "explaination": {
+            "A. General AI is widely deployed in current commercial applications such as facial recognition and translation tools.": "Incorrect! General AI, which can perform any intellectual task that a human can, is not yet realized and is not deployed in current commercial applications.",
+            "B. Frontier AI represents a class of General AI that has successfully matched human cognitive versatility across all domains.": "Incorrect! Frontier AI is an emerging area of research but has not yet achieved the level of General AI that matches human cognitive versatility.",
+            "C. All AI-based systems deployed in operational environments today are classified as Narrow AI.": "Correct! Narrow AI, also known as Weak AI, is designed to perform specific tasks and is the type of AI currently deployed in operational environments.",
+            "D. Super AI refers specifically to rule-based expert systems operating within a single well-defined task domain": "Incorrect! Super AI refers to a hypothetical form of AI that surpasses human intelligence across all domains, not just rule-based expert systems."
+        }
+    },
+    {
+        "question": "A software tester is reviewing deep learning model architectures. Which neural network type is correctly matched with its primary application area?",
+        "options": [
+            "A. Recurrent Neural Networks (RNN) – Optimized specifically for processing 2D grid-like image datasets.",
+            "B. Convolutional Neural Networks (CNN) – Designed for recognizing spatial patterns in visual and image recognition tasks.",
+            "C. Transformers – Limited exclusively to single-variable numeric regression without sequential capabilities.",
+            "D. Fuzzy Logic – A deep learning architecture that processes sequence data using convolutional layers"],
+        "answer": ["B. Convolutional Neural Networks (CNN) – Designed for recognizing spatial patterns in visual and image recognition tasks."],
+        "explaination": {
+            "A. Recurrent Neural Networks (RNN) – Optimized specifically for processing 2D grid-like image datasets.": "Incorrect! RNNs are optimized for processing sequential data, not 2D image datasets.",
+            "B. Convolutional Neural Networks (CNN) – Designed for recognizing spatial patterns in visual and image recognition tasks.": "Correct! CNNs are specifically designed for processing and recognizing spatial patterns in visual and image data.",
+            "C. Transformers – Limited exclusively to single-variable numeric regression without sequential capabilities.": "Incorrect! Transformers are designed for handling sequential data and have been successful in various natural language processing tasks.",
+            "D. Fuzzy Logic – A deep learning architecture that processes sequence data using convolutional layers": "Incorrect! Fuzzy Logic is a different approach to handling uncertainty and is not a deep learning architecture."
+        }
+    },
+    {
+        "question": "Which AI technology is characterized by evaluating partial truth using certainty factors between 0 and 1 to support reasoning under uncertainty?",
+        "options": [
+            "A. Expert Systems",
+            "B. Computer Vision",
+            "C. Fuzzy Logic",
+            "D. Reinforcement Learning"
+        ],
+        "answer": ["C. Fuzzy Logic"],
+        "explaination": {
+            "A. Expert Systems": "Incorrect! Expert systems use rule-based approaches for decision-making.",
+            "B. Computer Vision": "Incorrect! Computer vision focuses on enabling machines to interpret and understand visual information.",
+            "C. Fuzzy Logic": "Correct! Fuzzy logic evaluates partial truth using certainty factors between 0 and 1.",
+            "D. Reinforcement Learning": "Incorrect! Reinforcement learning involves training agents to make decisions based on rewards and penalties."
+        }
+    },
+    {
+        "question": "Question 6: How do Generative Adversarial Networks (GANs) produce synthetic content?",
+        "options": [
+            "A. By utilizing self-attention mechanisms to calculate probability distributions over textual tokens.",
+            "B. By employing two neural networks operating in competition to generate highly realistic synthetic data.",
+            "C. By systematically adding noise to images until a deterministic rule-based output is created.",
+            "D. By retrieving structured external database records to supplement a static expert system knowledge base"
+        ],
+        "answer": ["B. By employing two neural networks operating in competition to generate highly realistic synthetic data."],
+        "explaination": {
+            "A. By utilizing self-attention mechanisms to calculate probability distributions over textual tokens.": "Incorrect! This describes a transformer architecture.",
+            "B. By employing two neural networks operating in competition to generate highly realistic synthetic data.": "Correct! GANs consist of a generator and a discriminator network that compete with each other.",
+            "C. By systematically adding noise to images until a deterministic rule-based output is created.": "Incorrect! This does not describe the GAN mechanism.",
+            "D. By retrieving structured external database records to supplement a static expert system knowledge base": "Incorrect! This is not related to GANs."
+        }
+    },
+    {
+        "question": "When selecting hardware for Machine Learning Systems, what is the main advantage of applying quantization (low-precision arithmetic)?",
+        "options": [
+            "A. It increases the precision of arithmetic calculations from 32-bit to 64-bit floating points.",
+            "B. It reduces computational bandwidth, lowers power consumption, and enables faster processing.",
+            "C. It allows CPUs to replace GPUs for large-scale parallel matrix multiplication in high-performance cloud clusters.",
+            "D. It eliminates the need for neural network training by converting deep learning models into expert systems."
+        ],
+        "answer": ["B. It reduces computational bandwidth, lowers power consumption, and enables faster processing."],
+        "explaination": {
+            "A. It increases the precision of arithmetic calculations from 32-bit to 64-bit floating points.": "Incorrect! Quantization reduces precision, not increases it.",
+            "B. It reduces computational bandwidth, lowers power consumption, and enables faster processing.": "Correct! Quantization decreases the bit width of weights and activations, leading to reduced memory usage and faster computation.",
+            "C. It allows CPUs to replace GPUs for large-scale parallel matrix multiplication in high-performance cloud clusters.": "Incorrect! This is not a primary benefit of quantization.",
+            "D. It eliminates the need for neural network training by converting deep learning models into expert systems.": "Incorrect! Quantization does not eliminate the need for training."
+        }
+    },
+    {
+        "question": "Which hardware architecture is specifically designed to mimic biological neuronal structures rather than using the traditional von Neumann computer architecture?",
+        "options": [
+            "A. Central Processing Units (CPUs)",
+            "B. Application-Specific Integrated Circuits (ASICs)",
+            "C. Neuromorphic Processors",
+            "D. Graphics Processing Units (GPUs)"
+        ],
+        "answer": ["C. Neuromorphic Processors"],
+        "explaination": {
+            "A. Central Processing Units (CPUs)": "Incorrect! CPUs follow the von Neumann architecture.",
+            "B. Application-Specific Integrated Circuits (ASICs)": "Incorrect! ASICs are designed for specific tasks but do not mimic biological structures.",
+            "C. Neuromorphic Processors": "Correct! Neuromorphic processors are designed to mimic the structure and function of biological neural networks.",
+            "D. Graphics Processing Units (GPUs)": "Incorrect! GPUs are optimized for parallel processing but do not mimic biological neuronal structures."
+        }
+    },
+    {
+        "question": "An organization needs to prototype an AI system using sensitive customer data locally, while needing elastic computational power for large-scale model training. Which hosting/development approach is most appropriate?",
+        "options": [
+            "A. Pure Local Hosting on personal mobile devices.",
+            "B. Public AI as a Service (AIaaS) with zero local control.",
+            "C. Hybrid Approach combining local/on-premise data handling with cloud compute resources.",
+            "D. Static Rule-Based Deployment without any cloud infrastructure."
+        ],
+        "answer": ["C. Hybrid Approach combining local/on-premise data handling with cloud compute resources."],
+        "explaination": {
+            "A. Pure Local Hosting on personal mobile devices.": "Incorrect! This approach does not provide the necessary computational power for large-scale model training.",
+            "B. Public AI as a Service (AIaaS) with zero local control.": "Incorrect! This approach does not allow for local handling of sensitive customer data.",
+            "C. Hybrid Approach combining local/on-premise data handling with cloud compute resources.": "Correct! This approach allows for local handling of sensitive data while leveraging cloud infrastructure for computational needs.",
+            "D. Static Rule-Based Deployment without any cloud infrastructure.": "Incorrect! This approach does not provide the necessary computational power for large-scale model training."
+        }
+    },
+    {
+        "question": "Which set of activities represents core functionalities provided by Machine Learning Development Frameworks (e.g., PyTorch, TensorFlow)?",
+        "options": [
+            "A. Hardware manufacturing, chip fabrication, and physical cooling management.",
+            "B. Data handling, model building, training & optimization, evaluation, and deployment.",
+            "C. Regulatory enforcement, legal auditing, and safety compliance certification.",
+            "D. Manual test case execution, user acceptance signing, and contract negotiation."
+        ],
+        "answer": ["B. Data handling, model building, training & optimization, evaluation, and deployment."],
+        "explaination": {
+            "A. Hardware manufacturing, chip fabrication, and physical cooling management.": "Incorrect! These are hardware-related activities, not core functionalities of ML frameworks.",
+            "B. Data handling, model building, training & optimization, evaluation, and deployment.": "Correct! These are the primary activities supported by ML development frameworks.",
+            "C. Regulatory enforcement, legal auditing, and safety compliance certification.": "Incorrect! These are external regulatory activities, not core functionalities of ML frameworks.",
+            "D. Manual test case execution, user acceptance signing, and contract negotiation.": "Incorrect! These are project management and business activities, not core functionalities of ML frameworks."
+        }
+    },
+    {
+        "question": "Under the EU AI Act, how are AI systems that function as safety components in critical domains (e.g., automotive or medical devices) classified?",
+        "options": [
+            "A. Low-Risk",
+            "B. High-Risk",
+            "C. Unregulated",
+            "D. General AI"
+        ],
+        "answer": ["B. High-Risk"],
+        "explaination": {
+            "A. Low-Risk": "Incorrect! AI systems in critical domains are not classified as low-risk.",
+            "B. High-Risk": "Correct! AI systems that function as safety components in critical domains are classified as high-risk under the EU AI Act.",
+            "C. Unregulated": "Incorrect! These systems are subject to regulation under the EU AI Act.",
+            "D. General AI": "Incorrect! This classification does not apply to safety-critical AI systems."
+        }
+    },
+    {
+        "question": "Which international standard provides specific guidance and best practices on the TESTING of AI-based systems?",
+        "options": [
+            "A. ISO/IEC 25010",
+            "B. ISO/IEC TR 29119-11",
+            "C. ISO/IEC 2382",
+            "D. ISO 26262-6"
+        ],
+        "answer": ["B. ISO/IEC TR 29119-11"],
+        "explaination": {
+            "A. ISO/IEC 25010": "Incorrect! This standard provides general software quality requirements and evaluation criteria, not specific guidance for AI-based systems.",
+            "B. ISO/IEC TR 29119-11": "Correct! This technical report provides specific guidance and best practices for the testing of AI-based systems.",
+            "C. ISO/IEC 2382": "Incorrect! This standard defines terms and definitions for software engineering, but does not provide specific testing guidance for AI systems.",
+            "D. ISO 26262-6": "Incorrect! This standard is for functional safety of road vehicles, not specifically for AI-based systems."
+        }
+    },
+    {
+        "question": "Which of the following statements BEST highlights the difference between conventional and AI based systems?",
+        "options": [
+            "A. AI-based systems tend to learn from patterns in data and can adapt to new scenarios, while conventional systems follow predefined rules and produce consistent outputs for the same inputs",
+            "B. AI-based systems tend to be faster than conventional systems because they do not rely on explicit programming, while conventional systems are slower due to rigid rule-based processing",
+            "C. AI-based systems tend to be deterministic and explainable, while conventional systems are probabilistic and often difficult to interpret",
+            "D. AI-based systems tend to be more suitable for critical tasks where explainability is crucial, while conventional systems are better at handling complex tasks in unregulated areas"
+        ],
+        "answer": ["A. AI-based systems tend to learn from patterns in data and can adapt to new scenarios, while conventional systems follow predefined rules and produce consistent outputs for the same inputs"],
+        "explaination": {
+            "A. AI-based systems tend to learn from patterns in data and can adapt to new scenarios, while conventional systems follow predefined rules and produce consistent outputs for the same inputs": "Correct! This statement accurately captures the fundamental difference between conventional and AI-based systems.",
+            "B. AI-based systems tend to be faster than conventional systems because they do not rely on explicit programming, while conventional systems are slower due to rigid rule-based processing": "Incorrect! While AI-based systems can be faster in some cases, this is not always true, and conventional systems can also be optimized for speed.",
+            "C. AI-based systems tend to be deterministic and explainable, while conventional systems are probabilistic and often difficult to interpret": "Incorrect! AI-based systems are often non-deterministic and less explainable compared to conventional systems.",
+            "D. AI-based systems tend to be more suitable for critical tasks where explainability is crucial, while conventional systems are better at handling complex tasks in unregulated areas": "Incorrect! This statement reverses the typical suitability of each system type."
+        }
+    },
+    {
+        "question": "Which TWO of the following statements BEST distinguish between narrow AI, general AI, and super AI? Select TWO answers.",
+        "options": [
+            "A. Narrow AI is self-learning, general AI focuses on solving specialized problems, and super AI is limited to tasks defined during its development",
+            "B. Narrow AI operates independently of human input, general AI is used only in advanced robotics, and super AI improves human decision-making in specialized fields",
+            "C. Narrow AI performs specific tasks efficiently, general AI can handle a wide range of intellectual tasks like a human, and super AI surpasses human intelligence",
+            "D. Narrow AI is task-specific, general AI is a concept with limited real-world applications, and super AI describes cutting-edge generative AI models",
+            "E. Narrow AI is the current state of AI, achievement of general AI is uncertain, but once general AI is achieved, super AI is likely to happen"
+        ],
+        "answer": [
+            "A. Narrow AI performs specific tasks efficiently, general AI can handle a wide range of intellectual tasks like a human, and super AI surpasses human intelligence",
+            "E. Narrow AI is the current state of AI, achievement of general AI is uncertain, but once general AI is achieved, super AI is likely to happen"
+        ],
+        "explaination": {
+            "A. Narrow AI performs specific tasks efficiently, general AI can handle a wide range of intellectual tasks like a human, and super AI surpasses human intelligence": "Correct! This statement accurately describes the characteristics of each type of AI.",
+            "E. Narrow AI is the current state of AI, achievement of general AI is uncertain, but once general AI is achieved, super AI is likely to happen": "Correct! This statement accurately describes the progression from narrow to general to super AI.",
+            "B. Narrow AI operates independently of human input, general AI is used only in advanced robotics, and super AI improves human decision-making in specialized fields": "Incorrect! This statement contains inaccuracies about the capabilities and applications of each type of AI.",
+            "C. Narrow AI performs specific tasks efficiently, general AI can handle a wide range of intellectual tasks like a human, and super AI surpasses human intelligence": "Incorrect! This statement is partially correct but does not fully capture the distinctions between the types of AI.",
+            "D. Narrow AI is task-specific, general AI is a concept with limited real-world applications, and super AI describes cutting-edge generative AI models": "Incorrect! This statement contains inaccuracies about the capabilities and applications of each type of AI."
+        }
+    },
+    {
+        "question": "Which of the following statements BEST describes the relationship between AI, ML, and DL?",
+        "options": [
+            "A. ML is a subset of AI, and DL is a further subset of ML, representing a hierarchy of specialized technologies",
+            "B. DL is the foundational technology, and both ML and AI are specialized applications built upon its principles.",
+            "C. DL and ML are essentially interchangeable terms, while AI represents a separate approach to problem-solving",
+            "D. AI encompasses both ML and DL as distinct but important methodologies, working in parallel to solve complex problems"
+        ],
+        "answer": ["A. ML is a subset of AI, and DL is a further subset of ML, representing a hierarchy of specialized technologies"],
+        "explaination": {
+            "A. ML is a subset of AI, and DL is a further subset of ML, representing a hierarchy of specialized technologies": "Correct! Machine Learning (ML) is a subset of Artificial Intelligence (AI), and Deep Learning (DL) is a further specialized subset of ML.",
+            "B. DL is the foundational technology, and both ML and AI are specialized applications built upon its principles.": "Incorrect! DL is not the foundational technology; it is a specialized approach within ML.",
+            "C. DL and ML are essentially interchangeable terms, while AI represents a separate approach to problem-solving": "Incorrect! DL and ML are not interchangeable; DL is a specific type of ML.",
+            "D. AI encompasses both ML and DL as distinct but important methodologies, working in parallel to solve complex problems": "Incorrect! While AI does encompass both ML and DL, the statement does not accurately describe their hierarchical relationship."
+        }
+    },
+    {
+        "question": "Which of the following statements BEST explains generative AI?",
+        "options": [
+            "A. It is designed to analyze and understand existing data, such as text or images, allowing machines to categorize information and extract key insights",
+            "B. It creates new content, such as text, images, or audio, by learning patterns from training data and generating outputs similar in nature",
+            "C. It focuses mainly on improving existing content, such as text, images, or audio, by optimizing it for classification or prediction tasks",
+            "D. It creates models that are limited to generating text and images and cannot be used for creative tasks like drug discovery or data simulation"
+        ],
+        "answer": ["B. It creates new content, such as text, images, or audio, by learning patterns from training data and generating outputs similar in nature"],
+        "explaination": {
+            "A. It is designed to analyze and understand existing data, such as text or images, allowing machines to categorize information and extract key insights": "Incorrect! This describes discriminative AI, not generative AI.",
+            "B. It creates new content, such as text, images, or audio, by learning patterns from training data and generating outputs similar in nature": "Correct! Generative AI creates new content by learning patterns from training data.",
+            "C. It focuses mainly on improving existing content, such as text, images, or audio, by optimizing it for classification or prediction tasks": "Incorrect! This describes discriminative AI, not generative AI.",
+            "D. It creates models that are limited to generating text and images and cannot be used for creative tasks like drug discovery or data simulation": "Incorrect! Generative AI can be used for a wide range of creative tasks."
+        }
+    },
+    {
+        "question": "Which of the following statements BEST compares the hardware options available for implementing machine learning systems?",
+        "options": [
+            "A. GPUs are well-suited for training and running ML models due to their ability to handle massively parallel processing, while CPUs are better for general-purpose computing b",
+            "B. CPUs are more efficient than GPUs for ML tasks because they have faster clock speeds and can handle complex operations",
+            "C. AI-specific hardware, such as ASICs, is primarily used for training ML models, while GPUs are better suited for edge computing",
+            "D. Neuromorphic processors are a form of AI hardware specifically optimized for neural network computations"
+        ],
+        "answer": ["A. GPUs are well-suited for training and running ML models due to their ability to handle massively parallel processing, while CPUs are better for general-purpose computing b"],
+        "explaination": {
+            "A. GPUs are well-suited for training and running ML models due to their ability to handle massively parallel processing, while CPUs are better for general-purpose computing b": "Correct! GPUs excel at parallel processing, making them ideal for training and running ML models, while CPUs are more versatile for general computing tasks.",
+            "B. CPUs are more efficient than GPUs for ML tasks because they have faster clock speeds and can handle complex operations": "Incorrect! While CPUs have faster clock speeds, they are not as efficient as GPUs for the parallel processing required in ML tasks.",
+            "C. AI-specific hardware, such as ASICs, is primarily used for training ML models, while GPUs are better suited for edge computing": "Incorrect! ASICs can be used for both training and inference, but they are not limited to training. GPUs are also widely used for both training and inference.",
+            "D. Neuromorphic processors are a form of AI hardware specifically optimized for neural network computations": "Incorrect! Neuromorphic processors are designed to mimic the structure of the human brain and are not specifically optimized for traditional neural network computations."
+        }
+    },
+    {
+        "question": "Given the following statements about AI model development and hosting:\n i. It achieves lower development costs by using public cloud resources, eliminating the need for local hardware investment\n ii. It uses local development of data preparation components for sensitive data for increased security before moving to the cloud for training of the full system\n iii. It results in lower costs because laptops are used for local development and there are low upfront hardware costs by hosting AI models on public clouds\n iv. It simplifies development and hosting by standardizing processes on local servers, removing the need for complex cloud-based configurations\n Which of the following BEST reflects advantages of using a hybrid approach for this development and hosting?",
+        "options": [
+            "A. i, ii and v",
+            "B. ii and iii",
+            "C. iii and iv",
+            "D. i, iv and v"
+        ],
+        "answer": ["B. ii and iii"],
+        "explaination": {
+            "A. i, ii and v": "Incorrect! Statement i is not necessarily an advantage of a hybrid approach, as it focuses on public cloud resources rather than the combination of local and cloud resources.",
+            "B. ii and iii": "Correct! Statement ii highlights the security advantage of local development for sensitive data, while statement iii emphasizes cost savings through local development and cloud hosting.",
+            "C. iii and iv": "Incorrect! Statement iv does not accurately reflect the advantages of a hybrid approach, as it focuses on local servers rather than the combination of local and cloud resources.",
+            "D. i, iv and v": "Incorrect! Statements i and iv do not accurately reflect the advantages of a hybrid approach, as they focus on public cloud resources and local servers rather than the combination of both."
+        }
+    },
+    {
+        "question": "According to ISO/IEC 25059, which quality characteristic is defined as a new sub-characteristic of RELIABILITY that enables an AI-based system to maintain its functional correctness despite invalid inputs or adverse environmental conditions?",
+        "options": [
+            "A. Functional adaptability",
+            "B. AI robustness",
+            "C. Intervenabilty",
+            "D. User controllability"
+        ],
+        "answer": ["B. AI robustness"],
+        "explaination": {
+            "A. Functional adaptability": "Incorrect! Functional adaptability is not the new sub-characteristic of RELIABILITY defined for AI-based systems.",
+            "B. AI robustness": "Correct! AI robustness is the new sub-characteristic of RELIABILITY that enables an AI-based system to maintain its functional correctness despite invalid inputs or adverse environmental conditions.",
+            "C. Intervenabilty": "Incorrect! Intervenabilty is not the new sub-characteristic of RELIABILITY defined for AI-based systems.",
+            "D. User controllability": "Incorrect! User controllability is not the new sub-characteristic of RELIABILITY defined for AI-based systems."
+        }
+    },
+    {
+        "question": "A tester is classifying quality characteristics for an autonomous industrial robot. The requirement states: 'An operator must be able to shut down the robot within 0.5 seconds if it breaches its physical safety boundary to prevent human injury.' Which ISO/IEC 25059 quality characteristic does this requirement BEST represent?",
+        "options": [
+            "A. User controllability under Interaction Capability",
+            "B. Functional adaptability under Functional Suitability",
+            "C. Intervenability under Security",
+            "D. Transparency under Quality in Use"
+        ],
+        "answer": ["C. Intervenability under Security"],
+        "explaination": {
+            "A. User controllability under Interaction Capability": "Incorrect! User controllability refers to the user's ability to control the system's behavior, but it does not specifically address the requirement for immediate shutdown in response to a safety breach.",
+            "B. Functional adaptability under Functional Suitability": "Incorrect! Functional adaptability refers to the system's ability to adapt its functionality, but it does not specifically address the requirement for immediate shutdown in response to a safety breach.",
+            "C. Intervenability under Security": "Correct! Intervenability under Security refers to the ability of an operator to intervene and take control of the system in order to prevent harm or mitigate risks, which aligns with the requirement for immediate shutdown in response to a safety breach.",
+            "D. Transparency under Quality in Use": "Incorrect! Transparency refers to the clarity and understandability of the system's operations, but it does not specifically address the requirement for immediate shutdown in response to a safety breach."
+        }
+    },
+    {
+        "question": "Which of the following statements correctly matches an ISO/IEC 25059 quality characteristic with its parent characteristic in the updated ISO/IEC 25010 framework?",
+        "options": [
+            "A. Functional adaptability is a sub-characteristic of Performance Efficiency.",
+            "B. User controllability is a sub-characteristic of Interaction Capability.",
+            "C. AI robustness is a sub-characteristic of Maintainability.",
+            "D. Intervenability is a sub-characteristic of Freedom from Risk."
+        ],
+        "answer": ["B. User controllability is a sub-characteristic of Interaction Capability."],
+        "explaination": {
+            "A. Functional adaptability is a sub-characteristic of Performance Efficiency.": "Incorrect! Functional adaptability is not a sub-characteristic of Performance Efficiency.",
+            "B. User controllability is a sub-characteristic of Interaction Capability.": "Correct! User controllability is indeed a sub-characteristic of Interaction Capability in the updated ISO/IEC 25010 framework.",
+            "C. AI robustness is a sub-characteristic of Maintainability.": "Incorrect! AI robustness is not a sub-characteristic of Maintainability.",
+            "D. Intervenability is a sub-characteristic of Freedom from Risk.": "Incorrect! Intervenability is not a sub-characteristic of Freedom from Risk."
+        }
+    },
+    {
+        "question": "Why does the \"self-learning\" capability of adaptive AI systems pose a major challenge in safety-critical applications?",
+        "options": [
+            "A. Self-learning systems convert all deep neural networks into deterministic, rule-based expert systems.",
+            "B. Post-deployment learning causes the system's behavior to progressively drift away from its originally tested and verified baseline.",
+            "C. Self-learning eliminates the need for explainability tools like LIME during safety audits.", 
+            "D. Self-learning guarantees that no adversarial inputs can ever degrade system accuracy."
+        ],
+        "answer": ["B. Post-deployment learning causes the system's behavior to progressively drift away from its originally tested and verified baseline."],
+        "explaination": {
+            "A. Self-learning systems convert all deep neural networks into deterministic, rule-based expert systems.": "Incorrect! Self-learning systems do not convert deep neural networks into deterministic systems.",
+            "B. Post-deployment learning causes the system's behavior to progressively drift away from its originally tested and verified baseline.": "Correct! This is a major challenge in safety-critical applications as the system's behavior may change unpredictably after deployment.",
+            "C. Self-learning eliminates the need for explainability tools like LIME during safety audits.": "Incorrect! Self-learning actually increases the need for explainability tools to understand the system's decisions.",
+            "D. Self-learning guarantees that no adversarial inputs can ever degrade system accuracy.": "Incorrect! Self-learning does not guarantee protection against adversarial inputs."
+        }
+    },
+    {
+        "question": "An engineering team is deploying a deep learning model for medical image diagnosis. Which technique can help provide insights into why the AI model made a specific classification, despite potentially impacting system performance?",
+        "options": [
+            "A. Quantization",
+            "B. Local Interpretable Model-agnostic Explanations (LIME)",
+            "C. Non-deterministic random seed generation",  
+            "D. Automated A/B deployment testing"
+        ],
+        "answer": ["B. Local Interpretable Model-agnostic Explanations (LIME)"],
+        "explaination": {
+            "A. Quantization": "Incorrect! Quantization is a technique used to reduce the precision of model weights, not to provide explanations.",
+            "B. Local Interpretable Model-agnostic Explanations (LIME)": "Correct! LIME is a technique that helps explain the predictions of any classifier by approximating it locally with an interpretable model.",
+            "C. Non-deterministic random seed generation": "Incorrect! This does not provide insights into the model's decision-making process.",
+            "D. Automated A/B deployment testing": "Incorrect! This is a deployment strategy, not an explanation technique."
+        }
+    },{
+        "question": "Which of the following represents a typical ACCEPTANCE CRITERION for the \"Societal and Ethical Risk Mitigation\" quality characteristic?",
+        "options": [
+            "A. The automated sentencing system must maintain an inference response time of under 100 milliseconds.",
+            "B. The loan evaluation ML model must not show statistically significant discrimination between demographic groups based on defined fairness metrics.",
+            "C. The system API must expose a version identifier endpoint linking to model training data provenance.",
+            "D. The non-AI brake control module must comply with ISO 26262 at ASIL D."
+        ],
+        "answer": ["B. The loan evaluation ML model must not show statistically significant discrimination between demographic groups based on defined fairness metrics."],
+        "explaination": {
+            "A. The automated sentencing system must maintain an inference response time of under 100 milliseconds.": "Incorrect! This is a performance criterion, not an ethical risk mitigation criterion.",
+            "B. The loan evaluation ML model must not show statistically significant discrimination between demographic groups based on defined fairness metrics.": "Correct! This directly addresses the ethical concern of fairness in AI decision-making.",
+            "C. The system API must expose a version identifier endpoint linking to model training data provenance.": "Incorrect! This is a transparency criterion, not specifically an ethical risk mitigation criterion.",
+            "D. The non-AI brake control module must comply with ISO 26262 at ASIL D.": "Incorrect! This is a safety criterion, not an ethical risk mitigation criterion."
+        }
+    },
+
+    {
+        "question": "How do acceptance criteria for AI-based systems generally differ from those of conventional software systems?",
+        "options": [
+            "A. AI acceptance criteria are always binary pass/fail statements based on fixed step-by-step logic.",
+            "B. AI acceptance criteria are strictly qualitative and cannot be measured numerically.",
+            "C. AI acceptance criteria are frequently statistical, probabilistic, or threshold-based due to inherent output variability.",
+            "D. AI acceptance criteria apply only to hardware power consumption rather than software accuracy."
+        ],
+        "answer": ["C. AI acceptance criteria are frequently statistical, probabilistic, or threshold-based due to inherent output variability."],
+        "explaination": {
+            "A. AI acceptance criteria are always binary pass/fail statements based on fixed step-by-step logic.": "Incorrect! AI acceptance criteria often involve statistical or probabilistic measures rather than strict binary logic.",
+            "B. AI acceptance criteria are strictly qualitative and cannot be measured numerically.": "Incorrect! AI acceptance criteria can be measured numerically, often using statistical or probabilistic methods.",
+            "C. AI acceptance criteria are frequently statistical, probabilistic, or threshold-based due to inherent output variability.": "Correct! Due to the non-deterministic nature of AI systems, acceptance criteria often involve statistical or probabilistic measures.",
+            "D. AI acceptance criteria apply only to hardware power consumption rather than software accuracy.": "Incorrect! AI acceptance criteria focus on software performance and accuracy, not just hardware power consumption."
+        }
+    },{
+        "question": "Given the following ISO/IEC 25059 quality characteristics:\n 1. AI robustness\n 2. User controllability\n 3. Functional adaptability\n 4. Intervenability\n And the following examples of quality characteristic measures:\n A. The success rate of a remote operator in forcing a drone into the safe-landing protocol when its AI navigation system exhibits hazardous behavior\n B. The average time required to successfully override a fraud management system’s automated decision to block a customer's transaction \n C. The F1-score of an object detection model in an autonomous car in heavy rain \nD. The time required for an e-commerce recommendation engine to update its suggestions to reflect a new, rapidly emerging fashion trend\n Which of the following BEST matches the quality characteristics with the example measures?",
+        "options": [
+            "a) 1D – 2A – 3C – 4B",
+            "b) 1C – 2D – 3B – 4A",
+            "c) 1C – 2B – 3D – 4A",
+            "d) 1A – 2D – 3C – 4B"
+        ],
+        "answer": ["c) 1C – 2B – 3D – 4A"],
+        "explaination": {
+            "a) 1D – 2A – 3C – 4B": "Incorrect! This mapping does not correctly align the quality characteristics with their corresponding measures.",
+            "b) 1C – 2D – 3B – 4A": "Incorrect! This mapping does not correctly align the quality characteristics with their corresponding measures.",
+            "c) 1C – 2B – 3D – 4A": "Correct! This mapping accurately aligns each quality characteristic with its corresponding measure based on the definitions provided in ISO/IEC 25059.",
+            "d) 1A – 2D – 3C – 4B": "Incorrect! This mapping does not correctly align the quality characteristics with their corresponding measures."
+        }
+    },
+    {
+        "question": "Which of the following statements BEST describes a key challenge when AI is used in safety related systems?",
+        "options": [
+            "A. When the requirements are too detailed, it leaves little room for the ML system to learn from the implicit goals contained within the training data",
+            "B. The potential for non-determinism and self-learning makes some AI-based systems unpredictable as they diverge from their original tested state",            
+            "C. Because self-learning safety-related systems stop adapting after deployment, safety is often compromised by the need for manual updates of the operational AI-based system",   
+            "D. The mature safety-related standards tend to be out-of-date and require the use of outdated AI technologies, which hinders innovative AI solutions in AI-based systems"
+        ],
+        "answer": ["B. The potential for non-determinism and self-learning makes some AI-based systems unpredictable as they diverge from their original tested state"],
+        "explaination": {
+            "A. When the requirements are too detailed, it leaves little room for the ML system to learn from the implicit goals contained within the training data": "This is not the primary challenge with AI in safety-related systems.",
+            "B. The potential for non-determinism and self-learning makes some AI-based systems unpredictable as they diverge from their original tested state": "This is a key challenge, as it can lead to unexpected behavior in critical safety applications.",
+            "C. Because self-learning safety-related systems stop adapting after deployment, safety is often compromised by the need for manual updates of the operational AI-based system": "While this can be a concern, it's not the primary challenge.",
+            "D. The mature safety-related standards tend to be out-of-date and require the use of outdated AI technologies, which hinders innovative AI solutions in AI-based systems": "This is a secondary issue compared to the unpredictability of AI systems."
+        }
+    },
+    {
+        "question": "Which of the following examples is LEAST likely to be a valid acceptance criterion for AI-specific quality characteristics defined in the ISO 25059 standard for an AI-based system?",
+        "options": [
+            "A. The security guard in the museum control room can trigger an immediate 'all-stop' command that causes the patrol robot to cease all motion within 0.5 seconds to prevent collision with a sculpture",
+            "B. A greenhouse control system reacts within 20 minutes when the measured humidity is greater than 10% from the optimum humidity",
+            "C. The spam alert control system is easy for the user to set up and requires minimal technical expertise to maintain",
+            "D. When the analysis tool flags a retinal scan for severe diabetic retinopathy, it shall display a visual heatmap overlay on the image, highlighting the key features"
+        ],
+        "answer": ["C. The spam alert control system is easy for the user to set up and requires minimal technical expertise to maintain"],
+        "explaination": {
+            "A. The security guard in the museum control room can trigger an immediate 'all-stop' command that causes the patrol robot to cease all motion within 0.5 seconds to prevent collision with a sculpture": "This is a valid acceptance criterion related to intervenability and safety.",
+            "B. A greenhouse control system reacts within 20 minutes when the measured humidity is greater than 10% from the optimum humidity": "This is a valid acceptance criterion related to functional adaptability and performance.",
+            "C. The spam alert control system is easy for the user to set up and requires minimal technical expertise to maintain": "Correct! This is LEAST likely to be a valid acceptance criterion for AI-specific quality characteristics, as it focuses on usability rather than AI-specific qualities.",
+            "D. When the analysis tool flags a retinal scan for severe diabetic retinopathy, it shall display a visual heatmap overlay on the image, highlighting the key features": "This is a valid acceptance criterion related to transparency and explainability."
+        }
+    },
+    {
+        "question": "A software development team is developing an ML component for an e-commerce platform that automatically clusters users based on shopping behaviors without pre-assigned labels. Which form of machine learning is being utilized?",
+        "options": [
+            "A. Supervised Learning – Classification",
+            "B. Unsupervised Learning – Clustering",
+            "C. Supervised Learning – ML Regression",
+            "D. Reinforcement Learning – Reward Hacking"
+        ],
+        "answer": ["B. Unsupervised Learning – Clustering"],
+        "explaination": {
+            "A. Supervised Learning – Classification": "This would be used if there were pre-assigned labels for user categories.",
+            "B. Unsupervised Learning – Clustering": "Correct! This is used when the algorithm groups data points into clusters based on similarity, without pre-assigned labels.",
+            "C. Supervised Learning – ML Regression": "This would be used for predicting continuous values based on input features.",
+            "D. Reinforcement Learning – Reward Hacking": "This refers to exploiting the reward function in reinforcement learning, which is not applicable here."
+        }
+    },
+    {
+        "question": "During the Model Generation phase of the ML workflow, a machine learning engineer adjusts the depth of a decision tree and the maximum number of training iterations. How are these parameters classified according to ISTQB CTAI terminology?",
+        "options": [
+            "A. Decision tree depth is an algorithm hyperparameter; training iterations are model parameters.",
+            "B. Decision tree depth is a model hyperparameter; training iterations are algorithm hyperparameters.",
+            "C. Both decision tree depth and training iterations are learned model weights.",
+            "D. Decision tree depth is a learned parameter; training iterations are model hyperparameters."
+        ],
+        "answer": ["B. Decision tree depth is a model hyperparameter; training iterations are algorithm hyperparameters."],
+        "explaination": {
+            "A. Decision tree depth is an algorithm hyperparameter; training iterations are model parameters.": "This is incorrect. The depth of a decision tree is a model hyperparameter, not an algorithm hyperparameter.",
+            "B. Decision tree depth is a model hyperparameter; training iterations are algorithm hyperparameters.": "Correct! The depth of a decision tree and the maximum number of training iterations are both hyperparameters that are set before training begins.",
+            "C. Both decision tree depth and training iterations are learned model weights.": "This is incorrect. Hyperparameters are set before training begins, while learned parameters are adjusted during training.",
+            "D. Decision tree depth is a learned parameter; training iterations are model hyperparameters.": "This is incorrect. The depth of a decision tree is a model hyperparameter, not a learned parameter."
+        }
+    },
+    {
+        "question": "An engineering team wants to enhance a Large Language Model (LLM) so that it answers queries using an up-to-date internal company knowledge base without modifying the underlying model weights. Which approach is MOST suitable?",
+        "options": [
+            "A. Supervised Fine-Tuning",
+            "B. Retrieval-Augmented Generation (RAG)",
+            "C. Quantization to 4-bit precision",
+            "D. Single-layer Perceptron training"
+        ],
+        "answer": ["B. Retrieval-Augmented Generation (RAG)"],
+        "explaination": {
+            "A. Supervised Fine-Tuning": "This would involve modifying the underlying model weights, which is not allowed.",
+            "B. Retrieval-Augmented Generation (RAG)": "This approach allows the LLM to access and utilize up-to-date internal company knowledge without modifying the underlying model weights.",
+            "C. Quantization to 4-bit precision": "This reduces the precision of the model weights, but does not address the need for up-to-date knowledge.",
+            "D. Single-layer Perceptron training": "This would require retraining the model, which is not allowed."
+        }
+    },
+    {
+        "question": "Which of the following data preparation activities is correctly categorized under Feature Engineering?",
+        "options": [
+            "A. Generating synthetic images to balance class distributions.",
+            "B. Removing missing or corrupted records from the raw dataset.",
+            "C. Extracting a reduced set of informative, non-redundant attributes from existing raw data fields.",
+            "D. Visualizing feature distributions using scatter plots during Exploratory Data Analysis."
+        ],
+        "answer": ["C. Extracting a reduced set of informative, non-redundant attributes from existing raw data fields."],
+        "explaination": {
+            "A. Generating synthetic images to balance class distributions.": "This is a data augmentation technique, not feature engineering.",
+            "B. Removing missing or corrupted records from the raw dataset.": "This is data cleaning, not feature engineering.",
+            "C. Extracting a reduced set of informative, non-redundant attributes from existing raw data fields.": "This is a classic example of feature engineering, where new features are created from existing ones.",
+            "D. Visualizing feature distributions using scatter plots during Exploratory Data Analysis.": "This is part of exploratory data analysis, not feature engineering."
+        }
+    },
+    {
+        "question": "Why is it critical to keep the Test Dataset (Holdout set) strictly separate from the Training and Validation Datasets during ML model development?",
+        "options": [
+            "A. To prevent algorithm hyperparameters from being updated during neural network forward passes.", 
+            "B. To ensure that final performance testing yields an unbiased assessment of the model's ability to generalize to unseen operational data.",
+            "C. To allow the model to learn noise patterns directly from the holdout dataset.",
+            "D. To eliminate the need for cross-validation when data is scarce."
+        ],
+        "answer": ["B. To ensure that final performance testing yields an unbiased assessment of the model's ability to generalize to unseen operational data."],
+        "explaination": {
+            "A. To prevent algorithm hyperparameters from being updated during neural network forward passes.": "This is not the primary reason for keeping the test dataset separate.",
+            "B. To ensure that final performance testing yields an unbiased assessment of the model's ability to generalize to unseen operational data.": "This is the correct and main reason for keeping the test dataset separate.",
+            "C. To allow the model to learn noise patterns directly from the holdout dataset.": "This would be detrimental to the model's performance.",
+            "D. To eliminate the need for cross-validation when data is scarce.": "This is not a valid reason for keeping the test dataset separate."
+        }
+    },
+    {
+        "question": "A test engineer wants to measure the proportion of neurons whose outputs during testing exceed the maximum value or fall below the minimum value recorded during training. Which structural coverage metric should be applied?",
+        "options": [
+            "A. Neuron Coverage",
+            "B. k-Multisection Neuron Coverage (kMNC)",
+            "C. Neuron Boundary Coverage (NBC)",
+            "D. Feature Extraction Coverage"
+        ],
+        "answer": ["C. Neuron Boundary Coverage (NBC)"],
+        "explaination": {
+            "A. Neuron Coverage": "This measures the proportion of neurons that have been activated during testing, but does not specifically address the boundary conditions.",
+            "B. k-Multisection Neuron Coverage (kMNC)": "This is a more complex metric that divides the neuron activation space into sections, but is not the most direct measure for this scenario.",
+            "C. Neuron Boundary Coverage (NBC)": "This metric specifically measures the proportion of neurons whose outputs exceed the maximum or fall below the minimum values recorded during training.",
+            "D. Feature Extraction Coverage": "This is not a structural coverage metric related to neuron behavior."
+        }
+    },
+    {
+        "question": "A machine learning model for automated medical diagnosis was evaluated on an independent test dataset of 200 patient records. The test results produced the following Confusion Matrix:\nActual Positive + Predicted Positive = 70\nActual Positive + Predicted Negative = 20\nActual Negative + Predicted Positive = 10\nActual Negative + Predicted Negative = 100\nCalculate the Accuracy, Precision, Recall, and F1-score of this diagnostic model.",
+        "options": [
+            "A. Accuracy = 85%, Precision = 87.5%, Recall = 77.8%, F1-score = 82.4%",
+            "B. Accuracy = 85%, Precision = 77.8%, Recall = 87.5%, F1-score = 82.4%",
+            "C. Accuracy = 70%, Precision = 87.5%, Recall = 70.0%, F1-score = 77.8%",
+            "D. Accuracy = 90%, Precision = 70.0%, Recall = 87.5%, F1-score = 77.8%"
+        ],
+        "answer": ["A. Accuracy = 85%, Precision = 87.5%, Recall = 77.8%, F1-score = 82.4%"],
+        "explaination": {
+            "A. Accuracy = 85%, Precision = 87.5%, Recall = 77.8%, F1-score = 82.4%": "Correct! The calculations are as follows: Accuracy = (70 + 100) / 200 = 85%, Precision = 70 / (70 + 10) = 87.5%, Recall = 70 / (70 + 20) = 77.8%, F1-score = 2 * (Precision * Recall) / (Precision + Recall) ≈ 82.4%.",
+            "B. Accuracy = 85%, Precision = 77.8%, Recall = 87.5%, F1-score = 82.4%": "Incorrect! The precision and recall values are swapped.",
+            "C. Accuracy = 70%, Precision = 87.5%, Recall = 70.0%, F1-score = 77.8%": "Incorrect! The accuracy is miscalculated.",
+            "D. Accuracy = 90%, Precision = 70.0%, Recall = 87.5%, F1-score = 77.8%": "Incorrect! The accuracy and precision values are miscalculated."
+        }
+    },
+    {
+        "question": "You are testing an AI-based fraud detection system where missing a fraudulent transaction (False Negative) results in severe financial loss ($1,000,000+), while falsely flagging a legitimate transaction (False Positive) merely causes a minor 5-second SMS verification delay. Which metric should be PRIMARILY maximized to meet acceptance criteria?",
+        "options": [
+            "A. Precision, to minimize the number of SMS verification alerts sent to customers.",
+            "B. Accuracy, to ensure overall class balance between fraud and non-fraud transactions.",
+            "C. Recall (Sensitivity), to ensure as few fraudulent transactions as possible are missed.",
+            "D. k-Multisection Neuron Coverage, to ensure maximum neuron activation."
+        ],
+        "answer": ["C. Recall (Sensitivity), to ensure as few fraudulent transactions as possible are missed."],
+        "explaination": {
+            "A. Precision, to minimize the number of SMS verification alerts sent to customers.": "Incorrect! Maximizing precision would reduce false positives but might miss more fraudulent transactions.",
+            "B. Accuracy, to ensure overall class balance between fraud and non-fraud transactions.": "Incorrect! Accuracy doesn't specifically address the imbalance between classes in this scenario.",
+            "C. Recall (Sensitivity), to ensure as few fraudulent transactions as possible are missed.": "Correct! Since missing a fraudulent transaction has severe consequences, maximizing recall ensures that most fraudulent transactions are detected.",
+            "D. k-Multisection Neuron Coverage, to ensure maximum neuron activation.": "Incorrect! This is not a standard metric for evaluating classification models."
+        }
+    },
+    {
+        "question": "A software company is building an AI classifier to detect a rare industrial defect occurring in only 1.5% of manufacturing samples. The available dataset contains 10,000 total samples. When partitioning data for k-fold cross-validation, which sampling technique MUST be applied to ensure every fold contains an equal 1.5% defect proportion?",
+        "options": [
+            "A. Pure Random Sampling",
+            "B. Stratified Sampling",
+            "C. Bootstrap Sampling with Replacement",
+            "D. Leave-One-Out Cross Validation"
+        ],
+        "answer": ["B. Stratified Sampling"],
+        "explaination": {
+            "A. Pure Random Sampling": "Incorrect! Pure random sampling does not guarantee that each fold will contain an equal proportion of the rare defect.",
+            "B. Stratified Sampling": "Correct! Stratified sampling ensures that each fold contains the same proportion of the rare defect as the original dataset.",
+            "C. Bootstrap Sampling with Replacement": "Incorrect! Bootstrap sampling is used for resampling, not for maintaining class proportions in cross-validation.",
+            "D. Leave-One-Out Cross Validation": "Incorrect! Leave-one-out cross-validation is a specific type of cross-validation that doesn't address the issue of maintaining class proportions."
+        }
+    },
+    {
+        "question": "A QA team evaluates a deep learning image classification model across training, validation, and holdout test datasets and obtains the following F1-score results:\nTraining Dataset F1-Score: 99.4%\nValidation Dataset F1-Score: 98.9%\nHoldout Test Dataset F1-Score: 61.2%\nWhich phenomenon is occurring, and what is the MOST effective remediation strategy?",
+        "options": [
+            "A. Underfitting; remediate by simplifying the model architecture and increasing regularization.",
+            "B. Overfitting; remediate by gathering more representative test/training data, applying data augmentation, or reducing model complexity.",
+            "C. Right-fitting; deploy the model immediately to production as training performance is above 99%.",
+            "D. Reward Hacking; adjust the environment reward function."
+        ],
+        "answer": ["B. Overfitting; remediate by gathering more representative test/training data, applying data augmentation, or reducing model complexity."],
+        "explaination": {
+            "A. Underfitting; remediate by simplifying the model architecture and increasing regularization.": "Incorrect! The model is performing well on training and validation datasets but poorly on the holdout test dataset, indicating overfitting rather than underfitting.",
+            "B. Overfitting; remediate by gathering more representative test/training data, applying data augmentation, or reducing model complexity.": "Correct! The significant drop in F1-score on the holdout test dataset indicates that the model has learned the training data too well and is not generalizing to unseen data.",
+            "C. Right-fitting; deploy the model immediately to production as training performance is above 99%.": "Incorrect! High training performance does not guarantee good generalization to unseen data, as evidenced by the low holdout test F1-score.",
+            "D. Reward Hacking; adjust the environment reward function.": "Incorrect! Reward hacking is a concept in reinforcement learning and does not apply to this supervised learning scenario."
+        }  
+    },
+    {
+        "question": "Given the following forms of ML:\n1. Clustering\n2. Reinforcement learning\n3. Classification\n4. Regression\nAnd the following examples:\nA. The mobile game app updates its feedback, response timing, and the number of user options it provides based on how much the players spend\nB. The language translation app searches the internet to find text provided in multiple languages to improve its translation function\nC. A manufacturing company predicts when equipment is likely to fail based on sensor data and historical maintenance records\nD. A social network platform groups its users into communities based on their interactions with each other and their stated interests\nWhich of the following BEST matches the examples with the forms of ML?",
+        "options": [
+            "a) 1B – 2D – 3A – 4C",
+            "b) 1C – 2A – 3D – 4B",
+            "c) 1D – 2A – 3B – 4C",
+            "d) 1D – 2C – 3B – 4A"
+        ],
+        "answer": ["c) 1D – 2A – 3B – 4C"],
+        "explaination": {
+            "a) 1B – 2D – 3A – 4C": "Incorrect! This mapping does not correctly align the forms of ML with their corresponding examples.",
+            "b) 1C – 2A – 3D – 4B": "Incorrect! This mapping does not correctly align the forms of ML with their corresponding examples.",
+            "c) 1D – 2A – 3B – 4C": "Correct! This mapping accurately aligns each form of ML with its corresponding example based on the definitions provided.",
+            "d) 1D – 2C – 3B – 4A": "Incorrect! This mapping does not correctly align the forms of ML with their corresponding examples."
+        }  
+    },
+    {
+        "question": "Given the following activities from the ML workflow:\n1. Deploy the Model\n2. Prepare & Test Data\n3. Test the Model\n4. Evaluate the Model\nAnd, given the following descriptions:\nA. Model performance is tested using validation data\nB. The origin of the test data used to test the model is identified\nC. Test data are used to verify the agreed performance criteria are met\nD. The model is tested on the target platform\nWhich of the following BEST matches the descriptions with the activities in the ML workflow?",
+        "options": [
+            "a) 1A – 2C – 3B – 4D",
+            "b) 1C – 2D – 3B – 4A",
+            "c) 1D – 2B – 3A – 4C",
+            "d) 1D – 2B – 3C – 4A"
+        ],
+        "answer": [
+            "d) 1D – 2B – 3C – 4A"
+        ],
+        "explaination": {
+            "a) 1A – 2C – 3B – 4D": "Incorrect! This mapping does not correctly align the activities with their corresponding descriptions.",
+            "b) 1C – 2D – 3B – 4A": "Incorrect! This mapping does not correctly align the activities with their corresponding descriptions.",
+            "c) 1D – 2B – 3A – 4C": "Incorrect! This mapping does not correctly align the activities with their corresponding descriptions.",
+            "d) 1D – 2B – 3C – 4A": "Correct! This mapping accurately aligns each activity in the ML workflow with its corresponding description."
+        }  
+    },
+    {
+        "question": "Which of the following statements about the use of pre-trained models is CORRECT?",
+        "options": [
+            "a) When applied to a neural network, the RAG approach works by adding additional layers that hold documentation specifically related to the prompt",
+            "b) Fine-tuning a biased LLM with high-quality, task-specific data prevents unfair outputs based on sensitive attributes",
+            "c) To successfully adapt a pre-trained neural network, fine-tuning requires that additional training with new data is applied to all layers of the network",
+            "d) The RAG approach requires the identification and acquisition of data relevant to the task up front, but requires no changes to the pre-trained model"
+        ],
+        "answer": [
+            "d) The RAG approach requires the identification and acquisition of data relevant to the task up front, but requires no changes to the pre-trained model"
+        ],
+        "explaination": {
+            "a) When applied to a neural network, the RAG approach works by adding additional layers that hold documentation specifically related to the prompt": "Incorrect! This statement misrepresents how the RAG approach functions.",
+            "b) Fine-tuning a biased LLM with high-quality, task-specific data prevents unfair outputs based on sensitive attributes": "Incorrect! Fine-tuning with high-quality data may not fully prevent biased outputs.",
+            "c) To successfully adapt a pre-trained neural network, fine-tuning requires that additional training with new data is applied to all layers of the network": "Incorrect! Fine-tuning typically involves updating only some layers of the pre-trained model.",
+            "d) The RAG approach requires the identification and acquisition of data relevant to the task up front, but requires no changes to the pre-trained model": "Correct! The RAG approach leverages existing pre-trained models without modifying them."
+        }  
+    },
+    {
+        "question": "Which of the following statements BEST describes a key activity in data preparation for machine learning?",
+        "options": [
+            "a) Data preparation comprises the identification and gathering of data from various sources, providing the algorithm with raw data to learn from",
+            "b) Feature engineering of the data is performed after an ML model has been trained to optimize its performance for real-world deployment",
+            "c) Data pre-processing includes augmentation and sampling, which either add or reduce the number of examples in the training data respectively",
+            "d) Exploratory data analysis (EDA) is a form of exploratory testing applied to the data preparation activities of acquisition, pre-processing and labelling"
+        ],
+        "answer": ["c) Data pre-processing includes augmentation and sampling, which either add or reduce the number of examples in the training data respectively"],
+        "explaination": {
+            "a) Data preparation comprises the identification and gathering of data from various sources, providing the algorithm with raw data to learn from": "Incorrect! While data gathering is part of data preparation, it does not encompass the full scope of activities involved.",
+            "b) Feature engineering of the data is performed after an ML model has been trained to optimize its performance for real-world deployment": "Incorrect! Feature engineering is typically performed before model training to create informative features.",
+            "c) Data pre-processing includes augmentation and sampling, which either add or reduce the number of examples in the training data respectively": "Correct! Data pre-processing involves techniques like augmentation and sampling to modify the training dataset.",
+            "d) Exploratory data analysis (EDA) is a form of exploratory testing applied to the data preparation activities of acquisition, pre-processing and labelling": "Incorrect! EDA is a separate activity focused on understanding the data rather than testing it."
+        }  
+    },
+    {
+        "question": "Which of the following statements BEST contrasts the roles of training, validation, and test datasets in ML model development?",
+        "options": [
+            "a) The training dataset is used to optimize hyperparameters, the validation dataset is used to tune predictions, and the test dataset is used to generate training data",
+            "b) The training dataset is used to create the model, the validation dataset is used to tune the model, and the test dataset evaluates its performance on unseen data",
+            "c) The training dataset is used for final model evaluation, the validation dataset ensures the model does not overfit, and the test dataset is used for tuning hyperparameters",
+            "d) The training dataset ensures the model generalizes well, the validation dataset is used to deploy the model, and the test dataset is used for initial evaluation"
+        ],
+        "answer": ["b) The training dataset is used to create the model, the validation dataset is used to tune the model, and the test dataset evaluates its performance on unseen data"],
+        "explaination": {
+            "a) The training dataset is used to optimize hyperparameters, the validation dataset is used to tune predictions, and the test dataset is used to generate training data": "Incorrect! This misrepresents the roles of the datasets.",
+            "b) The training dataset is used to create the model, the validation dataset is used to tune the model, and the test dataset evaluates its performance on unseen data": "Correct! This accurately describes the distinct roles of each dataset in ML model development.",
+            "c) The training dataset is used for final model evaluation, the validation dataset ensures the model does not overfit, and the test dataset is used for tuning hyperparameters": "Incorrect! This misrepresents the purpose of each dataset.",
+            "d) The training dataset ensures the model generalizes well, the validation dataset is used to deploy the model, and the test dataset is used for initial evaluation": "Incorrect! This does not accurately describe the roles of the datasets."
+        }  
+    },
+    {
+        "question": "Consider the following confusion matrix for an image classifier:\nActual Positive + Predicted Positive = 78\nActual Positive + Predicted Negative = 6\nActual Negative + Predicted Positive = 22\nActual Negative + Predicted Negative = 14\nWhich of the following options represents the CORRECT formula for calculating the precision of the classifier?",
+        "options": [
+            "a) (20/120) *100",
+            "b) (78/120) *100",
+            "c) (78/100) *100",
+            "d) (22/100) *100"
+        ],
+        "answer": ["c) (78/100) *100"],
+        "explaination": {
+            "a) (20/120) *100": "Incorrect! This does not represent the correct calculation for precision.",
+            "b) (78/120) *100": "Incorrect! This incorrectly uses the total number of predictions instead of the relevant values for precision.",
+            "c) (78/100) *100": "Correct! Precision is calculated as True Positives / (True Positives + False Positives), which in this case is 78 / (78 + 22) = 78 / 100.",
+            "d) (22/100) *100": "Incorrect! This represents the false positives, not the precision."
+        }  
+    },
+    {
+        "question": "During the training of a deep neural network, the network produces an output, and the loss is calculated. Which of the following CORRECTLY describes the next step in the training process?",
+        "options": [
+            "a) The weights and biases across the network are adjusted to reduce the calculated loss",
+            "b) The same training data is passed through the network again to confirm the loss value", 
+            "c) The activation functions are altered to different non-linear formulas to find a better fit", 
+            "d) The network's hidden layers are reset with new random weight values"
+        ],
+        "answer": ["a) The weights and biases across the network are adjusted to reduce the calculated loss"],
+        "explaination": {
+            "a) The weights and biases across the network are adjusted to reduce the calculated loss": "Correct! This is the standard backpropagation process in neural network training.",
+            "b) The same training data is passed through the network again to confirm the loss value": "Incorrect! This is not a standard step in the training process.",
+            "c) The activation functions are altered to different non-linear formulas to find a better fit": "Incorrect! This is not a standard step in the training process.",
+            "d) The network's hidden layers are reset with new random weight values": "Incorrect! This would undo the progress made during training."
+        }
+    },
+    {
+        "question": "Which of the following statements correctly compares the testability of locked AI-based systems and adaptive AI-based systems?",
+        "options": [
+            "A. Adaptive systems are easier to test because their parameters remain frozen after deployment.",
+            "B. Locked systems are easier to test post-deployment because their internal weights and biases remain static, producing mostly deterministic outputs.",
+            "C. Locked systems exhibit continuous behavior drift during testing, requiring constant Blue Teaming monitoring.",
+            "D. Adaptive systems do not require pre-deployment testing because they learn exclusively in production."
+        ],
+        "answer": ["B. Locked systems are easier to test post-deployment because their internal weights and biases remain static, producing mostly deterministic outputs."],
+        "explaination": {
+            "A. Adaptive systems are easier to test because their parameters remain frozen after deployment.": "Incorrect! Adaptive systems have parameters that change during operation, making them more complex to test.",
+            "B. Locked systems are easier to test post-deployment because their internal weights and biases remain static, producing mostly deterministic outputs.": "Correct! Locked systems have fixed parameters, leading to more predictable behavior.",
+            "C. Locked systems exhibit continuous behavior drift during testing, requiring constant Blue Teaming monitoring.": "Incorrect! Locked systems have static parameters, so they don't exhibit continuous behavior drift.",
+            "D. Adaptive systems do not require pre-deployment testing because they learn exclusively in production.": "Incorrect! Adaptive systems still need thorough testing before deployment to ensure they perform as expected."
+        }
+    },
+    {
+        "question": "Why is a statistical testing approach required when evaluating probabilistic Machine Learning Systems?",
+        "options": [
+            "A. Because a single test failure (e.g., one misclassification) cannot accurately reflect the overall functional correctness of a probabilistic model.",
+            "B. Because statistical testing eliminates the need to reserve an independent holdout test dataset.",
+            "C. Because conventional binary pass/fail criteria work identically for deep neural networks and traditional imperative code.",
+            "D. Because statistical testing allows developers to bypass regulatory safety thresholds.]"
+        ],
+        "answer": ["A. Because a single test failure (e.g., one misclassification) cannot accurately reflect the overall functional correctness of a probabilistic model."],
+        "explaination": {
+            "A. Because a single test failure (e.g., one misclassification) cannot accurately reflect the overall functional correctness of a probabilistic model.": "Correct! A single test failure doesn't provide a complete picture of a probabilistic model's performance.",
+            "B. Because statistical testing eliminates the need to reserve an independent holdout test dataset.": "Incorrect! Statistical testing still requires an independent holdout dataset for validation.",
+            "C. Because conventional binary pass/fail criteria work identically for deep neural networks and traditional imperative code.": "Incorrect! Probabilistic models require different evaluation approaches than deterministic systems.",
+            "D. Because statistical testing allows developers to bypass regulatory safety thresholds.": "Incorrect! Statistical testing is used to ensure compliance, not to bypass it."
+        }
+    },
+    {
+        "question": "A test team is testing a complex AI system where no explicit ground truth or expected output exists for new test inputs. Which test technique provides a pseudo-oracle by comparing the System Under Test against an alternative independent implementation?",
+        "options": [
+            "A. Red Teaming",
+            "B. Back-to-Back Testing",
+            "C. Metamorphic Testing",
+            "D. Exploratory Testing"
+        ],
+        "answer": ["B. Back-to-Back Testing"],
+        "explaination": {
+            "A. Red Teaming": "Incorrect! Red Teaming involves adversarial testing to identify vulnerabilities, not comparing outputs.",
+            "B. Back-to-Back Testing": "Correct! Back-to-Back Testing compares the outputs of the System Under Test with an independent implementation to provide a pseudo-oracle.",
+            "C. Metamorphic Testing": "Incorrect! Metamorphic Testing checks for consistent behavior under input transformations, not direct output comparison.",
+            "D. Exploratory Testing": "Incorrect! Exploratory Testing is an unscripted approach to discover issues, not a method for output comparison."
+        }  
+    },
+    {
+        "question": "Which combination of factors contributes directly to the \"Input Explosion Problem\" when testing Generative AI applications?",
+        "options": [
+            "A. Frozen weights, single-turn prompts, and 4-bit quantization.",
+            "B. Fixed decision tree depth, deterministic random seeds, and static HTML forms.",
+            "C. System/user prompts, context window history, and API hyperparameters like Temperature and Max Tokens.",
+            "D. k-fold cross validation folds, Confusion Matrix dimensions, and Precision thresholds."
+        ],
+        "answer": ["C. System/user prompts, context window history, and API hyperparameters like Temperature and Max Tokens."],
+        "explaination": {
+            "A. Frozen weights, single-turn prompts, and 4-bit quantization.": "Incorrect! These factors relate to model architecture and deployment, not the input explosion problem.",
+            "B. Fixed decision tree depth, deterministic random seeds, and static HTML forms.": "Incorrect! These are not typical factors in Generative AI testing.",
+            "C. System/user prompts, context window history, and API hyperparameters like Temperature and Max Tokens.": "Correct! These factors can lead to a vast number of unique input combinations, contributing to the input explosion problem.",
+            "D. k-fold cross validation folds, Confusion Matrix dimensions, and Precision thresholds.": "Incorrect! These are evaluation metrics and techniques, not factors contributing to input explosion."
+        }  
+    },
+    {
+        "question": "What is a primary distinction between Red Teaming and Blue Teaming in the context of AI safety?",
+        "options": [
+            "A. Red Teaming is an automated production filter, whereas Blue Teaming is a pre-deployment unit test.",
+            "B. Red Teaming is a proactive pre-deployment attack activity, whereas Blue Teaming involves ongoing real-time defensive monitoring during operation.",
+            "C. Red Teaming tests non-AI code pipelines, whereas Blue Teaming tests neural network hyperparameters.",
+            "D. Red Teaming applies strictly to locked systems, whereas Blue Teaming applies strictly to static rule-based systems."
+        ],
+        "answer": ["B. Red Teaming is a proactive pre-deployment attack activity, whereas Blue Teaming involves ongoing real-time defensive monitoring during operation."],
+        "explaination": {
+            "A. Red Teaming is an automated production filter, whereas Blue Teaming is a pre-deployment unit test.": "Incorrect! This describes a different approach to testing.",
+            "B. Red Teaming is a proactive pre-deployment attack activity, whereas Blue Teaming involves ongoing real-time defensive monitoring during operation.": "Correct! This accurately describes the primary distinction between the two approaches.",
+            "C. Red Teaming tests non-AI code pipelines, whereas Blue Teaming tests neural network hyperparameters.": "Incorrect! This is not the primary distinction.",
+            "D. Red Teaming applies strictly to locked systems, whereas Blue Teaming applies strictly to static rule-based systems.": "Incorrect! This is not the primary distinction."
+        }  
+    },
+    {
+        "question": "According to the ISTQB CTAI syllabus, which two test levels are specifically designed to address Machine Learning risks?",
+        "options": [
+            "A. Component Testing and System Integration Testing",
+            "B. Input Data Testing and ML Model Testing",
+            "C. Unit Testing and Acceptance Testing",
+            "D. API Testing and Performance Efficiency Testing"
+        ],
+        "answer": [
+            "B. Input Data Testing and ML Model Testing"
+        ],
+        "explaination": {
+            "A. Component Testing and System Integration Testing": "Incorrect! These are general test levels not specifically designed for ML risks.",
+            "B. Input Data Testing and ML Model Testing": "Correct! These test levels focus on the unique risks associated with machine learning systems.",
+            "C. Unit Testing and Acceptance Testing": "Incorrect! While important, these are not specifically tailored to ML risks.",
+            "D. API Testing and Performance Efficiency Testing": "Incorrect! These test levels do not specifically address the unique challenges of ML systems."
+        }  
+    },
+    {
+        "question": "Scenario: You are leading a Red Teaming assessment for a newly fine-tuned customer support LLM prior to its public release. Your objective is to identify potential policy violations regarding unauthorized financial advice.\nWhich of the following operational procedures represents the MOST effective Red Teaming implementation?",
+        "options": [
+            "A. Execute a single-turn prompt asking \"What is the stock market?\" and mark the test as Passed if the model responds.",
+            "B. Engage multi-turn interactive dialogues (15–20 turns) using creative phrasing and adversarial personas to deliberately bypass safety guardrails, then analyze failure threats.",
+            "C. Run automated unit tests on the database connection pipeline to verify SQL query throughput.",
+            "D. Deploy the model directly to production and monitor customer feedback forms for 30 days."
+        ],
+        "answer": [
+            "B. Engage multi-turn interactive dialogues (15–20 turns) using creative phrasing and adversarial personas to deliberately bypass safety guardrails, then analyze failure threats."
+        ],
+        "explaination": {
+            "A. Execute a single-turn prompt asking \"What is the stock market?\" and mark the test as Passed if the model responds.": "Incorrect! A single-turn prompt does not provide sufficient depth to evaluate the model's safety and robustness.",
+            "B. Engage multi-turn interactive dialogues (15–20 turns) using creative phrasing and adversarial personas to deliberately bypass safety guardrails, then analyze failure threats.": "Correct! This approach allows for a thorough assessment of the model's behavior under adversarial conditions.",
+            "C. Run automated unit tests on the database connection pipeline to verify SQL query throughput.": "Incorrect! This does not address the Red Teaming objective of evaluating the model's response to adversarial prompts.",
+            "D. Deploy the model directly to production and monitor customer feedback forms for 30 days.": "Incorrect! This approach is reactive and does not proactively identify potential policy violations before release."
+        }  
+    },
+    {
+        "question": "Scenario: An engineering team is testing an AI-based audio transcription model. The exact word-for-word transcript for noisy background environments is unavailable (no ground truth oracle). However, the team knows that if background noise is reduced, the transcription accuracy should remain identical or improve, but never degrade.\nWhich test technique is being applied here to overcome the test oracle problem?",
+        "options": [
+            "A. Metamorphic Testing using a Monotonicity/Invariance relation",
+            "B. Back-to-Back Testing using a pseudo-oracle",
+            "C. A/B Testing in production",
+            "D. Boundary Value Analysis on context windows"
+        ],
+        "answer": ["A. Metamorphic Testing using a Monotonicity/Invariance relation"],
+        "explaination": {
+            "A. Metamorphic Testing using a Monotonicity/Invariance relation": "Correct! The team is applying metamorphic testing by checking that reducing background noise does not degrade transcription accuracy, which is a monotonicity/invariance relation.",
+            "B. Back-to-Back Testing using a pseudo-oracle": "Incorrect! Back-to-back testing involves comparing outputs from two independent implementations, which is not the case here.",
+            "C. A/B Testing in production": "Incorrect! A/B testing involves comparing two versions of a system in production, which is not applicable to this scenario.",
+            "D. Boundary Value Analysis on context windows": "Incorrect! Boundary value analysis focuses on testing at the edges of input ranges, which does not address the oracle problem in this case."
+        }  
+    },
+    {
+        "question": "Scenario: A QA team is validating an LLM designed to generate Boundary Value Analysis (BVA) test suites for traditional software. During testing, the team provides a specification requiring 2-value BVA for an integer range . The LLM outputs the boundary values {0, 1, 100, 101}. \nHow should the tester debrief and classify this result during Exploratory Testing session analysis?",
+        "options": [
+            "A. Pass; the LLM output is completely correct for 3-value BVA.",
+            "B. Fail; the LLM correctly identified 2-value boundary values, but Component Integration Testing failed.",
+            "C. Pass; 2-value BVA requires testing four values including valid and invalid boundaries.",
+            "D. Fail; the LLM executed 3-value BVA instead of 2-value BVA."
+        ],
+        "answer": ["C. Pass; 2-value BVA requires testing four values including valid and invalid boundaries."],
+        "explaination": {
+            "A. Pass; the LLM output is completely correct for 3-value BVA.": "Incorrect! The output is not for 3-value BVA, but rather for 2-value BVA.",
+            "B. Fail; the LLM correctly identified 2-value boundary values, but Component Integration Testing failed.": "Incorrect! The output is correct for 2-value BVA, and there is no mention of Component Integration Testing.",
+            "C. Pass; 2-value BVA requires testing four values including valid and invalid boundaries.": "Correct! For 2-value BVA, both valid and invalid boundary values are included, resulting in four test cases.",
+            "D. Fail; the LLM executed 3-value BVA instead of 2-value BVA.": "Incorrect! The LLM correctly executed 2-value BVA."
+        }  
+    },
+    {
+        "question": "Scenario: A bank is integrating a 3rd-party credit scoring ML model via an API (AIaaS). The primary risk identified during risk analysis is that network latency or mismatched JSON data schemas between the bank's core system and the external API could cause transaction dropouts.\nWhich test level and activity should be prioritized in the test strategy to mitigate this specific risk?",
+        "options": [
+            "A. Input Data Testing focused on label correctness in the training dataset.",
+            "B. Component Integration Testing focused on API testing and data exchange verification.",
+            "C. Metamorphic testing focused on neuron boundary coverage.",
+            "D. Red Teaming focused on CBRN attack prompts."
+        ],
+        "answer": ["B. Component Integration Testing focused on API testing and data exchange verification."],
+        "explaination": {
+            "A. Input Data Testing focused on label correctness in the training dataset.": "Incorrect! This test level is not directly related to mitigating the identified risk of network latency or schema mismatches.",
+            "B. Component Integration Testing focused on API testing and data exchange verification.": "Correct! This test level is most relevant to mitigating the risk of transaction dropouts caused by API integration issues.",
+            "C. Metamorphic testing focused on neuron boundary coverage.": "Incorrect! This test level is not directly related to the identified risk.",
+            "D. Red Teaming focused on CBRN attack prompts.": "Incorrect! This test level is not directly related to the identified risk."
+        }  
+    },
+    {
+        "question": "Given the following examples of AI-based systems:\ni. A system that learns from real-time data to improve its failure predictions and automatically updates maintenance schedules\nii. A spam filter for an email app, which identifies spam based on predefined rules\niii. A recommendation engine on a streaming service that updates its suggestions based on a user’s changing viewing habits and preferences\niv. A personal assistant that learns continuously from its user\nv. A rule-based system for medical diagnosis\nWhich of the following BEST describes the systems which can be considered to be locked AI-based systems?",
+        "options": [
+            "a) ii and v",
+            "b) i, iii, and iv",
+            "c) i, and iii",
+            "d) ii, iv, and v"
+        ],
+        "answer": ["a) ii and v"],
+        "explaination": {
+            "a) ii and v": "Correct! Both the spam filter and the rule-based medical diagnosis system are examples of locked AI-based systems, as they operate based on predefined rules and do not adapt or learn from new data.",
+            "b) i, iii, and iv": "Incorrect! These systems are adaptive AI-based systems, as they learn and update their behavior based on new data.",
+            "c) i, and iii": "Incorrect! These systems are adaptive AI-based systems, not locked.",
+            "d) ii, iv, and v": "Incorrect! While ii and v are locked systems, iv is an adaptive system."
+        }  
+    },{
+        "question": "Which of the following options BEST explains why a statistical approach is necessary when testing an AI-based system?",
+        "options": [
+            "a) The system is typically large and complex, making test automation impractical without the use of statistical sampling",
+            "b) The system exhibits non-deterministic behavior, requiring large and representative test datasets to draw meaningful conclusions",
+            "c) A single test case is sufficient to determine if a model is well-calibrated, but only statistical methods can verify accuracy",
+            "d) The system is trained on real-world data and therefore does not require a separate test dataset; instead, it requires statistical validation"
+        ],
+        "answer": ["b) The system exhibits non-deterministic behavior, requiring large and representative test datasets to draw meaningful conclusions"],
+        "explaination": {
+            "a) The system is typically large and complex, making test automation impractical without the use of statistical sampling": "Incorrect! While the system may be large and complex, the primary reason for using statistical approaches is the non-deterministic nature of AI systems.",
+            "b) The system exhibits non-deterministic behavior, requiring large and representative test datasets to draw meaningful conclusions": "Correct! AI systems often exhibit non-deterministic behavior, meaning their output can vary even with the same input. Statistical methods are necessary to analyze this variability and draw meaningful conclusions.",
+            "c) A single test case is sufficient to determine if a model is well-calibrated, but only statistical methods can verify accuracy": "Incorrect! A single test case is not sufficient for evaluating an AI system's performance. Statistical methods are needed to assess the model's overall accuracy and reliability.",
+            "d) The system is trained on real-world data and therefore does not require a separate test dataset; instead, it requires statistical validation": "Incorrect! Even though AI systems are trained on real-world data, they still need a separate test dataset to evaluate their performance on unseen data. Statistical validation helps ensure the model generalizes well."
+        }  
+    },
+    {
+        "question": "Which of the following BEST describes why self-learning AI systems can suffer from the test oracle problem?",
+        "options": [
+            "a) The exploratory nature of the development of these AI systems means that the system requirements often change during development",
+            "b) The expected behavior of these AI systems changes after the initial release with no corresponding changes to the system specification",
+            "c) Each of these AI systems can learn in different ways, making the correctness of these systems a matter of subjective judgment",
+            "d) The complexity of these AI systems means that manually determining their expected outputs can be especially difficult"
+        ],
+        "answer": ["b) The expected behavior of these AI systems changes after the initial release with no corresponding changes to the system specification"],
+        "explaination": {
+            "a) The exploratory nature of the development of these AI systems means that the system requirements often change during development": "Incorrect! While system requirements may change, this is not the primary reason for the test oracle problem in self-learning AI systems.",
+            "b) The expected behavior of these AI systems changes after the initial release with no corresponding changes to the system specification": "Correct! In self-learning AI systems, the expected behavior can evolve over time as the system learns from new data, making it difficult to determine what the correct output should be.",
+            "c) Each of these AI systems can learn in different ways, making the correctness of these systems a matter of subjective judgment": "Incorrect! While different learning approaches exist, the main issue is the dynamic nature of the expected behavior rather than subjective judgment.",
+            "d) The complexity of these AI systems means that manually determining their expected outputs can be especially difficult": "Incorrect! Although complexity can be a factor, it is not the primary cause of the test oracle problem in self-learning AI systems."
+        }  
+    },
+    {
+        "question": "Which of the following statements BEST describes a common approach to testing GenAI models?",
+        "options": [
+            "a) GenAI models are tested by verifying that their outputs exactly match predefined expected results",
+            "b) It involves manipulating diverse inputs and parameters and then assessing the output's adherence to rules, because a direct input-to-output match is not feasible",
+            "c) Since GenAI models are probabilistic, formal testing is unnecessary because outputs will always vary and cannot be evaluated effectively",
+            "d) GenAI models are mainly tested through manual review, as automated testing does not apply to creative AI outputs"
+        ],
+        "answer": ["b) It involves manipulating diverse inputs and parameters and then assessing the output's adherence to rules, because a direct input-to-output match is not feasible"],
+        "explaination": {
+            "a) GenAI models are tested by verifying that their outputs exactly match predefined expected results": "Incorrect! GenAI models produce probabilistic, open-ended outputs, making exact-match validation against static expected results unfeasible.",
+            "b) It involves manipulating diverse inputs and parameters and then assessing the output's adherence to rules, because a direct input-to-output match is not feasible": "Correct! Because direct input-to-output matching is impractical for probabilistic GenAI models, testing focuses on probing with diverse inputs and validating behavior against rules, policies, and guardrails.",
+            "c) Since GenAI models are probabilistic, formal testing is unnecessary because outputs will always vary and cannot be evaluated effectively": "Incorrect! Formal, systematic testing, automated evaluations, and red teaming are critical to ensuring safety and reliability in GenAI models.",
+            "d) GenAI models are mainly tested through manual review, as automated testing does not apply to creative AI outputs": "Incorrect! Automated testing techniques (such as programmatic guardrails and LLM-as-a-judge frameworks) are extensively used alongside manual reviews."
+        }  
+    },
+    {
+        "question": "Your organization plans to deploy a GenAI-powered legal document generator. During implementation planning, the security team argues for focusing red teaming efforts on preventing prompt injection attacks, while the compliance team wants to prioritize bias detection in legal advice generation. The development team suggests running red teaming after the system goes live to save time.\nWhich of the following is the MOST effective red teaming implementation strategy for this scenario?",
+        "options": [
+            "a) Prioritize security vulnerabilities first, then address bias issues in a separate phase after deployment",
+            "b) Focus on bias detection since legal advice accuracy is more critical than security concerns",
+            "c) Deploy immediately and conduct red teaming reactively based on incidents and user feedback",
+            "d) Use attack scenarios covering both security and bias vulnerabilities before deployment"
+        ],
+        "answer": ["d) Use attack scenarios covering both security and bias vulnerabilities before deployment"],
+        "explaination": {
+            "a) Prioritize security vulnerabilities first, then address bias issues in a separate phase after deployment": "Incorrect! Delaying compliance or bias evaluations post-deployment leaves the initial release exposed to fairness and regulatory risks.",
+            "b) Focus on bias detection since legal advice accuracy is more critical than security concerns": "Incorrect! Security issues like prompt injection can lead to unauthorized data access or system compromise, making security equally crucial.",
+            "c) Deploy immediately and conduct red teaming reactively based on incidents and user feedback": "Incorrect! For high-stakes domains like legal applications, reactive post-deployment testing can result in severe legal, ethical, and security failures.",
+            "d) Use attack scenarios covering both security and bias vulnerabilities before deployment": "Correct! Comprehensive pre-deployment red teaming must encompass both security aspects (e.g., prompt injection) and compliance/bias dimensions to ensure a safe, robust release."
+        }  
+    },
+    {
+        "question": "An ML-based weather prediction system provides excellent results for most locations; however, it has been noticed that the predictions for areas in the UK with an altitude greater than 1250 meters are regularly inaccurate.\nWhich of the following test levels should have been performed MORE thoroughly?",
+        "options": [
+            "a) System testing",
+            "b) Input data testing",
+            "c) Component integration testing",
+            "d) ML model testing"
+        ],
+        "answer": ["b) Input data testing"],
+        "explaination": {
+            "a) System testing": "Incorrect! System testing verifies the entire integrated system against requirements, but sub-population errors tied to specific feature boundaries point directly to model learning limitations.",
+            "b) Input data testing": "Correct! Failing on a specific feature subset (altitude > 1250m) indicates the model failed to generalize or learn adequately from that slice of data.",
+            "c) Component integration testing": "Incorrect! Integration testing focuses on interactions between software components rather than data slice accuracy or model generalization.",
+            "d) ML model testing": "Incorrect! While ML model testing is important, the issue here is specifically about data slice accuracy, which falls under input data testing."
+        }  
+    },
+    {
+        "question": "Which of the following statements about applying risk-based testing to ML systems is CORRECT?",
+        "options": [
+            "a) Security and usability risks can apply to any system, while risks associated with data bias and ML model performance are specific to ML systems",
+            "b) Conventional systems handle risks related to data bias, whereas ML systems focus on risks related to algorithmic bias",
+            "c) Risk management in conventional systems is a static approach, while in a self-learning system risk needs to be adjusted dynamically",
+            "d) In conventional systems, functional correctness is the primary risk factor, whereas functional adaptability is the primary risk factor for an ML system"
+        ],
+        "answer": ["a) Security and usability risks can apply to any system, while risks associated with data bias and ML model performance are specific to ML systems"],
+        "explaination": {
+            "a) Security and usability risks can apply to any system, while risks associated with data bias and ML model performance are specific to ML systems": "Correct! Traditional quality risks like security and usability are universal, whereas data bias and model performance degradation are characteristic risks unique to machine learning systems.",
+            "b) Conventional systems handle risks related to data bias, whereas ML systems focus on risks related to algorithmic bias": "Incorrect! Conventional systems do not handle data bias since they do not learn from training data; data bias is specific to ML systems.",
+            "c) Risk management in conventional systems is a static approach, while in a self-learning system risk needs to be adjusted dynamically": "Incorrect! While self-learning systems do require continuous monitoring, risk management frameworks across system types can vary, and this statement is not the foundational definition defining ML vs conventional risk-based testing distinctions in standard frameworks.",
+            "d) In conventional systems, functional correctness is the primary risk factor, whereas functional adaptability is the primary risk factor for an ML system": "Incorrect! Functional correctness remains a fundamental risk factor across both paradigms."
+        }  
+    },
+    {
+        "question": "Which of the following test procedures BEST describes how Disparate Impact Analysis is performed to detect bias in a machine learning system?",
+        "options": [
+            "A. Measuring the training loss across all epochs and retraining the model if loss exceeds a predefined threshold.",
+            "B. Generating counterfactual test samples by swapping sensitive attributes and analyzing whether model outputs show statistically significant changes.",
+            "C. Calculating Cohen's Kappa score across multiple annotators to ensure labeling guidelines are strictly followed.",
+            "D. Running Kolmogorov-Smirnov statistical tests on continuous operational data to detect post-deployment data drift."
+        ],
+        "answer": ["B. Generating counterfactual test samples by swapping sensitive attributes and analyzing whether model outputs show statistically significant changes."],
+        "explaination": {
+            "A. Measuring the training loss across all epochs and retraining the model if loss exceeds a predefined threshold.": "Incorrect! Training loss tracks model convergence, not disparate impact or bias across demographic groups.",
+            "B. Generating counterfactual test samples by swapping sensitive attributes and analyzing whether model outputs show statistically significant changes.": "Correct! Disparate impact analysis often uses counterfactual testing—modifying protected attributes (like gender or race) while holding other features constant—to see if the model's predictions change unfairly.",
+            "C. Calculating Cohen's Kappa score across multiple annotators to ensure labeling guidelines are strictly followed.": "Incorrect! This describes measuring inter-annotator agreement for label correctness, not disparate impact analysis.",
+            "D. Running Kolmogorov-Smirnov statistical tests on continuous operational data to detect post-deployment data drift.": "Incorrect! This describes data drift detection, not disparate impact analysis."
+        }
+    },
+    {
+        "question": "A test engineer is designing a test suite for a Machine Learning Data Pipeline. During which test level are transformation scripts, data ingestion rules, and error handling logic explicitly validated using code reviews and static analysis?",
+        "options": [
+            "A. System Integration Testing",
+            "B. Component Testing",
+            "C. Acceptance Testing",
+            "D. Testing in Production"
+        ],
+        "answer": ["B. Component Testing"],
+        "explaination": {
+            "A. System Integration Testing": "Incorrect! System integration testing validates interactions across multiple integrated systems or external pipelines, not isolated code-level scripts.",
+            "B. Component Testing": "Correct! Component testing (unit testing) of data pipelines involves validating individual transformation scripts, ingestion logic, and error handling functions using code reviews and static analysis.",
+            "C. Acceptance Testing": "Incorrect! Acceptance testing evaluates whether the system meets business and user requirements.",
+            "D. Testing in Production": "Incorrect! Testing in production monitors live behavior rather than validating scripts via static analysis pre-deployment."
+        }
+    },
+    {
+        "question": "Which statistical tests are explicitly recommended in the ISTQB CTAI syllabus to compare feature distributions during Data Representativeness Testing?",
+        "options": [
+            "A. Student's t-test and Mann-Whitney U test",
+            "B. Chi-squared test and Kolmogorov-Smirnov test",
+            "C. Confusion Matrix F1-score and Precision analysis",
+            "D. Neuron Boundary Coverage and k-Multisection Coverage"
+        ],
+        "answer": ["B. Chi-squared test and Kolmogorov-Smirnov test"],
+        "explaination": {
+            "A. Student's t-test and Mann-Whitney U test": "Incorrect! While they are statistical tests, they are not the standard pair highlighted in the ISTQB CTAI syllabus for general distribution comparison in data representativeness testing.",
+            "B. Chi-squared test and Kolmogorov-Smirnov test": "Correct! The ISTQB CTAI syllabus explicitly highlights the Chi-squared test (for categorical features) and the Kolmogorov-Smirnov test (for continuous features) to compare distributions.",
+            "C. Confusion Matrix F1-score and Precision analysis": "Incorrect! These are model performance metrics, not feature distribution comparison tests.",
+            "D. Neuron Boundary Coverage and k-Multisection Coverage": "Incorrect! These are structural coverage criteria for deep neural networks, not feature distribution tests."
+        }
+    },
+    {
+        "question": "What does a LOW Inter-Annotator Agreement (IAA) score (e.g., a low Cohen's Kappa metric) typically indicate during Label Correctness Testing?",
+        "options": [
+            "A. The machine learning model is severely overfitted to training noise.",
+            "B. The data pipeline has failed due to a schema mismatch in component integration.",
+            "C. Labelling guidelines are ambiguous, data points are unclear, or annotators are poorly trained.",
+            "D. Operational data exhibits significant data drift compared to baseline training data."
+        ],
+        "answer": ["C. Labelling guidelines are ambiguous, data points are unclear, or annotators are poorly trained."],
+        "explaination": {
+            "A. The machine learning model is severely overfitted to training noise.": "Incorrect! Overfitting relates to model training behavior, not annotator agreement.",
+            "B. The data pipeline has failed due to a schema mismatch in component integration.": "Incorrect! Schema mismatches are integration pipeline faults, not labeling consensus issues.",
+            "C. Labelling guidelines are ambiguous, data points are unclear, or annotators are poorly trained.": "Correct! Low inter-annotator agreement means different annotators disagree frequently, pointing to ambiguous instructions, unclear data instances, or lack of proper training.",
+            "D. Operational data exhibits significant data drift compared to baseline training data.": "Incorrect! Data drift happens post-deployment, whereas IAA is measured during data preparation and labeling."
+        }
+    },
+    {
+        "question": "How can model training metrics be leveraged as an automated technique to identify potentially mislabeled samples in a supervised learning dataset?",
+        "options": [
+            "A. By filtering out samples that achieve zero loss during early epoch training.",
+            "B. By inspecting data points that exhibit consistently high model training loss or low prediction confidence.",
+            "C. By enforcing a sum constraint across all target classes in the training pipeline.",
+            "D. By comparing the operational data pipeline against the training pipeline using back-to-back testing."
+        ],
+        "answer": ["B. By inspecting data points that exhibit consistently high model training loss or low prediction confidence."],
+        "explaination": {
+            "A. By filtering out samples that achieve zero loss during early epoch training.": "Incorrect! Samples with low/zero loss are typically well-learned or easy examples.",
+            "B. By inspecting data points that exhibit consistently high model training loss or low prediction confidence.": "Correct! Data points that the model persistently struggles to fit across training epochs (high loss or low confidence) often indicate mislabeled samples or inherent anomalies.",
+            "C. By enforcing a sum constraint across all target classes in the training pipeline.":" Incorrect! Sum constraints relate to class balance, not directly to identifying mislabeled samples.",
+            "D. By comparing the operational data pipeline against the training pipeline using back-to-back testing.": "Incorrect! This approach is more relevant for detecting data drift rather than identifying mislabeled samples."
+        }
+    },
+    {
+        "question": "Scenario: You are implementing automated dataset constraint checks inside an ETL pipeline for a healthcare ML dataset. You have defined the following four data validation rules:\n- Rule A: The Patient_Age attribute must fall between 0 and 120.\n- Rule B: The Patient_ID column must contain fewer than 1% duplicate entries.\n- Rule C: The Discharge_Date attribute value must be greater than or equal to the Admission_Date attribute value.\n- Rule D: The total count of non-null records in Blood_Pressure_Readings must exceed 5,000.\nHow should these four validation rules be classified according to ISTQB CTAI dataset constraint categories?",
+        "options": [
+            "A. Rule A = Single-Value (Range); Rule B = Multi-Value (Duplicate); Rule C = Comparison (Greater Than); Rule D = Multi-Value (Count)",
+            "B. Rule A = Single-Value (Type); Rule B = Comparison (Correlate); Rule C = Single-Value (Range); Rule D = Multi-Value (Sum)",
+            "C. Rule A = Multi-Value (Outlier); Rule B = Single-Value (Missing); Rule C = Comparison (Greater Than); Rule D = Single-Value (Count)",
+            "D. Rule A = Single-Value (Range); Rule B = Multi-Value (Useful); Rule C = Multi-Value (Sum); Rule D = Comparison (Correlate)"
+        ],
+        "answer": ["A. Rule A = Single-Value (Range); Rule B = Multi-Value (Duplicate); Rule C = Comparison (Greater Than); Rule D = Multi-Value (Count)"],
+        "explaination": {
+            "A. Rule A = Single-Value (Range); Rule B = Multi-Value (Duplicate); Rule C = Comparison (Greater Than); Rule D = Multi-Value (Count)": "Correct! Rule A checks a single column's range (Single-Value Range), Rule B checks record-level duplication across rows (Multi-Value Duplicate), Rule C compares two attributes (Comparison Greater Than), and Rule D aggregates a count across records (Multi-Value Count).",
+            "B. Rule A = Single-Value (Type); Rule B = Comparison (Correlate); Rule C = Single-Value (Range); Rule D = Multi-Value (Sum)": "Incorrect! Classifications do not match the rule definitions.",
+            "C. Rule A = Multi-Value (Outlier); Rule B = Single-Value (Missing); Rule C = Comparison (Greater Than); Rule D = Single-Value (Count)": "Incorrect! Rule A is single-value range, not multi-value outlier.",
+            "D. Rule A = Single-Value (Range); Rule B = Multi-Value (Useful); Rule C = Multi-Value (Sum); Rule D = Comparison (Correlate)": "Incorrect! Classifications are mismatched."
+        }
+    },
+    {
+        "question": "Scenario: A data scientist presents you with a training dataset for an insurance risk model. During data validation, you analyze the Policy_Holder_SSN attribute (Social Security Number) and discover that every single row contains a unique 9-digit alphanumeric string. No duplicate values exist.\nWhich dataset constraint check is violated, and what is the potential negative impact on the ML model?",
+        "options": [
+            "A. Multi-Value (Useful) constraint is violated; because every value is unique, the attribute provides no learnable patterns for the ML algorithm and should be excluded.",
+            "B. Single-Value (Type) constraint is violated; SSN must always be converted into floating-point numbers.",
+            "C. Comparison (Correlate) constraint is violated; SSN must correlate positively with patient age.",
+            "D. Multi-Value (Sum) constraint is violated; the total sum of SSN numbers exceeds the memory capacity."
+        ],
+        "answer": ["A. Multi-Value (Useful) constraint is violated; because every value is unique, the attribute provides no learnable patterns for the ML algorithm and should be excluded."],
+        "explaination": {
+            "A. Multi-Value (Useful) constraint is violated; because every value is unique, the attribute provides no learnable patterns for the ML algorithm and should be excluded.": "Correct! Unique identifiers like SSNs provide no generalization value across instances and violate usefulness constraints, often leading to overfitting if included.",
+            "B. Single-Value (Type) constraint is violated; SSN must always be converted into floating-point numbers.": "Incorrect! SSNs are typically string or categorical/identifier fields, not numeric floats.",
+            "C. Comparison (Correlate) constraint is violated; SSN must correlate positively with patient age.": "Incorrect! SSNs do not correlate logically with risk or age.",
+            "D. Multi-Value (Sum) constraint is violated; the total sum of SSN numbers exceeds the memory capacity.": "Incorrect! Sum constraints do not apply here."
+        }
+    },
+    {
+        "question": "Scenario: An automated recruiting platform uses an ML model to rank job applicants. During pre-deployment testing, a QA engineer creates two identical resume profiles (Profile 1 and Profile 2) with identical work histories, test scores, and education degrees. The ONLY difference is that Profile 1 lists the candidate's name as \"John\" (male) and Profile 2 lists the name as \"Jane\" (female).\nWhen submitted to the model, Profile 1 receives a score of 92/100, while Profile 2 receives a score of 68/100.\nWhat type of testing was performed, what issue was exposed, and what is the MOST appropriate root-cause investigation?",
+        "options": [
+            "A. Dataset Constraint Testing; exposed an Outlier failure; investigate memory leakage in the data pipeline.",
+            "B. Disparate Impact Analysis using counterfactuals; exposed systemic gender bias; investigate training data label correctness and sensitive attribute correlations.",
+            "C. A/B Testing in production; exposed data drift; retrain the model on live server logs immediately.",
+            "D. Component Integration Testing; exposed interface schema failure; fix the API JSON payload format."
+        ],
+        "answer": ["B. Disparate Impact Analysis using counterfactuals; exposed systemic gender bias; investigate training data label correctness and sensitive attribute correlations."],
+        "explaination": {
+            "A. Dataset Constraint Testing; exposed an Outlier failure; investigate memory leakage in the data pipeline.": "Incorrect! This is a fairness/bias test, not a dataset constraint check.",
+            "B. Disparate Impact Analysis using counterfactuals; exposed systemic gender bias; investigate training data label correctness and sensitive attribute correlations.": "Correct! Swapping a protected attribute (name/gender) while keeping qualifications identical is a counterfactual test for disparate impact/bias, requiring root-cause analysis of the training data.",
+            "C. A/B Testing in production; exposed data drift; retrain the model on live server logs immediately.": "Incorrect! This is not an A/B test or data drift issue; it is a fairness/bias evaluation.",
+            "D. Component Integration Testing; exposed interface schema failure; fix the API JSON payload format.":" Incorrect! The issue is not related to API integration or schema, but to bias in model predictions."
+        }
+    },
+    {
+        "question": "Scenario: A computer vision ML model for autonomous driving is trained exclusively on sunny, daytime driving footage gathered in California. During pre-training input data testing, a test engineer runs Exploratory Data Analysis (EDA) and distribution tests against the target deployment operational profile (which includes European winter driving in snow and rain).\nWhich test level activity failed, and what action MUST be taken before model training begins?",
+        "options": [
+            "A. Data Representativeness Testing failed due to incomplete operational scenario coverage; collect or synthesize representative rainy/snowy driving datasets prior to model training.",
+            "B. Label Correctness Testing failed due to low Cohen's Kappa; rewrite bounding box annotation guidelines.",
+            "C. Data Pipeline System Integration Testing failed; increase network bandwidth for cloud video streaming.",
+            "D. Model Overfitting Testing failed; freeze neural network weights and deploy immediately."
+        ],
+        "answer": ["A. Data Representativeness Testing failed due to incomplete operational scenario coverage; collect or synthesize representative rainy/snowy driving datasets prior to model training."],
+        "explaination": {
+            "A. Data Representativeness Testing failed due to incomplete operational scenario coverage; collect or synthesize representative rainy/snowy driving datasets prior to model training.": "Correct! The training dataset lacks coverage for the target operational environment (snow and rain), representing a failure in data representativeness testing that must be resolved before training.",
+            "B. Label Correctness Testing failed due to low Cohen's Kappa; rewrite bounding box annotation guidelines.":" Incorrect! The issue is not with label correctness but with the representativeness of the training data.",
+            "C. Data Pipeline System Integration Testing failed; increase network bandwidth for cloud video streaming.":" Incorrect! The problem is not related to data pipeline integration or bandwidth but to the lack of representative training data.",
+            "D. Model Overfitting Testing failed; freeze neural network weights and deploy immediately.":" Incorrect! Overfitting is not the issue here; the model has not yet been trained on representative data for the target operational environment."
+        }
+    },
+    {
+        "question": "The team developing a new machine learning model has received a dataset from a new, unverified third-party vendor. They are uncertain about the origin of this dataset and concerned that the raw data may have been tampered with.\nWhich of the following test approaches is MOST suitable for addressing this specific risk?",
+        "options": [
+            "a) Data provenance testing",
+            "b) Data representativeness testing",
+            "c) Feature testing",
+            "d) Dataset constraint testing"
+        ],
+        "answer": ["a) Data provenance testing"],
+        "explaination": {
+            "a) Data provenance testing": "Correct! Data provenance testing verifies the origin, lineage, history, and chain of custody of data to ensure trustworthiness and prevent tampering.",
+            "b) Data representativeness testing": "Incorrect! Representativeness checks statistical alignment with the operational environment, not origin tracking.",
+            "c) Feature testing": "Incorrect! Feature testing focuses on transformations and validity of individual features.",
+            "d) Dataset constraint testing": "Incorrect! Constraint testing checks structural rules (ranges, types, duplicates), not the authenticity of data origin."
+        }
+    },
+    {
+        "question": "A financial services company has developed an ML system for loan approval. A tester responsible for testing this system wants to determine if there is potential bias in the system related to factors such as gender and age attributes.\nWhich of the following approaches would be MOST suitable for detecting bias in the training data early?",
+        "options": [
+            "a) Conducting static analysis of the model’s source code to identify how its operations on the age and gender related attributes could lead to bias",
+            "b) Testing using a dataset that is representative and analyzing the predictions for statistically significant differences in outcomes across age and gender",
+            "c) Reviewing the overall ML workflow and data preparation processes to identify potential sources of bias introduction",
+            "d) Performing disparate impact analysis using counterfactuals based on gender, age or both"
+        ],
+        "answer": ["c) Reviewing the overall ML workflow and data preparation processes to identify potential sources of bias introduction"],
+        "explaination": {
+            "a) Conducting static analysis of the model’s source code to identify how its operations on the age and gender related attributes could lead to bias": "Incorrect! Bias usually stems from data patterns rather than explicit source code logic.",
+            "b) Testing using a dataset that is representative and analyzing the predictions for statistically significant differences in outcomes across age and gender": "Incorrect! This evaluates model output bias rather than specifically targeting training data bias via counterfactuals.",
+            "c) Reviewing the overall ML workflow and data preparation processes to identify potential sources of bias introduction": "Correct! This approach helps identify where bias might be introduced during data collection, preprocessing, or feature engineering.",
+            "d) Performing disparate impact analysis using counterfactuals based on gender, age or both": "Incorrect! While useful, this is a more advanced technique that builds upon the foundational understanding of bias sources identified through workflow reviews."
+        }
+    },
+    {
+        "question": "What is a KEY difference in the test strategy for a data pipeline built for training versus one designed for an operational system?",
+        "options": [
+            "a) Testing an operational pipeline would focus mainly on validating individual transformation scripts, whereas a training pipeline's testing would prioritize end-to-end system testing",
+            "b) A training pipeline would rely almost exclusively on fault injection and back-to-back tests, while an operational pipeline would be limited to unit and component integration testing",
+            "c) Configuration management reviews would be critical for operational pipelines but are considered unnecessary for the less formal nature of exploratory training pipelines",
+            "d) Testing a training pipeline would primarily focus on determining that data is handled correctly, while an operational pipeline's testing would emphasize high performance and reliability under load"
+        ],
+        "answer": ["d) Testing a training pipeline would primarily focus on determining that data is handled correctly, while an operational pipeline's testing would emphasize high performance and reliability under load"],
+        "explaination": {
+            "a) Testing an operational pipeline would focus mainly on validating individual transformation scripts, whereas a training pipeline's testing would prioritize end-to-end system testing": "Incorrect! Operational pipelines require rigorous end-to-end performance and reliability testing under production loads.",
+            "b) A training pipeline would rely almost exclusively on fault injection and back-to-back tests, while an operational pipeline would be limited to unit and component integration testing": "Incorrect! This reverses standard testing priorities.",
+            "c) Configuration management reviews would be critical for operational pipelines but are considered unnecessary for the less formal nature of exploratory training pipelines": "Incorrect! Configuration management is critical for reproducibility in training pipelines as well.",
+            "d) Testing a training pipeline would primarily focus on determining that data is handled correctly, while an operational pipeline's testing would emphasize high performance and reliability under load": "Correct! Training data pipelines prioritize correctness, provenance, and data quality, whereas operational production pipelines demand high performance, throughput, and reliability under heavy loads."
+        }
+    },
+    {
+        "question": "What is the purpose of creating a ‘reference dataset’ during data representativeness testing?",
+        "options": [
+            "a) It serves as a universally applicable dataset derived from trusted industry benchmarks",
+            "b) It functions as a quantitative baseline for formally comparing the statistical properties of the training data",
+            "c) It is used to apply stratified sampling directly to the training data to verify that all subgroups are covered",
+            "d) It serves as the primary dataset for performing the final model validation and testing with high independence"
+        ],
+        "answer": ["b) It functions as a quantitative baseline for formally comparing the statistical properties of the training data"],
+        "explaination": {
+            "a) It serves as a universally applicable dataset derived from trusted industry benchmarks": "Incorrect! Reference datasets are specific to the target operational environment, not universal benchmarks.",
+            "b) It functions as a quantitative baseline for formally comparing the statistical properties of the training data": "Correct! A reference dataset represents the target operational deployment profile and serves as a baseline against which training data distribution is statistically compared.",
+            "c) It is used to apply stratified sampling directly to the training data to verify that all subgroups are covered": "Incorrect! Stratified sampling modifies data; the reference dataset acts as a comparison standard.",
+            "d) It serves as the primary dataset for performing the final model validation and testing with high independence": "Incorrect! Final model testing uses a test set, whereas representativeness reference sets are used during data validation."
+        }
+    },
+    {
+        "question": "You are testing an ML dataset for a banking loan approval system. The dataset contains the following attributes:\n- applicant_id (integer, unique)\n- annual_income (decimal, in USD)\n- loan_amount (decimal, in USD)\n- credit_score (integer, 300-850)\n- employment_years (integer, 0-50)\n- monthly_payment (decimal, in USD)\nThe following business rules apply:\n- Loan amount cannot exceed 5 times annual income\n- Monthly payment = loan_amount / 324 (for 30-year loans)\n- Credit scores must be within the standard range\n- All monetary values must be positive\nWhen applying dataset constraint testing to validate the ‘monthly_payment’ for 30-year loans, which type of constraint would be MOST appropriate?",
+        "options": [
+            "a) Single-value range constraint",
+            "b) Multi-value count constraint",
+            "c) Comparison correlate constraint,",
+            "d) Multi-value duplicate constraint"
+        ],
+        "answer": ["c) Comparison correlate constraint,"],
+        "explaination": {
+            "a) Single-value range constraint": "Incorrect! While monthly payment must be positive, checking it against the calculation formula (loan_amount / 324) involves relating two columns.",
+            "b) Multi-value count constraint": "Incorrect! Count constraints measure row counts, not column formulas.",
+            "c) Comparison correlate constraint,": "Correct! Validating that monthly_payment equals loan_amount / 324 requires checking the mathematical relationship between two separate attributes, which falls under comparison/correlation constraints.",
+            "d) Multi-value duplicate constraint": "Incorrect! Duplicate constraints check row uniqueness."
+        }
+    },
+    {
+        "question": "Which of the following BEST explains the role of multiple annotations in data label correctness testing?",
+        "options": [
+            "a) Multiple annotations can be used to automate label verification to ensure consistency",
+            "b) Multiple annotations can point to label defects based on the comparison of annotations",
+            "c) Multiple annotations compare label distributions across datasets to detect potential defects",
+            "d) Multiple annotations point to defects in data points with high model loss"
+        ],
+        "answer": ["b) Multiple annotations can point to label defects based on the comparison of annotations"],
+        "explaination": {
+            "a) Multiple annotations can be used to automate label verification to ensure consistency": "Incorrect! Multiple annotations provide human consensus data rather than full automation.",
+            "b) Multiple annotations can point to label defects based on the comparison of annotations": "Correct! Comparing multiple annotations per data point (via metrics like Cohen's Kappa or agreement rates) helps identify labeling errors, ambiguity, or poor annotator consistency.",
+            "c) Multiple annotations compare label distributions across datasets to detect potential defects": "Incorrect! Distribution comparison across datasets is used for representativeness or drift, not label correctness.",
+            "d) Multiple annotations point to defects in data points with high model loss": "Incorrect! Model loss relates to training feedback, whereas multiple annotations measure human labeling consensus."
+        }
+    },
+    {
+        "question": "Why is reviewing ML model documentation (such as Model Cards and Datasheets for Datasets) considered a critical test activity in AI testing?",
+        "options": [
+            "A. Because inspecting Python source code directly reveals all decision boundaries of a deep neural network.",
+            "B. Because ML models act as black boxes with machine-generated logic, making documentation the primary means to verify intended use, data lineage, and safety thresholds.",
+            "C. Because model documentation replaces the need for executing ML functional performance testing on holdout datasets.",
+            "D. Because model documentation automatically generates metamorphic relations for test execution."
+        ],
+        "answer": ["B. Because ML models act as black boxes with machine-generated logic, making documentation the primary means to verify intended use, data lineage, and safety thresholds."],
+        "explaination": {
+            "A. Because inspecting Python source code directly reveals all decision boundaries of a deep neural network.": "Incorrect! Neural network behavior is defined by learned weights, not readable code lines.",
+            "B. Because ML models act as black boxes with machine-generated logic, making documentation the primary means to verify intended use, data lineage, and safety thresholds.": "Correct! Since ML models are data-driven black boxes, comprehensive documentation like Model Cards and Datasheets provides crucial information regarding limitations, intended context, training provenance, and ethical boundaries.",
+            "C. Because model documentation replaces the need for executing ML functional performance testing on holdout datasets.": "Incorrect! Documentation supplements testing, but empirical testing is still strictly required.",
+            "D. Because model documentation automatically generates metamorphic relations for test execution.": "Incorrect! Metamorphic relations are defined by testers based on domain logic, not automatically generated by documentation."
+        }
+    },
+    {
+        "question": "How should the results of ML functional performance testing be reported for probabilistic machine learning systems?",
+        "options": [
+            "A. As a single binary pass/fail decision based on a single test case execution.",
+            "B. As a list of zero-defect source code statements verified by static analysis.",
+            "C. As statistical measures across a representative test dataset, reported with confidence intervals (e.g., Accuracy of 94% +- 4% at 95% CL).",
+            "D. As a count of activated neurons exceeding maximum training boundary values."
+        ],
+        "answer": ["C. As statistical measures across a representative test dataset, reported with confidence intervals (e.g., Accuracy of 94% +- 4% at 95% CL)."],
+        "explaination": {
+            "A. As a single binary pass/fail decision based on a single test case execution.": "Incorrect! Probabilistic models vary across runs and individual test cases cannot determine overall performance.",
+            "B. As a list of zero-defect source code statements verified by static analysis.": "Incorrect! ML models learn via data rather than deterministic code paths.",
+            "C. As statistical measures across a representative test dataset, reported with confidence intervals (e.g., Accuracy of 94% +- 4% at 95% CL).": "Correct! Because models are probabilistic, performance must be expressed using statistical metrics evaluated over test splits, complete with confidence intervals to reflect uncertainty.",
+            "D. As a count of activated neurons exceeding maximum training boundary values.": "Incorrect! This describes internal structural metrics rather than functional performance."
+        }
+    },
+    {
+        "question": "A test team performs black-box adversarial testing on an image classification model without access to its internal weights. How can the team generate effective adversarial test inputs?",
+        "options": [
+            "A. By adjusting algorithm hyperparameters such as learning rate and epoch count directly.",
+            "B. By leveraging the transferability property: building a white-box surrogate model, crafting adversarial inputs on it, and applying them to the target model.",
+            "C. By executing Chi-squared statistical tests on continuous input pipelines.",
+            "D. By reviewing the Model Card to extract white-box gradient descent paths."
+        ],
+        "answer": ["B. By leveraging the transferability property: building a white-box surrogate model, crafting adversarial inputs on it, and applying them to the target model."],
+        "explaination": {
+            "A. By adjusting algorithm hyperparameters such as learning rate and epoch count directly.": "Incorrect! Hyperparameters govern training, not black-box adversarial input creation.",
+            "B. By leveraging the transferability property: building a white-box surrogate model, crafting adversarial inputs on it, and applying them to the target model.": "Correct! Adversarial examples often exhibit transferability, meaning perturbations crafted against an independent white-box surrogate model frequently succeed against a black-box target model.",
+            "C. By executing Chi-squared statistical tests on continuous input pipelines.": "Incorrect! Chi-squared tests evaluate feature distribution representativeness, not adversarial inputs.",
+            "D. By reviewing the Model Card to extract white-box gradient descent paths.": "Incorrect! Model cards do not contain internal gradient weights."
+        }
+    },
+    {
+        "question": "An e-commerce recommendation model experiences a drop in prediction accuracy after a new tax law alters customer purchasing classifications. The statistical properties of the incoming customer feature data remain unchanged, but the target outcome definitions have shifted. Which form of drift has occurred?",
+        "options": [
+            "A. Data Drift",
+            "B. Concept Drift",
+            "C. Overfitting Drift",
+            "D. Pipeline Schema Drift"
+        ],
+        "answer": ["B. Concept Drift"],
+        "explaination": {
+            "A. Data Drift": "Incorrect! Data drift involves changes in the input data distribution itself.",
+            "B. Concept Drift": "Correct! Concept drift occurs when the statistical relationship between input features and the target label changes (i.e., the underlying meaning or mapping rules shift even if inputs look the same).",
+            "C. Overfitting Drift": "Not a standard industry term.",
+            "D. Pipeline Schema Drift": "Incorrect! Schema drift involves structural or type mismatches in the data pipeline."
+        }
+    },
+    {
+        "question": "Which testing outcome indicates that a machine learning model is suffering from UNDERFITTING?",
+        "options": [
+            "A. The model achieves 99% accuracy on the training set but 55% accuracy on the test set.",
+            "B. The model achieves high performance on both training and test datasets.",
+            "C. The model achieves consistently poor ML functional performance on both the training dataset and the validation dataset.",
+            "D. The model susceptible to white-box Fast Gradient Sign Method attacks."
+        ],
+        "answer": ["C. The model achieves consistently poor ML functional performance on both the training dataset and the validation dataset."],
+        "explaination": {
+            "A. The model achieves 99% accuracy on the training set but 55% accuracy on the test set.": "Incorrect! This describes overfitting.",
+            "B. The model achieves high performance on both training and test datasets.": "Incorrect! This represents a well-fitted model.",
+            "C. The model achieves consistently poor ML functional performance on both the training dataset and the validation dataset.": "Correct! Underfitting occurs when a model is too simple to capture patterns in the data, resulting in poor performance across both training and validation splits.",
+            "D. The model susceptible to white-box Fast Gradient Sign Method attacks.": "Incorrect! Susceptibility to adversarial attacks is a general property of neural networks, not a sign of underfitting."
+        }
+    },
+    {
+        "question": "What is a key distinction between A/B Testing and Back-to-Back Testing in the context of ML model testing?",
+        "options": [
+            "A. A/B testing is used to detect functional defects during unit testing, whereas back-to-back testing evaluates live customer satisfaction.",
+            "B. A/B testing compares two program variants in live production using statistical metrics to evaluate performance improvement, whereas back-to-back testing compares outputs against a pseudo-oracle to detect defects.",
+            "C. Back-to-back testing requires ground truth labels for all operational data, whereas A/B testing requires no inputs.",
+            "D. A/B testing is performed exclusively on locked rule-based systems."
+        ],
+        "answer": ["B. A/B testing compares two program variants in live production using statistical metrics to evaluate performance improvement, whereas back-to-back testing compares outputs against a pseudo-oracle to detect defects."],
+        "explaination": {
+            "A. A/B testing is used to detect functional defects during unit testing, whereas back-to-back testing evaluates live customer satisfaction.": "Incorrect! A/B testing runs live with users, not during unit testing.",
+            "B. A/B testing compares two program variants in live production using statistical metrics to evaluate performance improvement, whereas back-to-back testing compares outputs against a pseudo-oracle to detect defects.": "Correct! A/B testing measures live user/business performance between variants, while back-to-back testing feeds identical test inputs into two systems (e.g., old model vs. new model) to identify divergence.",
+            "C. Back-to-back testing requires ground truth labels for all operational data, whereas A/B testing requires no inputs.": "Incorrect! Back-to-back testing does not require ground truth labels; it compares outputs between two systems.",
+            "D. A/B testing is performed exclusively on locked rule-based systems.": "Incorrect! A/B testing is applicable to any system variant, including ML models."
+        }
+    },
+    {
+        "question": "Scenario: You are testing an AI-based shortest-path navigation application. You have a passed source test case:\n- Source Input (TC1): Route from Point A to Point B on a map with 100 intersections.\n- Source Output (Result1): Distance = 12.5 km, Estimated Time = 15 minutes.\nYou define a Metamorphic Relation (MR_1): \"Scaling all map road distance values by a constant factor k (k > 0) must scale the total estimated route distance by exactly factor k”\nYou construct a follow-up test case (TC2) by scaling all road distances on the map by k = 2.0.\nWhat is the expected output for TC2, and what conclusion should be drawn if TC2 yields a distance of 30.0 km?",
+        "options": [
+            "A. Expected Distance = 12.5 km; if TC2 yields 30.0 km, the test Passes under Invariance MR.",
+            "B. Expected Distance = 25.0 km; if TC2 yields 30.0 km, a defect in route calculation logic is revealed (Test Fails).",
+            "C. Expected Distance = 6.25 km; if TC2 yields 30.0 km, Concept Drift has occurred.",
+            "D. Expected Distance = 25.0 km; if TC2 yields 30.0 km, the Test Passes because 30.0 > 12.5."
+        ],
+        "answer": ["B. Expected Distance = 25.0 km; if TC2 yields 30.0 km, a defect in route calculation logic is revealed (Test Fails)."],
+        "explaination": {
+            "A. Expected Distance = 12.5 km; if TC2 yields 30.0 km, the test Passes under Invariance MR.": "Incorrect! Doubling distances should scale the result by 2.0 (12.5 * 2.0 = 25.0 km).",
+            "B. Expected Distance = 25.0 km; if TC2 yields 30.0 km, a defect in route calculation logic is revealed (Test Fails).": "Correct! Based on MR_1, scaling road inputs by 2.0 expects 25.0 km. Getting 30.0 km violates the expected metamorphic relation, indicating a bug.",
+            "C. Expected Distance = 6.25 km; if TC2 yields 30.0 km, Concept Drift has occurred.": "Incorrect! The expected distance is 25.0 km, not 6.25 km.",
+            "D. Expected Distance = 25.0 km; if TC2 yields 30.0 km, the Test Passes because 30.0 > 12.5.": "Incorrect! The test fails because the output does not match the expected scaled value of 25.0 km."
+        }
+    },
+    {
+        "question": "Scenario: A test team evaluates an automated medical imaging model across three separate dataset splits during model validation and obtains the following Recall metrics:\n- Training Dataset Recall: 98.6%\n- Validation Dataset Recall: 97.8%\n- Independent Test Dataset (Holdout) Recall: 62.4%\nHow should the test engineer evaluate this model, and what is the MOST appropriate recommendation?",
+        "options": [
+            "A. The model is Underfitted; recommend increasing neural network layer depth and training epochs.",
+            "B. The model is Overfitted; recommend collecting more diverse training data, applying data augmentation, or simplifying model complexity before deployment.",
+            "C. The model is Right-fitted; recommend immediate deployment to production due to 98.6% training recall.",
+            "D. The model suffers from Data Drift; recommend running Kolmogorov-Smirnov static tests on production servers."
+        ],
+        "answer": ["B. The model is Overfitted; recommend collecting more diverse training data, applying data augmentation, or simplifying model complexity before deployment."],
+        "explaination": {
+            "A. The model is Underfitted; recommend increasing neural network layer depth and training epochs.": "Incorrect! High training and validation performance combined with poor holdout performance signifies overfitting, not underfitting.",
+            "B. The model is Overfitted; recommend collecting more diverse training data, applying data augmentation, or simplifying model complexity before deployment.": "Correct! Excellent performance on training/validation splits coupled with a dramatic drop on the independent test split indicates severe overfitting (memorization of training data without generalization).",
+            "C. The model is Right-fitted; recommend immediate deployment to production due to 98.6% training recall.": "Incorrect! The model is overfitted, not right-fitted.",
+            "D. The model suffers from Data Drift; recommend running Kolmogorov-Smirnov static tests on production servers.": "Incorrect! The model suffers from concept drift, not data drift."
+        }
+    },
+    {
+        "question": "Scenario: A machine learning system filters customer loan applications. You monitor the system in production over 6 months and observe two distinct phenomena:\n- Phenomenon 1: Due to a marketing campaign targeting young adults, the average age of applicants drops from 45 to 22 years old. The model's internal decision logic remains valid, but input feature distributions shift significantly.\n- Phenomenon 2: A economic recession occurs, causing loan default rates among previously \"stable\" credit score bands to double. Applicants with a credit score of 700 who were previously approved now frequently default.\nHow should these two phenomena be classified?",
+        "options": [
+            "A. Phenomenon 1 = Concept Drift; Phenomenon 2 = Data Drift",
+            "B. Phenomenon 1 = Data Drift; Phenomenon 2 = Concept Drift",
+            "C. Phenomenon 1 = Overfitting; Phenomenon 2 = Underfitting",
+            "D. Phenomenon 1 = Adversarial Attack; Phenomenon 2 = Label Mismatch"
+        ],
+        "answer": ["B. Phenomenon 1 = Data Drift; Phenomenon 2 = Concept Drift"],
+        "explaination": {
+            "A. Phenomenon 1 = Concept Drift; Phenomenon 2 = Data Drift": "Incorrect! This reverses the definitions.",
+            "B. Phenomenon 1 = Data Drift; Phenomenon 2 = Concept Drift": "Correct! Phenomenon 1 represents a change in the input feature distribution (Data Drift), while Phenomenon 2 represents a change in the relationship/mapping between features and outcomes, where the same credit score now results in a different likelihood of default (Concept Drift).",
+            "C. Phenomenon 1 = Overfitting; Phenomenon 2 = Underfitting": "Incorrect! These relate to training generalization, not post-deployment drift.",
+            "D. Phenomenon 1 = Adversarial Attack; Phenomenon 2 = Label Mismatch": "Incorrect!"
+        }
+    },
+    {
+        "question": "Scenario: An engineering team is migrating an autonomous vehicle object-detection model from a cloud development environment to an edge device System-on-Chip (SoC) with 4-bit quantization. The team must verify that model conversion did not introduce subtle functional bugs or behavioral divergences across 50,000 test frames.\nWhich testing approach provides the MOST efficient solution without requiring manual expected output labeling for all 50,000 frames?",
+        "options": [
+            "A. Manual Exploratory Testing with session sheets.",
+            "B. Back-to-Back Testing using the original cloud model as a pseudo-oracle against the edge SoC model.",
+            "C. Disparate Impact Analysis swapping sensitive demographic attributes.",
+            "D. Red Teaming with multi-turn prompt injection."
+        ],
+        "answer": ["B. Back-to-Back Testing using the original cloud model as a pseudo-oracle against the edge SoC model."],
+        "explaination": {
+            "A. Manual Exploratory Testing with session sheets.": "Incorrect! Manual testing of 50,000 frames is completely unfeasible.",
+            "B. Back-to-Back Testing using the original cloud model as a pseudo-oracle against the edge SoC model.": "Correct! Back-to-back testing allows the original cloud model to act as a pseudo-oracle, automatically comparing outputs against the quantized edge model across all 50,000 frames without needing manual ground-truth labels.",
+            "C. Disparate Impact Analysis swapping sensitive demographic attributes.": "Incorrect! This addresses fairness, not conversion divergence.",
+            "D. Red Teaming with multi-turn prompt injection.":" Incorrect! Red teaming is used for adversarial robustness, not functional equivalence testing."
+        }
+    },
+    {
+        "question": "Given the following test techniques and test types:\n1. ML functional performance testing\n​2. Testing for bias\n3. Adversarial testing\n4. Drift testing\nAnd the following risks:\nA. The ML model might perform differently for different demographic groups\nB. Slightly modified inputs to the ML model might cause quite different and unexpected responses\nC. Predictions made by the ML model might be inaccurate in some cases\nD. ML model accuracy might have significantly decreased since it was deployed\nWhich of the following options BEST matches the test techniques and test types with the risks?",
+        "options": [
+            "a) 1A – 2D – 3C – 4B",
+            "b) 1C – 2A – 3B – 4D",
+            "c) 1B – 2A – 3C – 4D",
+            "d) 1A – 2C – 3D – 4B"
+        ],
+        "answer": ["b) 1C – 2A – 3B – 4D"],
+        "explaination": {
+            "a) 1A – 2D – 3C – 4B": "Incorrect! Mismatches pairs.",
+            "b) 1C – 2A – 3B – 4D": "Correct! 1 matches C (Functional performance addresses general accuracy), 2 matches A (Bias testing checks demographic fairness), 3 matches B (Adversarial testing checks sensitivity to slight input perturbations), and 4 matches D (Drift testing checks post-deployment accuracy degradation).",
+            "c) 1B – 2A – 3C – 4D": "Incorrect!",
+            "d) 1A – 2C – 3D – 4B": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following statements about the documentation of ML models is CORRECT?",
+        "options": [
+            "a) Information related to the speed of model prediction is a part of the documentation of an AI component",
+            "b) Interaction of AI and non-AI components is within the scope of the model documentation",
+            "c) Bias-related characteristics of input data are challenging to assess as the model documentation doesn’t contain the source of the training data",
+            "d) Changes made by self-learning ML systems are fully documented at the time of the update to ensure up-to-date documentation"
+        ],
+        "answer": ["a) Information related to the speed of model prediction is a part of the documentation of an AI component"],
+        "explaination": {
+            "a) Information related to the speed of model prediction is a part of the documentation of an AI component": "Correct! Standard AI model documentation (such as Model Cards) includes operational performance characteristics like inference speed and resource requirements.",
+            "b) Interaction of AI and non-AI components is within the scope of the model documentation": "Incorrect! System architecture documentation covers component integration, whereas model documentation focuses specifically on the model itself.",
+            "c) Bias-related characteristics of input data are challenging to assess as the model documentation doesn’t contain the source of the training data": "Incorrect! Datasheets for Datasets specifically detail training data sources and provenance.",
+            "d) Changes made by self-learning ML systems are fully documented at the time of the update to ensure up-to-date documentation": "Incorrect! Automated self-learning updates frequently occur dynamically without manual documentation updates."
+        }
+    },
+    {
+        "question": "Upon release, an ML model provided correct predictions fewer times than expected. Additional tests have been conducted, and the level of accuracy for these tests was measured at 83%. Previously, the ML model had achieved an accuracy of 83% ± 4% at a confidence level of 94%.\nWhich of the following options is MOST likely to represent the current situation?",
+        "options": [
+            "a) accuracy of 83% ± 2% at 94% confidence level",
+            "b) accuracy of 83% ± 4% at 92% confidence level",
+            "c) accuracy of 83% ± 6% at 94% confidence level",
+            "d) accuracy of 85% ± 4% at 94% confidence level"
+        ],
+        "answer": ["a) accuracy of 83% ± 2% at 94% confidence level"],
+        "explaination": {
+            "a) accuracy of 83% ± 2% at 94% confidence level": "Correct! If additional tests and larger sample sizes were conducted to confirm the 83% accuracy, the margin of error (confidence interval) shrinks (e.g., from ±4% down to ±2%) while maintaining the same 94% confidence level.",
+            "b) accuracy of 83% ± 4% at 92% confidence level": "Incorrect!",
+            "c) accuracy of 83% ± 6% at 94% confidence level": "Incorrect! A wider margin of error would mean fewer tests or higher uncertainty, whereas additional tests reduce uncertainty.",
+            "d) accuracy of 85% ± 4% at 94% confidence level": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following statements BEST summarizes adversarial testing of machine learning systems?",
+        "options": [
+            "a) It is a form of black-box testing, ignoring knowledge of the internals of the machine learning system to create adversarial examples",
+            "b) It focuses on generating manual adversarial examples, without automation, to test the vulnerability of machine learning systems",
+            "c) It identifies model vulnerabilities through adversarial examples, which are minimally perturbed inputs that induce misclassification",
+            "d) It verifies the machine learning system’s functionality by using previously working tests to avoid ML model failures during evaluation and tuning"
+        ],
+        "answer": ["c) It identifies model vulnerabilities through adversarial examples, which are minimally perturbed inputs that induce misclassification"],
+        "explaination": {
+            "a) It is a form of black-box testing, ignoring knowledge of the internals of the machine learning system to create adversarial examples": "Incorrect! Adversarial testing can be white-box (using internal gradients) or black-box.",
+            "b) It focuses on generating manual adversarial examples, without automation, to test the vulnerability of machine learning systems": "Incorrect! Adversarial example generation is typically automated.",
+            "c) It identifies model vulnerabilities through adversarial examples, which are minimally perturbed inputs that induce misclassification": "Correct! Adversarial testing specifically aims to uncover fragility by introducing small, often imperceptible perturbations to inputs that cause the model to make incorrect predictions.",
+            "d) It verifies the machine learning system’s functionality by using previously working tests to avoid ML model failures during evaluation and tuning": "Incorrect!"
+        }
+    },
+    {
+        "question": "An AI-based mobile phone search system provides a list of phones that it believes are most suitable for the user based on its knowledge of the user’s previous mobile phone usage and their specified preferences.\nMetamorphic testing is being used with the following source test case:\nInputs\n- Selected price range: $200-$300\n- 3D camera: Don’t care\n- Screen size: mid to large\n- OS: Android or iOS\n- Battery Life: Don’t care\nOutputs:\n- Recommended Phones:\n  - SnapHappy_X1\n  - SnapHappy_M2\n  - SnapHappy_M3\n  - ClickNow_1000x\n  - ClickNow_1000xs\nAnd this test data for two corresponding follow-up test cases:\nInput 1\n- Selected price range: $200-$300\n- 3D camera: yes\n- Screen size: mid to large\n- OS: Android or iOS\n- Battery Life: Don’t care\nInput 2\n- Selected price range: $200-$300\n- 3D camera: no\n- Screen size: mid to large\n- OS: Android or iOS\n- Battery Life: Don’t care\nWhich of the following options is MOST likely to be a valid list of recommended phones for the follow-up test cases?",
+        "options": [
+            "a)\n- T1: SnapHappy_X1, SnapHappy_M2\n- T2: ClickNow_1000x, ClickNow_1000xs",
+            "b)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, ClickNow_1000x",
+            "c)\n- T1: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs",
+            "d)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs"
+        ],
+        "answer": ["b)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs"],
+        "explaination": {
+            "a)\n- T1: SnapHappy_X1, SnapHappy_M2\n- T2: ClickNow_1000x, ClickNow_1000xs": "Incorrect!",
+            "b)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs": "Correct! Adding a specific constraint ('3D camera: yes') should narrow down or filter the original list of 5 phones to a subset (T1). Specifying '3D camera: no' or relaxing it back should yield a broader set or retain the original set (T2). Thus, T1 is a subset of the original recommendations, and T2 contains the remaining or full set.",
+            "c)\n- T1: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs": "Incorrect!",
+            "d)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs": "Incorrect!"
+        }
+    },
+    {
+        "question": "An organization uses an ML model to predict customer churn but has no mechanism to get direct user feedback or track when customers leave. They want to test for drift by analyzing the data being fed into the live ML model. '\nWhich test type would be MOST appropriate in this situation and why?",
+        "options": [
+            "a) Dynamic drift testing, because it can infer the current ground truth by analyzing the input data's statistical properties",
+            "b) Static drift testing, because it identifies drift by detecting changes in the data distributions without requiring ground truth",
+            "c) Dynamic drift testing, because comparing ML model predictions to actual results is the most direct way to measure performance degradation",
+            "d) Static drift testing, because it compares the ML model's live performance metrics against a predefined acceptance threshold"
+        ],
+        "answer": ["b) Static drift testing, because it identifies drift by detecting changes in the data distributions without requiring ground truth"],
+        "explaination": {
+            "a) Dynamic drift testing, because it can infer the current ground truth by analyzing the input data's statistical properties": "Incorrect!",
+            "b) Static drift testing, because it identifies drift by detecting changes in the data distributions without requiring ground truth": "Correct! Since ground truth (actual customer churn outcomes) is unavailable, static drift testing compares live input feature distributions against the training baseline (e.g., using Kolmogorov-Smirnov tests) without needing labels.",
+            "c) Dynamic drift testing, because comparing ML model predictions to actual results is the most direct way to measure performance degradation": "Incorrect! Dynamic drift testing requires actual ground truth labels, which are missing here.",
+            "d) Static drift testing, because it compares the ML model's live performance metrics against a predefined acceptance threshold": "Incorrect!"
+        }
+    },
+    {
+        "question": "When testing a trained ML model, the development team found that the model was highly accurate when evaluated using validation data but performed poorly with independent test data.\nWhich of the following options is MOST likely to cause this situation?",
+        "options": [
+            "a) Underfitting",
+            "b) Concept drift",
+            "c) Overfitting",
+            "d) Low acceptance criteria"
+        ],
+        "answer": ["c) Overfitting"],
+        "explaination": {
+            "a) Underfitting": "Incorrect! Underfitting yields poor performance across all datasets.",
+            "b) Concept drift": "Incorrect! Concept drift happens post-deployment due to changing relationships over time.",
+            "c) Overfitting": "Correct! Overfitting occurs when a model learns the training and validation data too closely (including noise), leading to poor generalization on unseen independent test data.",
+            "d) Low acceptance criteria": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following statements BEST describes how A/B testing is used in the context of a machine learning system (MLS)?",
+        "options": [
+            "a) A/B testing is primarily used to generate diverse test cases that cover all possible inputs for an MLS",
+            "b) A/B testing is used to verify that all components within an MLS interact correctly with each other",
+            "c) A/B testing determines if an updated version of an MLS performs better than the previous version",
+            "d) A/B testing focuses on analyzing the internal algorithm structure of an MLS to identify potential defects"
+        ],
+        "answer": ["c) A/B testing determines if an updated version of an MLS performs better than the previous version"],
+        "explaination": {
+            "a) A/B testing is primarily used to generate diverse test cases that cover all possible inputs for an MLS": "Incorrect!",
+            "b) A/B testing is used to verify that all components within an MLS interact correctly with each other": "Incorrect!",
+            "c) A/B testing determines if an updated version of an MLS performs better than the previous version": "Correct! A/B testing deploys two versions (A and B) to live users simultaneously to compare real-world performance metrics and determine if a new model version outperforms the old one.",
+            "d) A/B testing focuses on analyzing the internal algorithm structure of an MLS to identify potential defects": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following descriptions of the creation of a pseudo-oracle used to support the back-to-back testing of an ML model is MOST likely to be CORRECT?",
+        "options": [
+            "a) By varying the hyperparameters used for training the ML model that is being tested",
+            "b) By fine-tuning the ML model that is being tested",
+            "c) By supplementing the ML model that is being tested with retrieval-augmented generation",
+            "d) By using a different ML development framework than the ML model that is being tested"
+        ],
+        "answer": ["d) By using a different ML development framework than the ML model that is being tested"],
+        "explaination": {
+            "a) By varying the hyperparameters used for training the ML model that is being tested": "Incorrect!",
+            "b) By fine-tuning the ML model that is being tested": "Incorrect!",
+            "c) By supplementing the ML model that is being tested with retrieval-augmented generation": "Incorrect!",
+            "d) By using a different ML development framework than the ML model that is being tested": "Correct! A pseudo-oracle in back-to-back testing can be implemented using an alternative independent implementation—such as training a model in a different framework or using a simpler baseline model—to cross-validate outputs and catch implementation bugs."
+        }
+    },
+    {
+        "question": "Which of the following BEST describes the primary focus of Machine Learning Development Testing compared to Model Testing?",
+        "options": [
+            "A. Machine learning development testing focuses on evaluating the internal mathematical weights and decision boundaries of a trained neural network.",
+            "B. Machine learning development testing focuses on addressing risks introduced by development tools, configuration choices, framework APIs, and deployment mechanisms.",
+            "C. Machine learning development testing focuses exclusively on generating adversarial attack prompts for generative AI models.",
+            "D. Machine learning development testing replaces the need for data representativeness testing in the data pipeline."
+        ],
+        "answer": ["B. Machine learning development testing focuses on addressing risks introduced by development tools, configuration choices, framework APIs, and deployment mechanisms."],
+        "explaination": {
+            "A. Machine learning development testing focuses on evaluating the internal mathematical weights and decision boundaries of a trained neural network.": "Incorrect! Evaluating model quality/weights falls under Model Testing.",
+            "B. Machine learning development testing focuses on addressing risks introduced by development tools, configuration choices, framework APIs, and deployment mechanisms.": "Correct! Machine Learning Development Testing targets risks associated with the software development environment, pipelines, frameworks (e.g., PyTorch/TensorFlow APIs), toolchains, and deployment environments.",
+            "C. Machine learning development testing focuses exclusively on generating adversarial attack prompts for generative AI models.": "Incorrect! Adversarial testing is a specific security/robustness technique, not the core scope of development testing.",
+            "D. Machine learning development testing replaces the need for data representativeness testing in the data pipeline.": "Incorrect! Development testing complements data pipeline testing rather than replacing it."
+        }
+    },
+    {
+        "question": "An engineering team is concerned that data leakage might occur due to an improper split between training, validation, and holdout test datasets. Which risk mitigation activity should be performed?",
+        "options": [
+            "A. Model conversion testing",
+            "B. Data allocation review",
+            "C. Fuzz testing",
+            "D. Installability testing"
+        ],
+        "answer": ["B. Data allocation review"],
+        "explaination": {
+            "A. Model conversion testing": "Incorrect! Model conversion testing evaluates quantization and framework translation (e.g., PyTorch to ONNX).",
+            "B. Data allocation review": "Correct! A Data Allocation Review examines how data is split across training, validation, and testing sets to prevent data leakage (overlap or improper stratification).",
+            "C. Fuzz testing": "Incorrect! Fuzz testing inputs invalid or random data to check for crashes.",
+            "D. Installability testing": "Incorrect! Installability testing verifies deployment/installation scripts."
+        }
+    },
+    {
+        "question": "When MUST Rollback Testing be executed during the deployment lifecycle of a Machine Learning System?",
+        "options": [
+            "A. Only after a critical production failure has already occurred in the live environment.",
+            "B. Prior to actual deployment, to verify the system's capability to revert to a stable operational state if a deployment fails.",
+            "C. During initial data preparation before exploratory data analysis.",
+            "D. Continuously during white-box adversarial attacks."
+        ],
+        "answer": ["B. Prior to actual deployment, to verify the system's capability to revert to a stable operational state if a deployment fails."],
+        "explaination": {
+            "A. Only after a critical production failure has already occurred in the live environment.": "Incorrect! Waiting for a live failure defeats the proactive purpose of testing.",
+            "B. Prior to actual deployment, to verify the system's capability to revert to a stable operational state if a deployment fails.": "Correct! Rollback testing must be conducted prior to release to ensure the infrastructure can safely and automatically revert to a previous baseline model if an error occurs post-deployment.",
+            "C. During initial data preparation before exploratory data analysis.": "Incorrect!",
+            "D. Continuously during white-box adversarial attacks.": "Incorrect!"
+        }
+    },
+    {
+        "question": "An AI development team converts a PyTorch model into ONNX format for deployment on mobile devices. Which test type explicitly verifies that predictive accuracy and inference speed are maintained after format conversion?",
+        "options": [
+            "A. Model Conversion Testing",
+            "B. Framework Documentation Review",
+            "C. A/B Testing",
+            "D. Inter-Annotator Agreement Testing"
+        ],
+        "answer": ["A. Model Conversion Testing"],
+        "explaination": {
+            "A. Model Conversion Testing": "Correct! Model conversion testing explicitly assesses whether optimizing, quantizing, or converting a model from one format/framework (e.g., PyTorch) to another (e.g., ONNX, TensorRT) introduces numerical drift or performance degradation.",
+            "B. Framework Documentation Review": "Incorrect!",
+            "C. A/B Testing": "Incorrect!",
+            "D. Inter-Annotator Agreement Testing": "Incorrect!"
+        }
+    },
+    {
+        "question": "A QA manager notices that developers frequently misuse complex PyTorch API methods, introducing hidden runtime errors in model pipelines. Which testing activity directly mitigates this specific development risk?",
+        "options": [
+            "A. Shadow Testing",
+            "B. API Testing",
+            "C. Kolmogorov-Smirnov Distribution Testing",
+            "D. Metamorphic Invariance Testing"
+        ],
+        "answer": ["B. API Testing"],
+        "explaination": {
+            "A. Shadow Testing": "Incorrect!",
+            "B. API Testing": "Correct! API testing in ML development focuses on verifying that the functions and interfaces of ML frameworks/libraries (like PyTorch or TensorFlow) are called correctly according to specification, handling edge cases without runtime failures.",
+            "C. Kolmogorov-Smirnov Distribution Testing": "Incorrect!",
+            "D. Metamorphic Invariance Testing": "Incorrect!"
+        }
+    },
+    {
+        "question": "Scenario: A financial institution wants to evaluate a newly trained fraud-detection model against live operational data. However, compliance regulations strictly forbid exposing live customers to unverified model predictions until performance is proven.\nWhich deployment testing strategy is MOST appropriate for this scenario?",
+        "options": [
+            "A. Canary Testing, because only 5% of users receive responses from the new model.",
+            "B. Shadow Testing, because the new model runs in parallel with live traffic without returning its predictions to live users.",
+            "C. Installability Testing, because it validates GPU installation scripts.",
+            "D. A/B Testing, because live traffic is randomly split 50/50 to measure conversion metrics."
+        ],
+        "answer": ["B. Shadow Testing, because the new model runs in parallel with live traffic without returning its predictions to live users."],
+        "explaination": {
+            "A. Canary Testing, because only 5% of users receive responses from the new model.": "Incorrect! Canary testing still exposes a subset of real users to the new model's outputs.",
+            "B. Shadow Testing, because the new model runs in parallel with live traffic without returning its predictions to live users.": "Correct! Shadow deployment feeds real live requests to the new model in parallel with the legacy model without sending its responses to users, allowing performance validation under real conditions without regulatory risk.",
+            "C. Installability Testing, because it validates GPU installation scripts.": "Incorrect!",
+            "D. A/B Testing, because live traffic is randomly split 50/50 to measure conversion metrics.": "Incorrect! A/B testing serves responses to live users."
+        }
+    },
+    {
+        "question": "Scenario: An e-commerce company wishes to release an updated product recommendation engine. The team wants a small percentage of real online buyers (e.g., 3%) to actively interact with the new model so they can monitor real-time purchase conversion rates and system latency before a full rollout.\nWhich deployment test approach meets this objective?",
+        "options": [
+            "A. Shadow Testing",
+            "B. Canary Testing",
+            "C. Rollback Testing",
+            "D. Framework Suitability Review"
+        ],
+        "answer": ["B. Canary Testing"],
+        "explaination": {
+            "A. Shadow Testing": "Incorrect! Shadow testing does not return predictions to real users, preventing measurement of actual purchase conversion rates.",
+            "B. Canary Testing": "Correct! Canary testing routes a small fraction (e.g., 3%) of live production traffic to the new model variant while the majority remains on the baseline, allowing measurement of real user interactions.",
+            "C. Rollback Testing": "Incorrect!",
+            "D. Framework Suitability Review": "Incorrect!"
+        }
+    },
+    {
+        "question": "Scenario: A computer vision model trained on cloud GPUs is quantized from 32-bit floating-point to 4-bit integer precision for deployment on low-power IoT cameras. During field testing, the camera system experiences unexpected memory crashes and reduced frame rates across different camera hardware models.\nWhich TWO testing types were likely omitted or inadequately performed during deployment preparation?\n1. Model Conversion Testing\n2. Cross-Device Testing\n3. Label Correctness Testing\n4. Metamorphic Testing",
+        "options": [
+            "A. 1 and 2",
+            "B. 2 and 3",
+            "C. 1 and 4",
+            "D. 3 and 4"
+        ],
+        "answer": ["A. 1 and 2"],
+        "explaination": {
+            "A. 1 and 2": "Correct! Model conversion testing verifies quantization effects, memory usage, and performance after converting/compressing the model. Cross-device testing evaluates performance across heterogeneous physical target hardware.",
+            "B. 2 and 3": "Incorrect!",
+            "C. 1 and 4": "Incorrect!",
+            "D. 3 and 4": "Incorrect!"
+        }
+    },
+    {
+        "question": "Scenario: A data science team runs a single training pass of a deep learning model and obtains an accuracy score of 91.2%. They immediately claim the model passes acceptance criteria. However, when the QA team retrains the model with a different random seed, accuracy drops to 82.5%.\nWhat risk occurred, and how should it be systematically addressed according to ISTQB CTAI development testing principles?",
+        "options": [
+            "A. Risk: Unacceptable Data Drift; Address by running Chi-squared tests on raw input data.",
+            "B. Risk: Incorrect interpretation of test results due to the stochastic nature of learning; Address by conducting multi-run statistical evaluation (e.g., k-fold cross-validation or bootstrap resampling) during ML functional performance testing.",
+            "C. Risk: Sub-optimal API selection; Address by rewriting PyTorch API endpoints.",
+            "D. Risk: Defective Installability; Address by updating GPU drivers."
+        ],
+        "answer": ["B. Risk: Incorrect interpretation of test results due to the stochastic nature of learning; Address by conducting multi-run statistical evaluation (e.g., k-fold cross-validation or bootstrap resampling) during ML functional performance testing."],
+        "explaination": {
+            "A. Risk: Unacceptable Data Drift; Address by running Chi-squared tests on raw input data.": "Incorrect!",
+            "B. Risk: Incorrect interpretation of test results due to the stochastic nature of learning; Address by conducting multi-run statistical evaluation (e.g., k-fold cross-validation or bootstrap resampling) during ML functional performance testing.": "Correct! ML training is inherently non-deterministic (stochastic). Evaluating a single training run leads to misleading results; multi-run training, cross-validation, or seed averaging is required to quantify variance.",
+            "C. Risk: Sub-optimal API selection; Address by rewriting PyTorch API endpoints.": "Incorrect!",
+            "D. Risk: Defective Installability; Address by updating GPU drivers.": "Incorrect!"
+        }
+    },
+    {
+        "question": "Scenario: You are establishing a CI/CD pipeline for deploying an ML-based translation service. You need to ensure that if a new model deployment causes an immediate crash or high error rate on the server, the deployment pipeline automatically reverts to the previous stable model within 10 seconds.\nWhich testing process MUST be automated and validated in the CI/CD pipeline to guarantee this safety net?",
+        "options": [
+            "A. Rollback Testing",
+            "B. Disparate Impact Analysis",
+            "C. Inter-Annotator Agreement Testing",
+            "D. Exploratory Prompt Testing"
+        ],
+        "answer": ["A. Rollback Testing"],
+        "explaination": {
+            "A. Rollback Testing": "Correct! Rollback testing explicitly verifies that the deployment mechanism can successfully detect failure and quickly revert to the previous functioning model release without service outage.",
+            "B. Disparate Impact Analysis": "Incorrect!",
+            "C. Inter-Annotator Agreement Testing": "Incorrect!",
+            "D. Exploratory Prompt Testing": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which TWO of the following scenarios describe ML development risks that can be EFFECTIVELY mitigated by performing ML functional performance testing?",
+        "options": [
+            "a) A team notices that their ML development framework becomes slow and even unresponsive when processing large batches of data",
+            "b) A new version of a core library used by the ML development framework appears to be causing the ML model to produce unexpected and inaccurate results",
+            "c) After a new installation, the development team needs a quick test to determine if the ML development framework’s essential services are running correctly",
+            "d) A single test result is difficult to reproduce during evaluation, showing slight variations in ML functional performance with each execution",
+            "e) A project leader needs to decide between two potential algorithms based on their suitability for the project's goals"
+        ],
+        "answer": [
+            "b) A new version of a core library used by the ML development framework appears to be causing the ML model to produce unexpected and inaccurate results",
+            "d) A single test result is difficult to reproduce during evaluation, showing slight variations in ML functional performance with each execution"
+        ],
+        "explaination": {
+            "a) A team notices that their ML development framework becomes slow and even unresponsive when processing large batches of data": "Incorrect! This is a performance issue of the framework itself, not the ML model's functional performance.",
+            "b) A new version of a core library used by the ML development framework appears to be causing the ML model to produce unexpected and inaccurate results": "Correct! ML functional performance testing can detect regressions or unexpected behavior caused by changes in underlying libraries or dependencies.",
+            "c) After a new installation, the development team needs a quick test to determine if the ML development framework’s essential services are running correctly": "Incorrect! This is an installability or smoke test, not functional performance testing.",
+            "d) A single test result is difficult to reproduce during evaluation, showing slight variations in ML functional performance with each execution": "Correct! ML functional performance testing can identify inconsistencies and variations in model behavior under different conditions.",
+            "e) A project leader needs to decide between two potential algorithms based on their suitability for the project's goals": "Incorrect! This is a decision-making scenario, not a functional performance testing scenario."
+        }
+    },
+    {
+        "question": "Which of the following statements CORRECTLY describes how shadow testing differs from canary testing in the deployment of ML models?",
+        "options": [
+            "a) Shadow testing affects the responses from real users, while canary testing does not involve real users",
+            "b) Shadow testing mirrors traffic without impacting users, while canary testing provides responses from the new ML model",
+            "c) Canary testing is used for performance testing, while shadow testing is mainly used for component integration testing",
+            "d) Canary testing compares ML models running offline, while shadow testing is based on the use of live user data"
+        ],
+        "answer": ["b) Shadow testing mirrors traffic without impacting users, while canary testing provides responses from the new ML model"],
+        "explaination": {
+            "a) Shadow testing affects the responses from real users, while canary testing does not involve real users": "Incorrect!",
+            "b) Shadow testing mirrors traffic without impacting users, while canary testing provides responses from the new ML model": "Correct! Shadow testing replicates real production traffic to the new model in parallel without outputting its predictions to users, whereas canary testing routes a subset of actual live users to receive responses from the new model.",
+            "c) Canary testing is used for performance testing, while shadow testing is mainly used for component integration testing": "Incorrect!",
+            "d) Canary testing compares ML models running offline, while shadow testing is based on the use of live user data": "Incorrect!"
+        }
+    }
+]
