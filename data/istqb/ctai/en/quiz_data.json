@@ -627,7 +627,7 @@
         }  
     },
     {
-        "question": "Given the following activities from the ML workflow:\n1. Deploy the Model\n2. Prepare & Test Data\n3. Test the Model\n4. Evaluate the Model\nAnd, given the following descriptions:\nA. Model performance is tested using validation data\nB. The origin of the test data used to test the model is identified\nC. Test data are used to verify the agreed performance criteria are met\nD. The model is tested on the target platform\nWhich of the following BEST matches the descriptions with the activities in the ML workflow?",
+        "question": "Given the following activities from the ML workflow:\n1. Deploy the Model\n2. Prepare & Test Data\n3. Test the Model\n4. Evaluate the Model\n And, given the following descriptions:\nA. Model performance is tested using validation data\nB. The origin of the test data used to test the model is identified\nC. Test data are used to verify the agreed performance criteria are met\nD. The model is tested on the target platform\nWhich of the following BEST matches the descriptions with the activities in the ML workflow?",
         "options": [
             "a) 1A – 2C – 3B – 4D",
             "b) 1C – 2D – 3B – 4A",
@@ -1217,11 +1217,11 @@
             "c) Comparison correlate constraint,",
             "d) Multi-value duplicate constraint"
         ],
-        "answer": ["c) Comparison correlate constraint,"],
+        "answer": ["c) Comparison correlate constraint"],
         "explaination": {
             "a) Single-value range constraint": "Incorrect! While monthly payment must be positive, checking it against the calculation formula (loan_amount / 324) involves relating two columns.",
             "b) Multi-value count constraint": "Incorrect! Count constraints measure row counts, not column formulas.",
-            "c) Comparison correlate constraint,": "Correct! Validating that monthly_payment equals loan_amount / 324 requires checking the mathematical relationship between two separate attributes, which falls under comparison/correlation constraints.",
+            "c) Comparison correlate constraint": "Correct! Validating that monthly_payment equals loan_amount / 324 requires checking the mathematical relationship between two separate attributes, which falls under comparison/correlation constraints.",
             "d) Multi-value duplicate constraint": "Incorrect! Duplicate constraints check row uniqueness."
         }
     },
@@ -1466,19 +1466,19 @@
         }
     },
     {
-        "question": "An AI-based mobile phone search system provides a list of phones that it believes are most suitable for the user based on its knowledge of the user’s previous mobile phone usage and their specified preferences.\nMetamorphic testing is being used with the following source test case:\nInputs\n- Selected price range: $200-$300\n- 3D camera: Don’t care\n- Screen size: mid to large\n- OS: Android or iOS\n- Battery Life: Don’t care\nOutputs:\n- Recommended Phones:\n  - SnapHappy_X1\n  - SnapHappy_M2\n  - SnapHappy_M3\n  - ClickNow_1000x\n  - ClickNow_1000xs\nAnd this test data for two corresponding follow-up test cases:\nInput 1\n- Selected price range: $200-$300\n- 3D camera: yes\n- Screen size: mid to large\n- OS: Android or iOS\n- Battery Life: Don’t care\nInput 2\n- Selected price range: $200-$300\n- 3D camera: no\n- Screen size: mid to large\n- OS: Android or iOS\n- Battery Life: Don’t care\nWhich of the following options is MOST likely to be a valid list of recommended phones for the follow-up test cases?",
+        "question": "An AI-based mobile phone search system provides a list of phones that it believes are most suitable for the user based on its knowledge of the user’s previous mobile phone usage and their specified preferences.\nMetamorphic testing is being used with the following source test case:\nInputs\n- Selected price range: $200-$300\n- 3D camera: Don’t care\n- Screen size: mid to large\n- OS: Android or iOS\n- Battery Life: Don’t care\nOutputs: Recommended Phones:\n  - SnapHappy_X1\n  - SnapHappy_M2\n  - SnapHappy_M3\n  - ClickNow_1000x\n  - ClickNow_1000xs\n And this test data for two corresponding follow-up test cases:\n- Input 1\n  - Selected price range: $200-$300\n  - 3D camera: yes\n  - Screen size: mid to large\n  - OS: Android or iOS\n  - Battery Life: Don’t care\n - Input 2\n  --  Selected price range: $200-$300\n  -- 3D camera: no\n  -- Screen size: mid to large\n  -- OS: Android or iOS\n  -- Battery Life: Don’t care\n\tWhich of the following options is MOST likely to be a valid list of recommended phones for the follow-up test cases?",
         "options": [
-            "a)\n- T1: SnapHappy_X1, SnapHappy_M2\n- T2: ClickNow_1000x, ClickNow_1000xs",
-            "b)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, ClickNow_1000x",
-            "c)\n- T1: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs",
-            "d)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs"
+            "a)T1: SnapHappy_X1, SnapHappy_M2 -- T2: ClickNow_1000x, ClickNow_1000xs",
+            "b)T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs -- T2: SnapHappy_X1, ClickNow_1000x",
+            "c)T1: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs -- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs",
+            "d)T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs -- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs"
         ],
-        "answer": ["b)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs"],
+        "answer": ["b)T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs -- T2: SnapHappy_X1, ClickNow_1000x"],
         "explaination": {
-            "a)\n- T1: SnapHappy_X1, SnapHappy_M2\n- T2: ClickNow_1000x, ClickNow_1000xs": "Incorrect!",
-            "b)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs": "Correct! Adding a specific constraint ('3D camera: yes') should narrow down or filter the original list of 5 phones to a subset (T1). Specifying '3D camera: no' or relaxing it back should yield a broader set or retain the original set (T2). Thus, T1 is a subset of the original recommendations, and T2 contains the remaining or full set.",
-            "c)\n- T1: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs": "Incorrect!",
-            "d)\n- T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs\n- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs": "Incorrect!"
+            "a)T1: SnapHappy_X1, SnapHappy_M2 -- T2: ClickNow_1000x, ClickNow_1000xs": "Incorrect!",
+            "b)T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs -- T2: SnapHappy_X1, ClickNow_1000x": "Correct! Adding a specific constraint ('3D camera: yes') should narrow down or filter the original list of 5 phones to a subset (T1). Specifying '3D camera: no' or relaxing it back should yield a broader set or retain the original set (T2). Thus, T1 is a subset of the original recommendations, and T2 contains the remaining or full set.",
+            "c)T1: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs -- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs": "Incorrect!",
+            "d)T1: SnapHappy_M2, SnapHappy_M3, ClickNow_1000xs -- T2: SnapHappy_X1, SnapHappy_M2, SnapHappy_M3, ClickNow_1000x, ClickNow_1000xs": "Incorrect!"
         }
     },
     {
