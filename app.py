@@ -3,6 +3,7 @@ import math
 import streamlit as st
 import os
 import random
+from utils.json_util import JsonUtil
 
 # Set up page configuration
 st.set_page_config(
@@ -11,44 +12,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-quiz_data_path = "data/istqb/ctai/en/quiz_data.json"
-
-# Load quiz data from JSON file
-def load_quiz_data(file_path):
-    import json
-    with open(file_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-@st.cache_data
-def chunk_exams():
-    # Group questions into chunks of <target_count> to form seperate exams
-    target_count = 5
-    all_questions = load_quiz_data(quiz_data_path)
-    if not all_questions:
-        return {}
-    exams_pool = {}
-    total_available = len(all_questions)
-
-    #Calaculate how many full exams we can make from unique questions
-    num_exams = max(1, math.ceil(total_available / target_count))
-    print(f"Total available questions: {total_available}, Target count per exam: {target_count}, Number of exams: {num_exams}")
-
-    for i in range(num_exams):
-        start_idx = i * target_count
-        end_idx = start_idx + target_count
-        chunk = all_questions[start_idx:end_idx]
-
-        # Rule: if a chunk is shorter than target_count, resuse previous questions to fill it up
-        if len(chunk) < target_count and total_available > 0:
-            needed = target_count - len(chunk)
-            chunk.extend(random.choices(chunk, k=needed))
-        exams_pool[f"Exam {i + 1} ({target_count} Questions)"] = chunk
-
-    return exams_pool
-
-exams_pool = chunk_exams()
-
 # Initialize Session State Variables
 if "selected_exam" not in st.session_state:
     st.session_state.selected_exam = None
@@ -64,6 +27,12 @@ if "quiz_complete" not in st.session_state:
     st.session_state.quiz_complete = False
 if "submitted" not in st.session_state:
     st.session_state.submitted = False
+
+@st.cache_data
+def load_all_exams():
+    return JsonUtil.chunk_exams("ISTQB", "CTAI")
+
+exams_pool = load_all_exams()
 
 if not exams_pool:
     st.error("⚠️ Could not find or read `exams.json`. Make sure it's in the same folder as `app.py`.")
