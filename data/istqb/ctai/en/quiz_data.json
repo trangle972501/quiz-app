@@ -1741,5 +1741,1253 @@
             "c) Canary testing is used for performance testing, while shadow testing is mainly used for component integration testing": "Incorrect!",
             "d) Canary testing compares ML models running offline, while shadow testing is based on the use of live user data": "Incorrect!"
         }
+    },
+    {
+        "question": "What are the characteristics of a conventional computer system?",
+        "options": [
+            "1. Learn from new data automatically",
+            "2. Based on probability to produce results",
+            "3. Execute clearly programmed rules",
+            "4. No oracle testing required"
+        ],
+        "answer": ["3. Execute clearly programmed rules"],
+        "explaination": {
+            "1. Learn from new data automatically": "Incorrect! Automatic learning from data is a characteristic of AI-based systems, not conventional systems.",
+            "2. Based on probability to produce results": "Incorrect! Conventional systems operate deterministically rather than probabilistically.",
+            "3. Execute clearly programmed rules": "Correct! Conventional computer systems rely on explicit, pre-programmed instructions and rules written by developers.",
+            "4. No oracle testing required": "Incorrect! Oracle testing (knowing expected outputs) is typically required and feasible for conventional systems."
+        }
+    },
+    {
+        "question": "What is the main difference between AI-based systems and conventional systems?",
+        "options": [
+            "1. AI-based systems use more loops.",
+            "2. AI-based systems learn from data instead of relying solely on programming rules.",
+            "3. Conventional systems do not use data.",
+            "4. AI-based systems are always more accurate."
+        ],
+        "answer": ["2. AI-based systems learn from data instead of relying solely on programming rules."],
+        "explaination": {
+            "1. AI-based systems use more loops.": "Incorrect! The fundamental difference is architectural and conceptual, not the number of loops.",
+            "2. AI-based systems learn from data instead of relying solely on programming rules.": "Correct! AI systems derive patterns and decision logic from training data rather than relying exclusively on hardcoded IF-THEN rules.",
+            "3. Conventional systems do not use data.": "Incorrect! Conventional systems process input data; they just don't learn from it to adapt their underlying logic.",
+            "4. AI-based systems are always more accurate.": "Incorrect! AI systems can make errors and are not universally more accurate than rule-based systems."
+        }
+    },
+    {
+        "question": "Which term describes the situation where the same input always produces the same output?",
+        "options": [
+            "1. Adaptive",
+            "2. Transparent",
+            "3. Probabilistic",
+            "4. Deterministic"
+        ],
+        "answer": ["4. Deterministic"],
+        "explaination": {
+            "1. Adaptive": "Incorrect! Adaptability refers to the ability to change or learn over time.",
+            "2. Transparent": "Incorrect! Transparency refers to how easily understandable a system's inner workings are.",
+            "3. Probabilistic": "Incorrect! Probabilistic systems can yield varying outputs or confidence scores for the same input.",
+            "4. Deterministic": "Correct! Deterministic systems guarantee that identical inputs will always produce identical, reproducible outputs."
+        }
+    },
+    {
+        "question": "An image recognition system returns: Cat = 92% Dog = 8% . What characteristics of AI are demonstrated?",
+        "options": [
+            "1. Deterministic processing",
+            "2. Probabilistic reasoning",
+            "3. Static behavior",
+            "4. Hard-coded rule execution"
+        ],
+        "answer": ["2. Probabilistic reasoning"],
+        "explaination": {
+            "1. Deterministic processing": "Incorrect! Deterministic processing would yield binary or absolute fixed outcomes without confidence percentages.",
+            "2. Probabilistic reasoning": "Correct! Expressing classification results as confidence percentages reflects probabilistic reasoning and output generation.",
+            "3. Static behavior": "Incorrect! The output varies dynamically based on confidence levels.",
+            "4. Hard-coded rule execution": "Incorrect! Image recognition models rely on learned patterns rather than hard-coded rules."
+        }
+    },
+    {
+        "question": "Why is testing AI-based systems often more difficult than testing conventional systems?",
+        "options": [
+            "1. AI has no input.",
+            "2. AI has no output.",
+            "3. AI can generate probabilistic results.",
+            "4. AI has no code."
+        ],
+        "answer": ["3. AI can generate probabilistic results."],
+        "explaination": {
+            "1. AI has no input.": "Incorrect! AI systems take inputs just like conventional software.",
+            "2. AI has no output.": "Incorrect! AI systems produce predictions, classifications, or generated content.",
+            "3. AI can generate probabilistic results.": "Correct! The probabilistic and non-deterministic nature of AI makes defining strict expected oracles and test validation much harder.",
+            "4. AI has no code.": "Incorrect! AI systems have underlying code, frameworks, and model weights."
+        }
+    },
+    {
+        "question": "What does \"Black Box Nature\" in AI mean?",
+        "options": [
+            "1. AI runs in the dark.",
+            "2. AI cannot be upgraded.",
+            "3. It is difficult to understand how AI makes decisions.",
+            "4. AI cannot be tested."
+        ],
+        "answer": ["3. It is difficult to understand how AI makes decisions."],
+        "explaination": {
+            "1. AI runs in the dark.": "Incorrect! This is a literal misunderstanding of the term.",
+            "2. AI cannot be upgraded.": "Incorrect! AI models can be retrained and updated.",
+            "3. It is difficult to understand how AI makes decisions.": "Correct! The 'black box' analogy refers to the opacity of complex models (like deep neural networks), where internal reasoning paths are not easily traceable.",
+            "4. AI cannot be tested.": "Incorrect! AI can and must be tested using specialized AI testing methodologies."
+        }
+    },
+    {
+        "question": "You are testing an AI system for diagnosing diseases. Which factor is most important?",
+        "options": [
+            "1. Beautiful interface",
+            "2. Explainability",
+            "3. Network speed",
+            "4. Dark mode"
+        ],
+        "answer": ["2. Explainability"],
+        "explaination": {
+            "1. Beautiful interface": "Incorrect! While usability matters, it is not the most critical factor for high-stakes medical diagnoses.",
+            "2. Explainability": "Correct! In critical domains like healthcare, doctors and patients must understand *why* a diagnosis was made to ensure safety, trust, and regulatory compliance.",
+            "3. Network speed": "Incorrect! Speed is secondary to diagnostic accuracy and reasoning transparency.",
+            "4. Dark mode": "Incorrect! A cosmetic UI feature."
+        }
+    },
+    {
+        "question": "Transparency and explainability are of particular interest for what reason?",
+        "options": [
+            "1. Reducing model size",
+            "2. Complying with AI-related requirements and regulations",
+            "3. Reducing data volume",
+            "4. Increasing CPU speed"
+        ],
+        "answer": ["2. Complying with AI-related requirements and regulations"],
+        "explaination": {
+            "1. Reducing model size": "Incorrect! Explainability does not directly reduce model size.",
+            "2. Complying with AI-related requirements and regulations": "Correct! Emerging AI regulations and ethical frameworks (e.g., EU AI Act) mandate transparency and explainability for high-risk AI applications.",
+            "3. Reducing data volume": "Incorrect! Explainability does not impact data volume.",
+            "4. Increasing CPU speed": "Incorrect! Explainability mechanisms can actually add computational overhead."
+        }
+    },
+    {
+        "question": "Which is an example of adaptability?",
+        "options": [
+            "1. Manually modifying source code to add new rules",
+            "2. AI improving performance with new data",
+            "3. Restarting the system",
+            "4. Running regression tests"
+        ],
+        "answer": ["2. AI improving performance with new data"],
+        "explaination": {
+            "1. Manually modifying source code to add new rules": "Incorrect! Manual code changes represent traditional maintenance, not system adaptability.",
+            "2. AI improving performance with new data": "Correct! Adaptability in AI refers to the system's ability to evolve, learn, and improve performance when exposed to new training or operational data.",
+            "3. Restarting the system": "Incorrect! A routine operational action.",
+            "4. Running regression tests": "Incorrect! A verification activity."
+        }
+    },
+    {
+        "question": "Which of the following systems is most likely an AI-based system?",
+        "options": [
+            "1. Calculator",
+            "2. VAT calculation program based on a fixed formula",
+            "3. Facial recognition system",
+            "4. Temperature conversion program from °C to °F"
+        ],
+        "answer": ["3. Facial recognition system"],
+        "explaination": {
+            "1. Calculator": "Incorrect! A calculator uses deterministic arithmetic rules.",
+            "2. VAT calculation program based on a fixed formula": "Incorrect! Uses explicit, hardcoded mathematical formulas.",
+            "3. Facial recognition system": "Correct! Facial recognition relies on machine learning algorithms and pattern recognition from image data.",
+            "4. Temperature conversion program from °C to °F": "Incorrect! Uses a fixed mathematical equation."
+        }
+    },
+    {
+        "question": "A tester observed that the same email was passed through an AI spam filter twice, but the probability of it being spam the first time was 91% and the second time was 89%. Which characteristic of AI-based systems does this reflect?",
+        "options": [
+            "1. Explainability",
+            "2. Determinism",
+            "3. Probabilistic behavior",
+            "4. Static rules"
+        ],
+        "answer": ["3. Probabilistic behavior"],
+        "explaination": {
+            "1. Explainability": "Incorrect! Explainability relates to understanding the decision rationale.",
+            "2. Determinism": "Incorrect! Determinism would mean identical probabilities on both runs.",
+            "3. Probabilistic behavior": "Correct! Slight variations in probability scores across executions highlight the probabilistic and dynamic nature of certain AI models.",
+            "4. Static rules": "Incorrect! AI models do not rely on static rules."
+        }
+    },
+    {
+        "question": "Which statement is TRUE?",
+        "options": [
+            "1. AI systems are always more accurate than conventional systems.",
+            "2. AI systems always have good explainability.",
+            "3. Conventional systems need to learn from data to function.",
+            "4. AI systems often learn patterns from data."
+        ],
+        "answer": ["4. AI systems often learn patterns from data."],
+        "explaination": {
+            "1. AI systems are always more accurate than conventional systems.": "Incorrect! AI systems can make mistakes and hallucinate.",
+            "2. AI systems always have good explainability.": "Incorrect! Many advanced AI models (like deep neural networks) have very low explainability.",
+            "3. Conventional systems need to learn from data to function.": "Incorrect! Conventional systems function via programmed rules, not data learning.",
+            "4. AI systems often learn patterns from data.": "Correct! Machine learning models build their predictive logic by discovering patterns within training datasets."
+        }
+    },
+    {
+        "question": "A conventional software system calculates shipping costs using predefined business rules. Which characteristic does this demonstrate?",
+        "options": [
+            "1. Pattern recognition",
+            "2. Statistical inference",
+            "3. Explicit rule-based processing",
+            "4. Self-learning"
+        ],
+        "answer": ["3. Explicit rule-based processing"],
+        "explaination": {
+            "1. Pattern recognition": "Incorrect! Pattern recognition is typical of AI/ML systems.",
+            "2. Statistical inference": "Incorrect! Statistical inference applies to probabilistic models.",
+            "3. Explicit rule-based processing": "Correct! Predefined business rules executed by software represent explicit rule-based processing.",
+            "4. Self-learning": "Incorrect! Self-learning applies to AI systems that update from data."
+        }
+    },
+    {
+        "question": "An AI model was trained using thousands of customer emails to classify messages as \"spam\" or \"not spam\". What is the primary source of the model's behavior?",
+        "options": [
+            "1. If-then-else statements created by developers",
+            "2. Patterns learned from training data",
+            "3. Hardcoded business logic",
+            "4. Regression test cases"
+        ],
+        "answer": ["2. Patterns learned from training data"],
+        "explaination": {
+            "1. If-then-else statements created by developers": "Incorrect! Developers do not write manual spam rules in a machine learning approach.",
+            "2. Patterns learned from training data": "Correct! Machine learning models acquire their classification behavior by extracting statistical patterns from training email datasets.",
+            "3. Hardcoded business logic": "Incorrect! This describes conventional programming.",
+            "4. Regression test cases": "Incorrect! Test cases verify behavior, they do not generate it."
+        }
+    },
+    {
+        "question": "Which statement about AI-based systems is TRUE?",
+        "options": [
+            "1. They always produce identical outputs for identical inputs.",
+            "2. They rely entirely on manually coded decision rules.",
+            "3. They often use probabilistic reasoning.",
+            "4. They cannot be tested."
+        ],
+        "answer": ["3. They often use probabilistic reasoning."],
+        "explaination": {
+            "1. They always produce identical outputs for identical inputs.": "Incorrect! Some AI models incorporate stochastic elements or probabilistic scoring.",
+            "2. They rely entirely on manually coded decision rules.": "Incorrect! They learn from data.",
+            "3. They often use probabilistic reasoning.": "Correct! AI models frequently evaluate inputs and assign probabilities to various outcomes.",
+            "4. They cannot be tested.": "Incorrect! They can and must be tested using specialized AI quality assurance methods."
+        }
+    },
+    {
+        "question": "A tester notices that understanding how an AI model reached a decision is very difficult. Which AI challenge is being observed?",
+        "options": [
+            "1. Scalability",
+            "2. Explainability",
+            "3. Maintainability",
+            "4. Portability"
+        ],
+        "answer": ["2. Explainability"],
+        "explaination": {
+            "1. Scalability": "Incorrect! Relates to handling growing workloads.",
+            "2. Explainability": "Correct! Difficulty in tracing or interpreting how an AI model arrived at a specific output is the core challenge of explainability (black box problem).",
+            "3. Maintainability": "Incorrect! Relates to code modification ease.",
+            "4. Portability": "Incorrect! Relates to running across environments."
+        }
+    },
+    {
+        "question": "Why are AI systems often described as \"black boxes\"?",
+        "options": [
+            "1. Their source code is encrypted.",
+            "2. Their outputs are hidden from users.",
+            "3. Their internal decision-making process may be difficult to understand.",
+            "4. They can only run on specialized hardware."
+        ],
+        "answer": ["3. Their internal decision-making process may be difficult to understand."],
+        "explaination": {
+            "1. Their source code is encrypted.": "Incorrect! Encryption is unrelated to the black box concept.",
+            "2. Their outputs are hidden from users.": "Incorrect! Outputs are presented to users.",
+            "3. Their internal decision-making process may be difficult to understand.": "Correct! The complexity of internal weights and feature transformations makes the reasoning path opaque (black box).",
+            "4. They can only run on specialized hardware.": "Incorrect! False; they can run on standard CPUs/GPUs."
+        }
+    },
+    {
+        "question": "Which characteristic is MOST associated with conventional systems?",
+        "options": [
+            "1. Adaptability",
+            "2. Learning from experience",
+            "3. Deterministic behavior",
+            "4. Continuous model improvement"
+        ],
+        "answer": ["3. Deterministic behavior"],
+        "explaination": {
+            "1. Adaptability": "Incorrect! More characteristic of AI systems.",
+            "2. Learning from experience": "Incorrect! Characteristic of machine learning.",
+            "3. Deterministic behavior": "Correct! Conventional systems execute fixed code deterministically.",
+            "4. Continuous model improvement": "Incorrect! Requires retraining/ML pipelines."
+        }
+    },
+    {
+        "question": "An organization wants a system that can improve its fraud detection accuracy as new transactions become available. What AI characteristic supports this requirement?",
+        "options": [
+            "1. Transparency",
+            "2. Adaptability",
+            "3. Determinism",
+            "4. Static rules"
+        ],
+        "answer": ["2. Adaptability"],
+        "explaination": {
+            "1. Transparency": "Incorrect! Transparency concerns explainability.",
+            "2. Adaptability": "Correct! Adaptability enables the system to update its knowledge and improve performance as new transactional data arrives.",
+            "3. Determinism": "Incorrect! Determinism keeps behavior fixed.",
+            "4. Static rules": "Incorrect! Static rules cannot adapt without manual rewriting."
+        }
+    },
+    {
+        "question": "Which statement best describes deterministic behavior?",
+        "options": [
+            "1. Outputs are based on probabilities.",
+            "2. Results vary each time the system runs.",
+            "3. The same input always produces the same output.",
+            "4. The system continuously learns."
+        ],
+        "answer": ["3. The same input always produces the same output."],
+        "explaination": {
+            "1. Outputs are based on probabilities.": "Incorrect! Describes probabilistic systems.",
+            "2. Results vary each time the system runs.": "Incorrect! Describes non-deterministic behavior.",
+            "3. The same input always produces the same output.": "Correct! Determinism guarantees consistent, repeatable output for any given input.",
+            "4. The system continuously learns.": "Incorrect! Describes self-learning AI systems."
+        }
+    },
+    {
+        "question": "Which of the following is MOST likely an AI-based system?",
+        "options": [
+            "1. Tax calculator using predefined tax rates",
+            "2. Unit conversion application",
+            "3. Facial recognition system",
+            "4. Interest calculation program"
+        ],
+        "answer": ["3. Facial recognition system"],
+        "explaination": {
+            "1. Tax calculator using predefined tax rates": "Incorrect! Rule-based conventional program.",
+            "2. Unit conversion application": "Incorrect! Deterministic mathematical formula.",
+            "3. Facial recognition system": "Correct! Uses machine learning and computer vision models to identify facial features.",
+            "4. Interest calculation program": "Incorrect! Uses fixed financial formulas."
+        }
+    },
+    {
+        "question": "Which type of AI includes all AI systems currently deployed in real-world applications?",
+        "options": [
+            "1. General AI",
+            "2. Super AI",
+            "3. Narrow AI",
+            "4. Artificial Superintelligence"
+        ],
+        "answer": ["3. Narrow AI"],
+        "explaination": {
+            "1. General AI": "Incorrect! General AI (AGI) does not yet exist in real-world deployments.",
+            "2. Super AI": "Incorrect! Super AI is a hypothetical future category and is not currently deployed.",
+            "3. Narrow AI": "Correct! All currently deployed real-world AI systems fall under Narrow AI (Weak AI), as they are designed to perform specific, bounded tasks.",
+            "4. Artificial Superintelligence": "Incorrect! ASI is theoretical and far beyond current technology."
+        }
+    },
+    {
+        "question": "What distinguishes General AI from Narrow AI?",
+        "options": [
+            "1. It requires more training data.",
+            "2. It can only perform one task.",
+            "3. It can apply knowledge across multiple domains without task-specific retraining.",
+            "4. It always has internet access."
+        ],
+        "answer": ["3. It can apply knowledge across multiple domains without task-specific retraining."],
+        "explaination": {
+            "1. It requires more training data.": "Incorrect! Training data volume does not define the architectural distinction of General AI.",
+            "2. It can only perform one task.": "Incorrect! Performing single or specialized tasks is characteristic of Narrow AI.",
+            "3. It can apply knowledge across multiple domains without task-specific retraining.": "Correct! General AI (AGI) is capable of human-like generalization, applying understanding and learning across diverse domains without requiring dedicated retraining for each new task.",
+            "4. It always has internet access.": "Incorrect! Internet connectivity is unrelated to AI intelligence classifications."
+        }
+    },
+    {
+        "question": "Which statement about Frontier AI is correct?",
+        "options": [
+            "1. It is a form of Super AI.",
+            "2. It exceeds human intelligence.",
+            "3. It is the most advanced form of Narrow AI.",
+            "4. It possesses General Intelligence."
+        ],
+        "answer": ["3. It is the most advanced form of Narrow AI."],
+        "explaination": {
+            "1. It is a form of Super AI.": "Incorrect! Frontier AI refers to highly capable foundation models, which are still classified under Narrow AI.",
+            "2. It exceeds human intelligence.": "Incorrect! They excel at specific tasks but do not possess general superhuman intelligence across all domains.",
+            "3. It is the most advanced form of Narrow AI.": "Correct! Frontier AI represents state-of-the-art, highly versatile foundation models that remain within the broader category of Narrow AI.",
+            "4. It possesses General Intelligence.": "Incorrect! They do not possess true General Intelligence (AGI)."
+        }
+    },
+    {
+        "question": "According to the syllabus, which statement about General AI is true?",
+        "options": [
+            "1. Several General AI systems are already deployed.",
+            "2. General AI is synonymous with Frontier AI.",
+            "3. No AI system today possesses General Intelligence.",
+            "4. General AI exceeds human intelligence."
+        ],
+        "answer": ["3. No AI system today possesses General Intelligence."],
+        "explaination": {
+            "1. Several General AI systems are already deployed.": "Incorrect! No AGI systems have been deployed yet.",
+            "2. General AI is synonymous with Frontier AI.": "Incorrect! Frontier AI refers to advanced foundation models (still Narrow AI), whereas General AI is hypothetical.",
+            "3. No AI system today possesses General Intelligence.": "Correct! According to standard AI testing and certification syllabi, true General Intelligence (AGI) has not yet been achieved.",
+            "4. General AI exceeds human intelligence.": "Incorrect! Exceeding human intelligence across all domains describes Super AI, while AGI matches human-level versatility."
+        }
+    },
+    {
+        "question": "What is meant by \"technological singularity\"?",
+        "options": [
+            "1. The point where AI loses internet access.",
+            "2. The transition from Narrow AI to General AI.",
+            "3. The transition from General AI to Super AI.",
+            "4. The replacement of machine learning by deep learning."
+        ],
+        "answer": ["3. The transition from General AI to Super AI."],
+        "explaination": {
+            "1. The point where AI loses internet access.": "Incorrect! Unrelated to connectivity.",
+            "2. The transition from Narrow AI to General AI.": "Incorrect! This describes the achievement of AGI.",
+            "3. The transition from General AI to Super AI.": "Correct! Technological singularity (or the intelligence explosion) refers to the hypothetical point where Super AI systems undergo recursive self-improvement, vastly and uncontrollably surpassing human intelligence.",
+            "4. The replacement of machine learning by deep learning.": "Incorrect! Unrelated to algorithm shifts."
+        }
+    },
+    {
+        "question": "Which AI category is characterized by continuous self-improvement without human intervention?",
+        "options": [
+            "1. Narrow AI",
+            "2. Frontier AI",
+            "3. General AI",
+            "4. Super AI"
+        ],
+        "answer": ["4. Super AI"],
+        "explaination": {
+            "1. Narrow AI": "Incorrect! Narrow AI requires human retraining, curation, and intervention.",
+            "2. Frontier AI": "Incorrect! Frontier AI models require human-driven updates and fine-tuning.",
+            "3. General AI": "Incorrect! While AGI can learn, the specific concept of runaway recursive self-improvement without human limits defines Super AI.",
+            "4. Super AI": "Correct! Super AI (Artificial Superintelligence) is theorized to possess recursive self-improvement capabilities, evolving autonomously beyond human control."
+        }
+    },
+    {
+        "question": "Which machine learning approach uses labeled data for training?",
+        "options": [
+            "1. Reinforcement Learning",
+            "2. Unsupervised Learning",
+            "3. Supervised Learning",
+            "4. Fuzzy Learning"
+        ],
+        "answer": ["3. Supervised Learning"],
+        "explaination": {
+            "1. Reinforcement Learning": "Incorrect! Reinforcement learning relies on rewards and penalties from an environment, not labeled datasets.",
+            "2. Unsupervised Learning": "Incorrect! Unsupervised learning works with unlabeled data to discover hidden patterns or clusters.",
+            "3. Supervised Learning": "Correct! Supervised learning specifically trains algorithms using input features paired with ground-truth target labels.",
+            "4. Fuzzy Learning": "Incorrect! Not a standard core machine learning training paradigm."
+        }
+    },
+    {
+        "question": "A machine learning model groups customers into similar segments without predefined labels. Which learning approach is being used?",
+        "options": [
+            "1. Supervised Learning",
+            "2. Reinforcement Learning",
+            "3. Deep Learning",
+            "4. Unsupervised Learning"
+        ],
+        "answer": ["4. Unsupervised Learning"],
+        "explaination": {
+            "1. Supervised Learning": "Incorrect! Requires pre-existing labels for training.",
+            "2. Reinforcement Learning": "Incorrect! Relies on trial-and-error interaction with an environment.",
+            "3. Deep Learning": "Incorrect! Deep learning can be supervised, unsupervised, or reinforcement-based; grouping without labels describes unsupervised learning.",
+            "4. Unsupervised Learning": "Correct! Clustering algorithms group unlabeled data based on underlying similarities."
+        }
+    },
+    {
+        "question": "Which learning paradigm uses rewards and penalties to improve behavior?",
+        "options": [
+            "1. Supervised Learning",
+            "2. Reinforcement Learning",
+            "3. Unsupervised Learning",
+            "4. Bayesian Learning"
+        ],
+        "answer": ["2. Reinforcement Learning"],
+        "explaination": {
+            "1. Supervised Learning": "Incorrect! Uses explicit target labels.",
+            "2. Reinforcement Learning": "Correct! Agents learn to make decisions by receiving rewards or penalties based on their actions in an environment.",
+            "3. Unsupervised Learning": "Incorrect! Finds structures in unlabeled data.",
+            "4. Bayesian Learning": "Incorrect! Based on probability and Bayes' theorem."
+        }
+    },
+    {
+        "question": "Which neural network architecture is most suitable for image recognition?",
+        "options": [
+            "1. Transformer",
+            "2. RNN",
+            "3. CNN",
+            "4. SVM"
+        ],
+        "answer": ["3. CNN"],
+        "explaination": {
+            "1. Transformer": "Incorrect! Transformers are primarily designed for sequential data like text (though vision transformers exist, CNNs are the classic baseline).",
+            "2. RNN": "Incorrect! RNNs are designed for sequential time-series or text data.",
+            "3. CNN": "Correct! Convolutional Neural Networks (CNNs) are specifically structured with spatial filters optimized for processing grid-like image data.",
+            "4. SVM": "Incorrect! Support Vector Machines are traditional machine learning classifiers, not neural network architectures."
+        }
+    },
+    {
+        "question": "What is the relationship between AI, ML and DL?",
+        "options": [
+            "1. DL contains ML which contains AI",
+            "2. AI contains DL which contains ML",
+            "3. AI contains ML which contains DL",
+            "4. ML contains AI which contains DL"
+        ],
+        "answer": ["3. AI contains ML which contains DL"],
+        "explaination": {
+            "1. DL contains ML which contains AI": "Incorrect! The containment direction is inverted.",
+            "2. AI contains DL which contains ML": "Incorrect! Deep Learning is a specialized subset of Machine Learning.",
+            "3. AI contains ML which contains DL": "Correct! Artificial Intelligence is the broad umbrella field, Machine Learning is a subset of AI, and Deep Learning is a specialized subset of Machine Learning using multi-layered neural networks.",
+            "4. ML contains AI which contains DL": "Incorrect! AI encompasses ML, not the other way around."
+        }
+    },
+    {
+        "question": "Which technology is the primary foundation of modern large language models?",
+        "options": [
+            "1. Random Forest",
+            "2. Bayesian Models",
+            "3. Decision Trees",
+            "4. Transformers"
+        ],
+        "answer": ["4. Transformers"],
+        "explaination": {
+            "1. Random Forest": "Incorrect! An ensemble tree-based method, not the foundation of modern LLMs.",
+            "2. Bayesian Models": "Incorrect! Statistical models used for probability estimation.",
+            "3. Decision Trees": "Incorrect! Classical tabular models.",
+            "4. Transformers": "Correct! The Transformer architecture (utilizing self-attention mechanisms) serves as the core foundation for modern large language models like GPT."
+        }
+    },
+    {
+        "question": "Which AI technology is primarily concerned with sentiment analysis and machine translation?",
+        "options": [
+            "1. NLP",
+            "2. Computer Vision",
+            "3. Fuzzy Logic",
+            "4. Random Forest"
+        ],
+        "answer": ["1. NLP"],
+        "explaination": {
+            "1. NLP": "Correct! Natural Language Processing (NLP) deals with text and speech analysis, including tasks like sentiment analysis and machine translation.",
+            "2. Computer Vision": "Incorrect! Deals with images and video.",
+            "3. Fuzzy Logic": "Incorrect! Handles reasoning with degrees of truth rather than true/false.",
+            "4. Random Forest": "Incorrect! A machine learning algorithm, not a core technology domain like NLP."
+        }
+    },
+    {
+        "question": "What is a key characteristic of Agentic AI?",
+        "options": [
+            "1. It only classifies data.",
+            "2. It only generates text.",
+            "3. It plans, reasons and acts autonomously toward goals.",
+            "4. It replaces reinforcement learning."
+        ],
+        "answer": ["3. It plans, reasons and acts autonomously toward goals."],
+        "explaination": {
+            "1. It only classifies data.": "Incorrect! Too narrow; agentic systems perform complex workflows.",
+            "2. It only generates text.": "Incorrect! They go beyond simple generation.",
+            "3. It plans, reasons and acts autonomously toward goals.": "Correct! Agentic AI systems possess autonomous capabilities to reason, break down multi-step plans, use tools, and execute actions to achieve specific objectives.",
+            "4. It replaces reinforcement learning.": "Incorrect! Agentic systems often leverage or build upon reinforcement learning principles."
+        }
+    },
+    {
+        "question": "Which technology uses two neural networks competing against each other to generate realistic synthetic data?",
+        "options": [
+            "1. Transformer",
+            "2. Diffusion Model",
+            "3. GAN",
+            "4. Random Forest"
+        ],
+        "answer": ["3. GAN"],
+        "explaination": {
+            "1. Transformer": "Incorrect! Uses attention mechanisms for sequence modeling.",
+            "2. Diffusion Model": "Incorrect! Generates data by iterative noise removal.",
+            "3. GAN": "Correct! Generative Adversarial Networks (GANs) consist of a generator and a discriminator network competing against each other to produce realistic synthetic data.",
+            "4. Random Forest": "Incorrect! A tree-based ensemble method."
+        }
+    },
+    {
+        "question": "How do diffusion models generate high-quality content?",
+        "options": [
+            "1. By applying clustering algorithms",
+            "2. By adding and then removing noise from data",
+            "3. By using rule-based reasoning",
+            "4. By using reinforcement learning"
+        ],
+        "answer": ["2. By adding and then removing noise from data"],
+        "explaination": {
+            "1. By applying clustering algorithms": "Incorrect! Clustering is for unsupervised grouping.",
+            "2. By adding and then removing noise from data": "Correct! Diffusion models work by learning to iteratively denoise random Gaussian noise into structured, high-quality images or content.",
+            "3. By using rule-based reasoning": "Incorrect! They are probabilistic deep generative models.",
+            "4. By using reinforcement learning": "Incorrect! They are trained via diffusion processes, though RLHF can be applied later."
+        }
+    },
+    {
+        "question": "What mechanism is central to transformer models?",
+        "options": [
+            "1. Clustering",
+            "2. Gradient Boosting",
+            "3. Self-Attention",
+            "4. Decision Rules"
+        ],
+        "answer": ["3. Self-Attention"],
+        "explaination": {
+            "1. Clustering": "Incorrect! Unsupervised partitioning method.",
+            "2. Gradient Boosting": "Incorrect! Ensemble tree method.",
+            "3. Self-Attention": "Correct! The self-attention mechanism allows transformer models to weigh the importance of different words/tokens in a sequence regardless of their positional distance.",
+            "4. Decision Rules": "Incorrect! Rule-based systems are conventional."
+        }
+    },
+    {
+        "question": "Which statement about Generative AI is TRUE?",
+        "options": [
+            "1. It is limited to classification tasks.",
+            "2. It can create new content such as text, images, and audio.",
+            "3. It only works with structured data.",
+            "4. It is based exclusively on reinforcement learning."
+        ],
+        "answer": ["2. It can create new content such as text, images, and audio."],
+        "explaination": {
+            "1. It is limited to classification tasks.": "Incorrect! Classification is predictive AI; GenAI creates new outputs.",
+            "2. It can create new content such as text, images, and audio.": "Correct! Generative AI models are specifically designed to synthesize brand-new content across modalities like text, images, video, and audio.",
+            "3. It only works with structured data.": "Incorrect! It primarily operates on unstructured data (text, pixels, audio waveforms).",
+            "4. It is based exclusively on reinforcement learning.": "Incorrect! They are primarily trained on self-supervised pre-training followed by fine-tuning."
+        }
+    },
+    {
+        "question": "What is a foundation model typically used for?",
+        "options": [
+            "1. It is directly deployed without modification.",
+            "2. It is fine-tuned for specific applications.",
+            "3. It replaces all machine learning models.",
+            "4. It only supports image generation."
+        ],
+        "answer": ["2. It is fine-tuned for specific applications."],
+        "explaination": {
+            "1. It is directly deployed without modification.": "Incorrect! While zero-shot prompting is common, they are frequently adapted or fine-tuned.",
+            "2. It is fine-tuned for specific applications.": "Correct! Foundation models serve as broad, pre-trained base models that are subsequently fine-tuned or adapted for downstream domain-specific tasks.",
+            "3. It replaces all machine learning models.": "Incorrect! They are not universal replacements for every specialized ML task.",
+            "4. It only supports image generation.": "Incorrect! They support text, multimodal inputs, code, and more."
+        }
+    },
+    {
+        "question": "Which concern is directly associated with the environmental impact of GenAI?",
+        "options": [
+            "1. Overfitting",
+            "2. Data Labeling",
+            "3. Carbon Footprint",
+            "4. Clustering Errors"
+        ],
+        "answer": ["3. Carbon Footprint"],
+        "explaination": {
+            "1. Overfitting": "Incorrect! A model generalization issue, not environmental.",
+            "2. Data Labeling": "Incorrect! A data preparation cost/effort concern.",
+            "3. Carbon Footprint": "Correct! Training and running massive generative AI foundation models consume immense electrical energy, resulting in a significant carbon footprint.",
+            "4. Clustering Errors": "Incorrect! An unsupervised learning metric issue."
+        }
+    },
+    {
+        "question": "A model can process text, images, and audio as both inputs and outputs. According to the syllabus, this model is best described as:",
+        "options": [
+            "1. Supervised",
+            "2. Multimodal",
+            "3. Rule-Based",
+            "4. Bayesian"
+        ],
+        "answer": ["2. Multimodal"],
+        "explaination": {
+            "1. Supervised": "Incorrect! Refers to training methodology with labels.",
+            "2. Multimodal": "Correct! Multimodal AI models are capable of processing, integrating, and generating multiple data types or modalities (text, images, audio).",
+            "3. Rule-Based": "Incorrect! Traditional programmatic logic.",
+            "4. Bayesian": "Incorrect! Probabilistic mathematical model."
+        }
+    },
+    {
+        "question": "Which hardware characteristic is particularly beneficial for training machine learning models?",
+        "options": [
+            "1. High clock speed only",
+            "2. Massively parallel processing",
+            "3. Mechanical storage",
+            "4. Single-core execution"
+        ],
+        "answer": ["2. Massively parallel processing"],
+        "explaination": {
+            "1. High clock speed only": "Incorrect! Single-core clock speed is less critical than parallelism for matrix math.",
+            "2. Massively parallel processing": "Correct! Neural network training involves massive matrix multiplications that are efficiently accelerated through massively parallel processing architectures (like GPUs/TPUs).",
+            "3. Mechanical storage": "Incorrect! Slow bottlenecks; modern training requires high-speed SSDs/RAM.",
+            "4. Single-core execution": "Incorrect! Inefficient for deep learning workloads."
+        }
+    },
+    {
+        "question": "Why do GPUs generally outperform CPUs in machine learning applications?",
+        "options": [
+            "1. GPUs use less memory",
+            "2. GPUs have higher clock speeds",
+            "3. GPUs contain thousands of cores optimized for parallel processing",
+            "4. GPUs only support low-precision arithmetic"
+        ],
+        "answer": ["3. GPUs contain thousands of cores optimized for parallel processing"],
+        "explaination": {
+            "1. GPUs use less memory": "Incorrect! GPUs often manage large VRAM pools.",
+            "2. GPUs have higher clock speeds": "Incorrect! CPUs often have higher single-core clock speeds.",
+            "3. GPUs contain thousands of cores optimized for parallel processing": "Correct! GPUs feature thousands of smaller cores designed to execute parallel tensor and matrix operations simultaneously.",
+            "4. GPUs only support low-precision arithmetic": "Incorrect! They support high-precision float arithmetic as well."
+        }
+    },
+    {
+        "question": "What is the primary purpose of quantization in machine learning hardware?",
+        "options": [
+            "1. Increase model complexity",
+            "2. Improve network security",
+            "3. Reduce computational precision to improve efficiency",
+            "4. Increase training dataset size"
+        ],
+        "answer": ["3. Reduce computational precision to improve efficiency"],
+        "explaination": {
+            "1. Increase model complexity": "Incorrect! Quantization reduces model footprint.",
+            "2. Improve network security": "Incorrect! Not a security mechanism.",
+            "3. Reduce computational precision to improve efficiency": "Correct! Quantization converts weights from higher precision (e.g., FP32) to lower precision (e.g., INT8/INT4), reducing memory bandwidth requirements and accelerating inference speed.",
+            "4. Increase training dataset size": "Incorrect! Unrelated to data volume."
+        }
+    },
+    {
+        "question": "According to the syllabus, AI-specific hardware such as ASICs is particularly suitable for:",
+        "options": [
+            "1. Spreadsheet processing",
+            "2. Edge computing",
+            "3. Database normalization",
+            "4. Manual software testing"
+        ],
+        "answer": ["2. Edge computing"],
+        "explaination": {
+            "1. Spreadsheet processing": "Incorrect! Handled by standard general-purpose CPUs.",
+            "2. Edge computing": "Correct! Application-Specific Integrated Circuits (ASICs) and specialized neural processing units provide high energy efficiency and performance required for deploying AI models on edge devices.",
+            "3. Database normalization": "Incorrect! Relational database task.",
+            "4. Manual software testing": "Incorrect! Performed by humans."
+        }
+    },
+    {
+        "question": "Which statement about training and inference is TRUE?",
+        "options": [
+            "1. They always require identical hardware.",
+            "2. Inference generally requires more computing power than training.",
+            "3. Training may be performed in the cloud, while inference can run on lower-end devices.",
+            "4. Inference can only be performed on GPUs."
+        ],
+        "answer": ["3. Training may be performed in the cloud, while inference can run on lower-end devices."],
+        "explaination": {
+            "1. They always require identical hardware.": "Incorrect! Training demands heavy clusters, whereas inference can run on smartphones.",
+            "2. Inference generally requires more computing power than training.": "Incorrect! Training is computationally much more intensive.",
+            "3. Training may be performed in the cloud, while inference can run on lower-end devices.": "Correct! Training requires massive compute resources typically hosted in the cloud, whereas inference can often be optimized to run on lighter hardware or edge devices.",
+            "4. Inference can only be performed on GPUs.": "Incorrect!"
+        }
+    },
+    {
+        "question": "What distinguishes neuromorphic processors from traditional processors?",
+        "options": [
+            "1. They use higher clock frequencies.",
+            "2. They are based on brain-inspired architectures rather than the traditional von Neumann architecture.",
+            "3. They only support image processing.",
+            "4. They cannot be used for AI applications."
+        ],
+        "answer": ["2. They are based on brain-inspired architectures rather than the traditional von Neumann architecture."],
+        "explaination": {
+            "1. They use higher clock frequencies.": "Incorrect! Clock speed is not their defining feature.",
+            "2. They are based on brain-inspired architectures rather than the traditional von Neumann architecture.": "Correct! Neuromorphic chips mimic biological brains (spiking neural networks) to process information asynchronously and efficiently, departing from standard von Neumann architecture.",
+            "3. They only support image processing.": "Incorrect! They handle general neural computations.",
+            "4. They cannot be used for AI applications.": "Incorrect!"
+        }
+    },
+    {
+        "question": "What is a common advantage of obtaining an AI solution from a third-party vendor?",
+        "options": [
+            "1. Unlimited customization",
+            "2. Faster deployment and shorter time-to-market",
+            "3. Elimination of all security concerns",
+            "4. No need for model maintenance"
+        ],
+        "answer": ["2. Faster deployment and shorter time-to-market"],
+        "explaination": {
+            "1. Unlimited customization": "Incorrect! Third-party solutions typically offer limited customization compared to building from scratch.",
+            "2. Faster deployment and shorter time-to-market": "Correct! Using pre-built third-party AI solutions or APIs significantly reduces development time and accelerates time-to-market.",
+            "3. Elimination of all security concerns": "Incorrect! Security risks still exist and must be managed when integrating external vendors.",
+            "4. No need for model maintenance": "Incorrect! Ongoing monitoring, integration maintenance, and vendor updates are still required."
+        }
+    },
+    {
+        "question": "Which statement about local development is TRUE?",
+        "options": [
+            "1. It always requires cloud infrastructure.",
+            "2. It provides direct control and privacy.",
+            "3. It is only suitable for large language models.",
+            "4. It eliminates hardware costs."
+        ],
+        "answer": ["2. It provides direct control and privacy."],
+        "explaination": {
+            "1. It always requires cloud infrastructure.": "Incorrect! Local development runs on local on-premise hardware.",
+            "2. It provides direct control and privacy.": "Correct! Developing locally on internal hardware provides maximum control over the environment, data privacy, and security compliance.",
+            "3. It is only suitable for large language models.": "Incorrect! Used for models of all sizes, from small classifiers to large networks.",
+            "4. It eliminates hardware costs.": "Incorrect! Local development requires purchasing and maintaining local hardware."
+        }
+    },
+    {
+        "question": "What is a key characteristic of public cloud development?",
+        "options": [
+            "1. Fixed infrastructure capacity",
+            "2. Mandatory hardware ownership",
+            "3. Pay-as-you-go pricing and scalability",
+            "4. No support for AI workloads"
+        ],
+        "answer": ["3. Pay-as-you-go pricing and scalability"],
+        "explaination": {
+            "1. Fixed infrastructure capacity": "Incorrect! Public clouds offer elastic scaling.",
+            "2. Mandatory hardware ownership": "Incorrect! The cloud provider owns the physical hardware.",
+            "3. Pay-as-you-go pricing and scalability": "Correct! Public cloud platforms provide flexible, scalable compute resources with on-demand pay-as-you-go pricing models.",
+            "4. No support for AI workloads": "Incorrect! Public clouds provide specialized GPU/TPU instances for AI."
+        }
+    },
+    {
+        "question": "Which hosting option typically offers enhanced security and customization at a higher cost?",
+        "options": [
+            "1. Public Cloud",
+            "2. Local Hosting",
+            "3. Private Cloud",
+            "4. AIaaS"
+        ],
+        "answer": ["3. Private Cloud"],
+        "explaination": {
+            "1. Public Cloud": "Incorrect! Shared infrastructure with lower baseline security than private environments.",
+            "2. Local Hosting": "Incorrect! Local hosting has high capital costs, but private cloud specifically combines cloud scalability with dedicated enterprise security.",
+            "3. Private Cloud": "Correct! A private cloud environment provides dedicated infrastructure, enhanced security controls, and high customization, typically at a higher cost than public cloud options.",
+            "4. AIaaS": "Incorrect! AI as a Service is usually hosted on public/shared infrastructure."
+        }
+    },
+    {
+        "question": "According to the syllabus, why do organizations often adopt hybrid approaches?",
+        "options": [
+            "1. To avoid using AI models",
+            "2. To combine the advantages of local and cloud resources",
+            "3. To eliminate security requirements",
+            "4. To remove the need for GPUs"
+        ],
+        "answer": ["2. To combine the advantages of local and cloud resources"],
+        "explaination": {
+            "1. To avoid using AI models": "Incorrect! Hybrid approaches are used to deploy AI.",
+            "2. To combine the advantages of local and cloud resources": "Correct! Hybrid models allow organizations to leverage local infrastructure for sensitive data and compliance while utilizing cloud scalability for heavy training workloads.",
+            "3. To eliminate security requirements": "Incorrect! Security remains paramount.",
+            "4. To remove the need for GPUs": "Incorrect! GPUs are still required for AI workloads."
+        }
+    },
+    {
+        "question": "Which factor may influence the choice of AI model hosting and development strategy?",
+        "options": [
+            "1. Model size",
+            "2. Budget constraints",
+            "3. Regulatory requirements",
+            "4. All of the above"
+        ],
+        "answer": ["4. All of the above"],
+        "explaination": {
+            "1. Model size": "Incorrect! Partial answer; model size dictates compute needs.",
+            "2. Budget constraints": "Incorrect! Partial answer; cost dictates hosting choices.",
+            "3. Regulatory requirements": "Incorrect! Partial answer; data privacy rules dictate local/private hosting.",
+            "4. All of the above": "Correct! Model size, budget constraints, and regulatory requirements all collectively influence the optimal hosting and development strategy."
+        }
+    },
+    {
+        "question": "Which of the following activities is typically part of the data handling functionality of an ML framework?",
+        "options": [
+            "1. Deploying a model to production",
+            "2. Cleaning and transforming data",
+            "3. Measuring recall",
+            "4. Adjusting model weights"
+        ],
+        "answer": ["2. Cleaning and transforming data"],
+        "explaination": {
+            "1. Deploying a model to production": "Incorrect! A deployment/serving task.",
+            "2. Cleaning and transforming data": "Correct! ML frameworks provide utilities (like data loaders, tensor transformations, and preprocessing pipelines) for data handling.",
+            "3. Measuring recall": "Incorrect! An evaluation task.",
+            "4. Adjusting model weights": "Incorrect! A training/optimization task."
+        }
+    },
+    {
+        "question": "What is the primary objective of training and optimization in an ML framework?",
+        "options": [
+            "1. Reduce dataset size",
+            "2. Deploy the model",
+            "3. Adjust model parameters to improve task performance",
+            "4. Convert the model into a mobile format"
+        ],
+        "answer": ["3. Adjust model parameters to improve task performance"],
+        "explaination": {
+            "1. Reduce dataset size": "Incorrect! Data reduction is preprocessing.",
+            "2. Deploy the model": "Incorrect! Deployment happens after training.",
+            "3. Adjust model parameters to improve task performance": "Correct! Training and optimization iteratively update internal model weights and parameters via loss minimization to maximize predictive accuracy.",
+            "4. Convert the model into a mobile format": "Incorrect! Model conversion/quantization is a separate post-training step."
+        }
+    },
+    {
+        "question": "Which statement about evaluation is TRUE?",
+        "options": [
+            "1. It is only performed before training.",
+            "2. It measures performance on unseen data.",
+            "3. It replaces deployment activities.",
+            "4. It is used only for regression models."
+        ],
+        "answer": ["2. It measures performance on unseen data."],
+        "explaination": {
+            "1. It is only performed before training.": "Incorrect! Evaluation happens after training on validation/test sets.",
+            "2. It measures performance on unseen data.": "Correct! Model evaluation assesses how well the trained model generalizes to independent validation and test datasets it has not encountered during training.",
+            "3. It replaces deployment activities.": "Incorrect! Evaluation precedes deployment.",
+            "4. It is used only for regression models.": "Incorrect! Used for classification, clustering, NLP, and all model types."
+        }
+    },
+    {
+        "question": "What is a key characteristic of a low-level API?",
+        "options": [
+            "1. Less coding and more simplicity",
+            "2. More control over model construction",
+            "3. No support for customization",
+            "4. Intended only for deployment"
+        ],
+        "answer": ["2. More control over model construction"],
+        "explaination": {
+            "1. Less coding and more simplicity": "Incorrect! Low-level APIs require more verbose code and manual implementation.",
+            "2. More control over model construction": "Correct! Low-level APIs give developers granular control over tensor operations, custom layer architectures, and gradient calculations.",
+            "3. No support for customization": "Incorrect! They offer maximum customization.",
+            "4. Intended only for deployment": "Incorrect! Used heavily in custom research and model design."
+        }
+    },
+    {
+        "question": "Which factor may influence the selection of a machine learning development framework?",
+        "options": [
+            "1. User expertise",
+            "2. Deployment requirements",
+            "3. Community support",
+            "4. All of the above"
+        ],
+        "answer": ["4. All of the above"],
+        "explaination": {
+            "1. User expertise": "Incorrect! Partial factor.",
+            "2. Deployment requirements": "Incorrect! Partial factor.",
+            "3. Community support": "Incorrect! Partial factor.",
+            "4. All of the above": "Correct! Framework selection depends on team expertise, deployment targets, community ecosystem, documentation, and performance."
+        }
+    },
+    {
+        "question": "A framework is designed specifically for speech recognition tasks. According to the syllabus, this framework is best described as:",
+        "options": [
+            "1. General-purpose",
+            "2. Specialized",
+            "3. Distributed",
+            "4. Embedded"
+        ],
+        "answer": ["2. Specialized"],
+        "explaination": {
+            "1. General-purpose": "Incorrect! General-purpose frameworks handle multiple domains (e.g., PyTorch, TensorFlow).",
+            "2. Specialized": "Correct! Frameworks tailored for a single domain (like audio, speech, or specific vision tasks) are classified as specialized frameworks.",
+            "3. Distributed": "Incorrect! Refers to multi-node training capability.",
+            "4. Embedded": "Incorrect! Refers to edge hardware deployment."
+        }
+    },
+    {
+        "question": "What is the primary objective of AI regulations and standards?",
+        "options": [
+            "1. Eliminate all AI systems",
+            "2. Increase hardware performance",
+            "3. Foster trust in AI while mitigating potential harms",
+            "4. Replace software testing activities"
+        ],
+        "answer": ["3. Foster trust in AI while mitigating potential harms"],
+        "explaination": {
+            "1. Eliminate all AI systems": "Incorrect! Regulations aim to govern, not ban, beneficial AI.",
+            "2. Increase hardware performance": "Incorrect! Hardware performance is driven by engineering, not policy.",
+            "3. Foster trust in AI while mitigating potential harms": "Correct! AI regulations and standards establish guardrails to ensure safety, ethics, transparency, and accountability while promoting trustworthy innovation.",
+            "4. Replace software testing activities": "Incorrect! Regulations mandate rigorous testing."
+        }
+    },
+    {
+        "question": "Which of the following is an example of a soft law instrument?",
+        "options": [
+            "1. EU AI Act",
+            "2. ISO/IEC TR 29119-11",
+            "3. OECD AI Principles",
+            "4. National legislation"
+        ],
+        "answer": ["3. OECD AI Principles"],
+        "explaination": {
+            "1. EU AI Act": "Incorrect! Hard law (binding legislation).",
+            "2. ISO/IEC TR 29119-11": "Incorrect! Technical standard / guideline.",
+            "3. OECD AI Principles": "Correct! OECD AI Principles are non-binding policy guidelines, making them a classic example of soft law instruments.",
+            "4. National legislation": "Incorrect! Hard law."
+        }
+    },
+    {
+        "question": "What regulatory approach is used by the EU AI Act?",
+        "options": [
+            "1. Hardware-Based Approach",
+            "2. Risk-Based Approach",
+            "3. Cost-Based Approach",
+            "4. Performance-Based Approach"
+        ],
+        "answer": ["2. Risk-Based Approach"],
+        "explaination": {
+            "1. Hardware-Based Approach": "Incorrect! Unrelated to hardware classification.",
+            "2. Risk-Based Approach": "Correct! The EU AI Act categorizes AI systems into different tiers (unacceptable, high, limited, minimal risk) and applies regulatory obligations proportionally.",
+            "3. Cost-Based Approach": "Incorrect! Not based on financial cost.",
+            "4. Performance-Based Approach": "Incorrect! Focused primarily on risk tiers."
+        }
+    },
+    {
+        "question": "Which requirement is specifically associated with high-risk AI systems under the EU AI Act?",
+        "options": [
+            "1. Removal of human oversight",
+            "2. Elimination of testing activities",
+            "3. Rigorous testing and data governance",
+            "4. Mandatory open-source publication"
+        ],
+        "answer": ["3. Rigorous testing and data governance"],
+        "explaination": {
+            "1. Removal of human oversight": "Incorrect! Human oversight is mandated, not removed.",
+            "2. Elimination of testing activities": "Incorrect! Testing is strictly required.",
+            "3. Rigorous testing and data governance": "Correct! High-risk AI systems must meet strict requirements regarding data quality, documentation, risk management, traceability, human oversight, and rigorous testing.",
+            "4. Mandatory open-source publication": "Incorrect! Open-source is not a legal mandate under the act."
+        }
+    },
+    {
+        "question": "Which standard provides detailed guidance for testing AI-based systems?",
+        "options": [
+            "1. ISO/IEC TR 29119-11",
+            "2. OECD AI Principles",
+            "3. EU AI Act",
+            "4. IEEE 802.11"
+        ],
+        "answer": ["1. ISO/IEC TR 29119-11"],
+        "explaination": {
+            "1. ISO/IEC TR 29119-11":  "Correct! ISO/IEC TR 29119-11 is the international technical report/standard specifically providing guidance on AI testing.",
+            "2. OECD AI Principles": "Incorrect! High-level policy principles.",
+            "3. EU AI Act": "Incorrect! Legislative regulation, not a testing technical standard.",
+            "4. IEEE 802.11": "Incorrect! Wi-Fi wireless networking standard."
+        }
+    },
+    {
+        "question": "Why must AI regulations and standards be regularly updated?",
+        "options": [
+            "1. Because AI systems no longer require testing",
+            "2. Because hardware becomes obsolete",
+            "3. Because AI technology evolves rapidly",
+            "4. Because cloud services require yearly audits"
+        ],
+        "answer": ["3. Because AI technology evolves rapidly"],
+        "explaination": {
+            "1. Because AI systems no longer require testing": "Incorrect! Testing remains critical.",
+            "2. Because hardware becomes obsolete": "Incorrect! Hardware is a secondary factor compared to algorithmic advancement.",
+            "3. Because AI technology evolves rapidly": "Correct! The fast-paced evolution of AI capabilities, techniques, and deployment models requires standards and regulations to adapt continuously to new risks.",
+            "4. Because cloud services require yearly audits": "Incorrect! Unrelated to regulatory lifecycle updates."
+        }
+    },
+    {
+        "question": "Which AI-specific quality characteristic recognizes that AI systems may produce a certain acceptable level of incorrect outputs?",
+        "options": [
+            "1. AI Robustness",
+            "2. User Controllability",
+            "3. AI Functional Correctness",
+            "4. Transparency"
+        ],
+        "answer": ["3. AI Functional Correctness"],
+        "explaination": {
+            "1. AI Robustness": "Incorrect! Relates to resilience against perturbations.",
+            "2. User Controllability": "Incorrect! Relates to user intervention.",
+            "3. AI Functional Correctness": "Correct! AI functional correctness evaluates how accurately a probabilistic model performs its intended task, acknowledging that probabilistic systems inherently allow for an acceptable error margin.",
+            "4. Transparency": "Incorrect! Relates to explainability."
+        }
+    },
+    {
+        "question": "What is Functional Adaptability?",
+        "options": [
+            "1. The ability to explain decisions",
+            "2. The ability to autonomously adapt after deployment",
+            "3. The ability to prevent hazards",
+            "4. The ability to maintain security controls"
+        ],
+        "answer": ["2. The ability to autonomously adapt after deployment"],
+        "explaination": {
+            "1. The ability to explain decisions": "Incorrect! Describes transparency/explainability.",
+            "2. The ability to autonomously adapt after deployment": "Correct! Functional adaptability refers to a self-learning system's capacity to adjust its behavior and parameters in response to changing operational data post-deployment.",
+            "3. The ability to prevent hazards": "Incorrect! Describes safety/intervenability.",
+            "4. The ability to maintain security controls": "Incorrect! Describes security."
+        }
+    },
+    {
+        "question": "Which characteristic focuses on maintaining performance despite biased, adversarial, or invalid inputs?",
+        "options": [
+            "1. Transparency",
+            "2. AI Robustness",
+            "3. Intervenability",
+            "4. Satisfaction"
+        ],
+        "answer": ["2. AI Robustness"],
+        "explaination": {
+            "1. Transparency": "Incorrect! Relates to interpretability.",
+            "2. AI Robustness": "Correct! AI robustness measures a system's resilience and ability to maintain correct functional performance when subjected to noisy, biased, adversarial, or out-of-distribution inputs.",
+            "3. Intervenability": "Incorrect! Relates to stopping or overriding the system.",
+            "4. Satisfaction": "Incorrect! Not a core ISTQB AI quality characteristic."
+        }
+    },
+    {
+        "question": "What distinguishes Intervenability from User Controllability?",
+        "options": [
+            "1. Intervenability relates to deployment",
+            "2. Intervenability focuses on preventing harm or hazards",
+            "3. Intervenability applies only to cloud systems",
+            "4. There is no difference"
+        ],
+        "answer": ["2. Intervenability focuses on preventing harm or hazards"],
+        "explaination": {
+            "1. Intervenability relates to deployment": "Incorrect! Unrelated.",
+            "2. Intervenability focuses on preventing harm or hazards": "Correct! While user controllability covers general interaction, intervenability specifically emphasizes the ability of humans to interrupt, override, or halt the system to prevent hazards or safety failures.",
+            "3. Intervenability applies only to cloud systems": "Incorrect! Applies to edge/autonomous systems as well.",
+            "4. There is no difference": "Incorrect! They have distinct nuances in safety standards."
+        }
+    },
+    {
+        "question": "Which safety challenge arises because AI requirements are often learned implicitly through training data?",
+        "options": [
+            "1. Self-learning",
+            "2. Explainability",
+            "3. Specifications",
+            "4. Non-determinism"
+        ],
+        "answer": ["3. Specifications"],
+        "explaination": {
+            "1. Self-learning": "Incorrect! Relates to post-deployment adaptation.",
+            "2. Explainability": "Incorrect! Relates to black-box interpretation.",
+            "3. Specifications": "Correct! The 'specification gaming' or incomplete specification challenge occurs because requirements in AI are derived implicitly from training data rather than explicitly coded, leading to unexpected behaviors.",
+            "4. Non-determinism": "Incorrect! Relates to varying execution outputs."
+        }
+    },
+    {
+        "question": "Why does self-learning present a safety challenge?",
+        "options": [
+            "1. It reduces transparency",
+            "2. It causes lower hardware performance",
+            "3. The system behaviour may drift away from the originally tested behaviour",
+            "4. It eliminates human oversight"
+        ],
+        "answer": ["3. The system behaviour may drift away from the originally tested behaviour"],
+        "explaination": {
+            "1. It reduces transparency": "Incorrect! Secondary concern compared to behavioral drift.",
+            "2. It causes lower hardware performance": "Incorrect! Unrelated to hardware.",
+            "3. The system behaviour may drift away from the originally tested behaviour": "Correct! Because self-learning systems continually update their internal models from live data, their operational behavior can evolve and drift away from what was initially validated during pre-deployment testing.",
+            "4. It eliminates human oversight": "Incorrect! Oversight can be maintained."
+        }
+    },
+    {
+        "question": "What is LIME primarily used for?",
+        "options": [
+            "1. Data compression",
+            "2. Distributed training",
+            "3. Explainable AI",
+            "4. Model deployment"
+        ],
+        "answer": ["3. Explainable AI"],
+        "explaination": {
+            "1. Data compression": "Incorrect! Unrelated.",
+            "2. Distributed training": "Incorrect! Handled by frameworks like Horovod or PyTorch DDP.",
+            "3. Explainable AI": "Correct! Local Interpretable Model-agnostic Explanations (LIME) is a popular technique used in Explainable AI (XAI) to explain individual black-box model predictions.",
+            "4. Model deployment": "Incorrect! Handled by serving tools (e.g., Triton, TorchServe)."
+        }
+    },
+    {
+        "question": "A requirement states that an autonomous drone operator must be able to assume manual control within 0.5 seconds after receiving an alert. Which quality characteristic does this requirement primarily address?",
+        "options": [
+            "1. AI Robustness",
+            "2. Transparency",
+            "3. User Controllability",
+            "4. Functional Adaptability"
+        ],
+        "answer": ["3. User Controllability"],
+        "explaination": {
+            "1. AI Robustness": "Incorrect! Relates to disturbance resilience.",
+            "2. Transparency": "Incorrect! Relates to clarity of operation.",
+            "3. User Controllability": "Correct! Allowing a human operator to take over manual control directly addresses user controllability and override requirements.",
+            "4. Functional Adaptability": "Incorrect! Relates to self-learning."
+        }
+    },
+    {
+        "question": "An AI system must continue operating and switch to a reduced-power mode when its temperature exceeds 85°C instead of shutting down. Which quality characteristic is being evaluated?",
+        "options": [
+            "1. Intervenability",
+            "2. AI Robustness",
+            "3. Transparency",
+            "4. Safety"
+        ],
+        "answer": ["2. AI Robustness"],
+        "explaination": {
+            "1. Intervenability": "Incorrect! Intervenability involves human override, whereas thermal fallback is an automated system resilience measure.",
+            "2. AI Robustness": "Correct! Maintaining core operation under extreme environmental conditions (like high temperature) demonstrates robustness and fault tolerance.",
+            "3. Transparency": "Incorrect! Unrelated.",
+            "4. Safety": "Incorrect! While safety is supported, robustness is the primary technical characteristic covering adverse operational states."
+        }
+    },
+    {
+        "question": "A chatbot must not generate hate speech, violent content, or self-harm instructions and must achieve at least 95% in red-team testing. Which quality characteristic is most relevant?",
+        "options": [
+            "1. AI Functional Correctness",
+            "2. User Controllability",
+            "3. Societal and Ethical Risk Mitigation",
+            "4. Functional Adaptability"
+        ],
+        "answer": ["3. Societal and Ethical Risk Mitigation"],
+        "explaination": {
+            "1. AI Functional Correctness": "Incorrect! General task accuracy rather than ethical boundaries.",
+            "2. User Controllability": "Incorrect! Unrelated to content safety filtering.",
+            "3. Societal and Ethical Risk Mitigation": "Correct! Preventing harmful outputs like hate speech and violence through red-teaming directly addresses societal and ethical risk mitigation.",
+            "4. Functional Adaptability": "Incorrect! Unrelated."
+        }
+    },
+    {
+        "question": "A requirement states that a deployed prediction model must expose its version number and documentation through an API endpoint. Which quality characteristic is primarily addressed?",
+        "options": [
+            "1. Transparency",
+            "2. AI Robustness",
+            "3. Intervenability",
+            "4. Safety"
+        ],
+        "answer": ["1. Transparency"],
+        "explaination": {
+            "1. Transparency": "Correct! Exposing metadata, versioning, and documentation ensures transparency and traceability regarding the model being executed.",
+            "2. AI Robustness": "Incorrect! Relates to input disturbances.",
+            "3. Intervenability": "Incorrect! Relates to human overrides.",
+            "4. Safety": "Incorrect! Relates to hazard prevention."
+        }
+    },
+    {
+        "question": "An image recognition system must achieve at least 95% accuracy. This is an example of acceptance criteria for:",
+        "options": [
+            "1. AI Robustness",
+            "2. AI Functional Correctness",
+            "3. Transparency",
+            "4. User Controllability"
+        ],
+        "answer": ["2. AI Functional Correctness"],
+        "explaination": {
+            "1. AI Robustness": "Incorrect! Robustness measures resilience to noise/attacks.",
+            "2. AI Functional Correctness": "Correct! Specifying a target accuracy threshold (e.g., 95%) is the standard acceptance criterion for AI functional performance and correctness.",
+            "3. Transparency": "Incorrect! Relates to explainability.",
+            "4. User Controllability": "Incorrect! Relates to user overrides."
+        }
     }
 ]

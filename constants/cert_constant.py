@@ -5,10 +5,6 @@ class CertificateType(Enum):
         {"key": "CTFL", "name": "Certified Tester Foundation Level 4.0", "description": "The ISTQB® Certified Tester Foundation Level 4.0 (CTFL 4.0) certification provides essential testing knowledge that can be put to practical use as well as the terminology and concepts used worldwide in the testing domain. The CTFL 4.0 certification is relevant across software delivery approaches and practices whether Agile, Waterfall or DevOps with continuous integration, continuous delivery and continuous testing."},
         {"key":"CTAI", "name": "Certified Tester AI Testing v2.0", "description": "The ISTQB® Certified Tester AI Testing v2.0 (CT-AI) certification provides a comprehensive introduction to testing AI-based systems, with a primary focus on machine learning and including key concepts and testing approaches for generative AI."},
     ]
-    AWS = [
-        {"key": "123", "name": "12334", "description": "hhdndgc"},
-        {"key":"456", "name": "ffggg", "description": "ccbsgs"},
-    ]
 
     @classmethod
     def get_certificates(cls) -> list["CertificateType"]:

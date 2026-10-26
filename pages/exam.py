@@ -12,7 +12,14 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# 1. Check if user came from home page; if not, redirect them back
+# RECOVERY LOGIC ON RELOAD: Check URL query parameters if session state is empty
+if "selected_category" not in st.session_state or "selected_exam_type" not in st.session_state:
+    query_params = st.query_params
+    if "category" in query_params and "exam_type" in query_params:
+        st.session_state.selected_category = query_params["category"]
+        st.session_state.selected_exam_type = query_params["exam_type"]
+
+# 2. Safety check: If still missing, redirect back to home
 if "selected_category" not in st.session_state or "selected_exam_type" not in st.session_state:
     st.warning("⚠️ Please select an exam from the Home page first.")
     if st.button("⬅️ Go to Home"):
@@ -59,6 +66,10 @@ if st.session_state.selected_exam is None:
     if st.button("⬅️ Back to Home Catalog"):
         st.session_state.pop("selected_category", None)
         st.session_state.pop("selected_exam_type", None)
+        st.session_state.selected_exam = None
+        # Clear URL query parameters
+        st.query_params.clear()
+
         st.switch_page("home.py")
 
     for exam_name, question_list in exams_pool.items():
@@ -103,7 +114,24 @@ else:
         
         st.subheader(f"Question {st.session_state.current_q + 1} of {total_questions}")
         formatted_question = current_item['question'].replace("\n", "  \n")
-        st.markdown(f"### {formatted_question}")
+        st.markdown(f"##### {formatted_question}")
+
+        # Render image if present in json data
+        if "images" in current_item and current_item["images"]:
+            # Inject CSS to cap image height and maintain object-fit
+            st.markdown("""
+                <style>
+                    [data-testid="stImage"] img {
+                        max-height: 450px !important;
+                        object-fit: contain;
+                    }
+                </style>
+            """, unsafe_allow_html=True)
+            for img_path in current_item["images"]:
+                # Create columns where the image only takes the first column (e.g., half the page)
+                img_col, _ = st.columns([1, 1])
+                with img_col:
+                    st.image(img_path, use_container_width=True)
 
         selected_options = []
         if is_multi_answer:
