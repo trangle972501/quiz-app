@@ -1,0 +1,678 @@
+[
+    {
+        "question": "Which of the following is the best example of a defect that causes harm?",
+        "options": [
+            "1. A usability defect that results in user dissatisfaction",
+            "2. A defect that causes slow response time when running reports",
+            "3. A defect that causes raw sewage to be dumped into the ocean",
+            "4. A regression defect that causes the desktop window to display in green"
+        ],
+        "answer": ["3. A defect that causes raw sewage to be dumped into the ocean"],
+        "explaination": {
+            "1. A usability defect that results in user dissatisfaction": "Incorrect! Causes dissatisfaction, not direct environmental or physical harm.",
+            "2. A defect that causes slow response time when running reports": "Incorrect! Causes performance delay/inconvenience.",
+            "3. A defect that causes raw sewage to be dumped into the ocean": "Correct! Dumping raw sewage directly causes environmental harm and public health hazards.",
+            "4. A regression defect that causes the desktop window to display in green": "Incorrect! A minor cosmetic issue."
+        }
+    },
+    {
+        "question": "Which of the following will help prevent defects from reoccurring?",
+        "options": [
+            "1. Rotating developers to keep them motivated",
+            "2. Determining the environmental conditions that caused the failure",
+            "3. Improving processes based on root cause analysis",
+            "4. Prioritizing reoccurring defects higher than new defects"
+        ],
+        "answer": ["3. Improving processes based on root cause analysis"],
+        "explaination": {
+            "1. Rotating developers to keep them motivated": "Incorrect! Does not address process flaws.",
+            "2. Determining the environmental conditions that caused the failure": "Incorrect! Helps reproduce the defect, but process improvements prevent recurrence.",
+            "3. Improving processes based on root cause analysis": "Correct! Identifying the root cause of a defect and making structural process improvements prevents similar defects from occurring in the future.",
+            "4. Prioritizing reoccurring defects higher than new defects": "Incorrect! Prioritization fixes existing defects, but process improvement stops recurrence."
+        }
+    },
+    {
+        "question": "Which characteristic must a tester possess in order to be successful when working with a project team?",
+        "options": [
+            "1. Constructive communication skills",
+            "2. Authoritarian leadership style",
+            "3. Extroverted personality",
+            "4. Extensive organizational network"
+        ],
+        "answer": ["1. Constructive communication skills"],
+        "explaination": {
+            "1. Constructive communication skills": "Correct! Testers must communicate defect findings, risks, and test results constructively and diplomatically to foster collaboration.",
+            "2. Authoritarian leadership style": "Incorrect! Hinder teamwork.",
+            "3. Extroverted personality": "Incorrect! Personality type is irrelevant.",
+            "4. Extensive organizational network": "Incorrect! Not a core testing competency."
+        }
+    },
+    {
+        "question": "Which testing level is primarily focused on building confidence rather than finding defects?",
+        "options": [
+            "1. Unit testing",
+            "2. Integration testing",
+            "3. System testing",
+            "4. Acceptance testing"
+        ],
+        "answer": ["4. Acceptance testing"],
+        "explaination": {
+            "1. Unit testing": "Incorrect! Focuses on finding defects in individual units.",
+            "2. Integration testing": "Incorrect! Focuses on finding defects in interfaces.",
+            "3. System testing": "Incorrect! Focuses on finding defects in system requirements.",
+            "4. Acceptance testing": "Correct! Acceptance testing (e.g., UAT) primarily aims to build confidence that the system is ready for operational deployment and fulfills business needs."
+        }
+    },
+    {
+        "question": "If you need to add system integration testing as a test level for a particular project, what testing level should it directly follow?",
+        "options": [
+            "1. Component",
+            "2. Component integration",
+            "3. System",
+            "4. Acceptance"
+        ],
+        "answer": ["3. System"],
+        "explaination": {
+            "1. Component": "Incorrect!",
+            "2. Component integration": "Incorrect!",
+            "3. System": "Correct! System Integration Testing (SIT) tests integration between the system under test and external systems, which logically follows standalone System Testing.",
+            "4. Acceptance": "Incorrect!"
+        }
+    },
+    {
+        "question": "In which testing level are the developers most heavily involved?",
+        "options": [
+            "1. Component",
+            "2. Compatibility",
+            "3. Acceptance",
+            "4. Conversion"
+        ],
+        "answer": ["1. Component"],
+        "explaination": {
+            "1. Component": "Correct! Component testing (unit testing) is written, executed, and maintained primarily by developers.",
+            "2. Compatibility": "Incorrect!",
+            "3. Acceptance": "Incorrect! Driven by users/business stakeholders.",
+            "4. Conversion": "Incorrect!"
+        }
+    },
+    {
+        "question": "If you are testing to ensure that the software will be easy to analyze and change, what type of non-functional testing are you conducting?",
+        "options": [
+            "1. Portability",
+            "2. Functional",
+            "3. Usability",
+            "4. Maintainability"
+        ],
+        "answer": ["4. Maintainability"],
+        "explaination": {
+            "1. Portability": "Incorrect! Evaluates ease of transfer across environments.",
+            "2. Functional": "Incorrect! Evaluates functional behavior.",
+            "3. Usability": "Incorrect! Evaluates ease of user operation.",
+            "4. Maintainability": "Correct! Maintainability measures how easily a software product can be modified, debugged, analyzed, or improved."
+        }
+    },
+    {
+        "question": "Which of the following is an important characteristic of tests used for regression testing?",
+        "options": [
+            "1. They focus on testing the intricate and difficult-to-test aspects of the software",
+            "2. They are repeatable and can be automated to run across multiple releases",
+            "3. They require significant maintenance effort for each release",
+            "4. They are used for one release and are then discarded to keep the test set fresh"
+        ],
+        "answer": ["2. They are repeatable and can be automated to run across multiple releases"],
+        "explaination": {
+            "1. They focus on testing the intricate and difficult-to-test aspects of the software": "Incorrect!",
+            "2. They are repeatable and can be automated to run across multiple releases": "Correct! Regression test suites must be repeatable, stable, and reusable across software releases to verify that changes haven't introduced side effects.",
+            "3. They require significant maintenance effort for each release": "Incorrect!",
+            "4. They are used for one release and are then discarded to keep the test set fresh": "Incorrect! Regression tests are reused, not discarded."
+        }
+    },
+    {
+        "question": "Which of the following is a trigger for maintenance testing?",
+        "options": [
+            "1. A new software product is being developed and defects have been found in unit testing",
+            "2. A new software product is being developed and will work across multiple platforms",
+            "3. A component of an existing production software product has been removed",
+            "4. A component of an existing production software product has received high usage"
+        ],
+        "answer": ["3. A component of an existing production software product has been removed"],
+        "explaination": {
+            "1. A new software product is being developed and defects have been found in unit testing": "Incorrect! Initial development testing.",
+            "2. A new software product is being developed and will work across multiple platforms": "Incorrect! Initial development testing.",
+            "3. A component of an existing production software product has been removed": "Correct! Modifications, migrations, or retirements/removals of components in live production systems trigger maintenance testing.",
+            "4. A component of an existing production software product has received high usage": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following is an effective method for finding defects early in the software lifecycle?",
+        "options": [
+            "1. Static analysis",
+            "2. System testing",
+            "3. User acceptance testing",
+            "4. Implementation validation testing"
+        ],
+        "answer": ["1. Static analysis"],
+        "explaination": {
+            "1. Static analysis": "Correct! Static testing (reviews and static analysis of code/docs) can be performed very early before dynamic execution is even possible.",
+            "2. System testing": "Incorrect! Occurs later in development.",
+            "3. User acceptance testing": "Incorrect! Occurs near release.",
+            "4. Implementation validation testing": "Incorrect!"
+        }
+    },
+    {
+        "question": "What is one potential benefit of using a test automation tool?",
+        "options": [
+            "1. The quality of defects will improve",
+            "2. Ease of access to statistics about test progress",
+            "3. Disk space is not required to track versions of test artifacts",
+            "4. Less network traffic generated"
+        ],
+        "answer": ["2. Ease of access to statistics about test progress"],
+        "explaination": {
+            "1. The quality of defects will improve": "Incorrect! Tools don't inherently improve defect writing.",
+            "2. Ease of access to statistics about test progress": "Correct! Automated management and execution tools automatically aggregate metrics, execution trends, and progress statistics.",
+            "3. Disk space is not required to track versions of test artifacts": "Incorrect!",
+            "4. Less network traffic generated": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following is a key factor in the success of a work product review?",
+        "options": [
+            "1. Limit the number of defects found",
+            "2. Define clear objectives for the review",
+            "3. Couple it to performance reviews",
+            "4. Open invitation without participant roles"
+        ],
+        "answer": ["2. Define clear objectives for the review"],
+        "explaination": {
+            "1. Limit the number of defects found": "Incorrect!",
+            "2. Define clear objectives for the review": "Correct! Having well-defined, clear objectives for the review ensures participants focus on specific goals.",
+            "3. Couple it to performance reviews": "Incorrect! Linking technical reviews to personal evaluations creates hostility.",
+            "4. Open invitation without participant roles": "Incorrect!"
+        }
+    },
+    {
+        "question": "When should the expected results of a test case be defined?",
+        "options": [
+            "1. When the test case is written, prior to execution",
+            "2. When the test case is executed",
+            "3. When the risk is assessed",
+            "4. When the test condition is identified"
+        ],
+        "answer": ["1. When the test case is written, prior to execution"],
+        "explaination": {
+            "1. When the test case is written, prior to execution": "Correct! Expected results must be defined in advance during test design to avoid confirmation bias during test execution.",
+            "2. When the test case is executed": "Incorrect! Defining them during execution leads to accepting actual output as correct.",
+            "3. When the risk is assessed": "Incorrect!",
+            "4. When the test condition is identified": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following black-box testing techniques focuses on covering all combinations of triggering conditions?",
+        "options": [
+            "1. State transition testing",
+            "2. Equivalence partitioning",
+            "3. Boundary value analysis",
+            "4. Decision table testing"
+        ],
+        "answer": ["4. Decision table testing"],
+        "explaination": {
+            "1. State transition testing": "Incorrect! Focuses on state changes based on inputs.",
+            "2. Equivalence partitioning": "Incorrect! Focuses on input data partition sets.",
+            "3. Boundary value analysis": "Incorrect! Focuses on edge conditions.",
+            "4. Decision table testing": "Correct! Decision tables combine various input conditions and business rules to verify complex combinations of inputs."
+        }
+    },
+    {
+        "question": "What do use cases describe?",
+        "options": [
+            "1. Process flows",
+            "2. Data flows",
+            "3. Control flows",
+            "4. Code flows"
+        ],
+        "answer": ["1. Process flows"],
+        "explaination": {
+            "1. Process flows": "Correct! Use cases describe interactions between actors and the system, representing business operational process flows.",
+            "2. Data flows": "Incorrect!",
+            "3. Control flows": "Incorrect!",
+            "4. Code flows": "Incorrect!"
+        }
+    },
+    {
+        "question": "If you are using a testing technique to identify test cases that were missed when you applied formal testing techniques, what type of test design are you doing?",
+        "options": [
+            "1. Experience-based",
+            "2. Informal",
+            "3. Defect-based",
+            "4. Ad hoc"
+        ],
+        "answer": ["1. Experience-based"],
+        "explaination": {
+            "1. Experience-based": "Correct! Experience-based testing (e.g., exploratory or error guessing) leverages tester intuition to complement formal techniques and catch missed cases.",
+            "2. Informal": "Incorrect!",
+            "3. Defect-based": "Incorrect!",
+            "4. Ad hoc": "Incorrect!"
+        }
+    },
+    {
+        "question": "If you need to attain a certain level of code coverage for a particular software product your team is testing, what type of testing should you use?",
+        "options": [
+            "1. Specification-based",
+            "2. Structure-based",
+            "3. Experience-based",
+            "4. Defect-based"
+        ],
+        "answer": ["2. Structure-based"],
+        "explaination": {
+            "1. Specification-based": "Incorrect! Black-box techniques derived from requirements.",
+            "2. Structure-based": "Correct! Structure-based (white-box) testing techniques directly measure internal code coverage metrics (like statement or decision coverage).",
+            "3. Experience-based": "Incorrect!",
+            "4. Defect-based": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following is a primary task of a Tester during test planning and implementation?",
+        "options": [
+            "1. Coordinate the testing strategy with project managers",
+            "2. Determine what tests should be automated",
+            "3. Acquire and prepare data to be used for testing",
+            "4. Use test results to guide future planning"
+        ],
+        "answer": ["3. Acquire and prepare data to be used for testing"],
+        "explaination": {
+            "1. Coordinate the testing strategy with project managers": "Incorrect! Test Management task.",
+            "2. Determine what tests should be automated": "Incorrect! Test Management/Architect task.",
+            "3. Acquire and prepare data to be used for testing": "Correct! Testers directly set up test data, test environments, and test scripts.",
+            "4. Use test results to guide future planning": "Incorrect! Test Manager task."
+        }
+    },
+    {
+        "question": "At what point in the project should the test execution schedule be finalized?",
+        "options": [
+            "1. During test planning",
+            "2. During test analysis and design",
+            "3. During test implementation and execution setup",
+            "4. During test execution"
+        ],
+        "answer": ["3. During test implementation and execution setup"],
+        "explaination": {
+            "1. During test planning": "Incorrect! High-level schedule created here.",
+            "2. During test analysis and design": "Incorrect!",
+            "3. During test implementation and execution setup": "Correct! Test cases are ordered into test execution procedures and scheduled during test implementation.",
+            "4. During test execution": "Incorrect! Too late."
+        }
+    },
+    {
+        "question": "Which of the following activities is part of test planning?",
+        "options": [
+            "1. Test approach formulation",
+            "2. Test strategy definition",
+            "3. Scheduling test analysis and design tasks",
+            "4. Test estimation"
+        ],
+        "answer": ["3. Scheduling test analysis and design tasks"],
+        "explaination": {
+            "1. Test approach formulation": "Incorrect! Strategy level.",
+            "2. Test strategy definition": "Incorrect! Organizational level.",
+            "3. Scheduling test analysis and design tasks": "Correct! Scheduling specific analysis, design, and execution activities is a primary task of test planning.",
+            "4. Test estimation": "Incorrect! An input to planning."
+        }
+    },
+    {
+        "question": "If the project is using highly skilled and experienced developers, how is test estimation affected?",
+        "options": [
+            "1. The test strategy changes completely",
+            "2. The test estimate may be reduced due to lower expected defect rates in initial builds",
+            "3. The test reporting structure changes",
+            "4. The test automation requires extra effort"
+        ],
+        "answer": ["2. The test estimate may be reduced due to lower expected defect rates in initial builds"],
+        "explaination": {
+            "1. The test strategy changes completely": "Incorrect!",
+            "2. The test estimate may be reduced due to lower expected defect rates in initial builds": "Correct! Highly skilled developers typically produce higher-quality initial code, reducing debugging and re-test effort in estimates.",
+            "3. The test reporting structure changes": "Incorrect!",
+            "4. The test automation requires extra effort": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following test estimation approaches is based on metrics from historical data of similar projects?",
+        "options": [
+            "1. Risk-based",
+            "2. Value-based",
+            "3. Expert-based",
+            "4. Metrics-based"
+        ],
+        "answer": ["4. Metrics-based"],
+        "explaination": {
+            "1. Risk-based": "Incorrect!",
+            "2. Value-based": "Incorrect!",
+            "3. Expert-based": "Incorrect! Relies on subjective expert opinion.",
+            "4. Metrics-based": "Correct! Metrics-based estimation calculates testing effort based on historical metrics from past projects (e.g., defects/KLOC, average test case execution time)."
+        }
+    },
+    {
+        "question": "For what level of testing is the following criterion appropriate?\n\"No priority 1, 2, or 3 defects are open and all priority 4 defects must have a documented workaround and are accepted by the business.\"",
+        "options": [
+            "1. Exit from unit testing",
+            "2. Entrance to integration testing",
+            "3. Exit from integration testing",
+            "4. Exit from system testing"
+        ],
+        "answer": ["4. Exit from system testing"],
+        "explaination": {
+            "1. Exit from unit testing": "Incorrect!",
+            "2. Entrance to integration testing": "Incorrect!",
+            "3. Exit from integration testing": "Incorrect!",
+            "4. Exit from system testing": "Correct! System testing exit criteria frequently mandate that critical defects are fixed and low-priority open defects have accepted business workarounds."
+        }
+    },
+    {
+        "question": "If you want to track all changes to versions of your testware, what should you implement?",
+        "options": [
+            "1. Tracker control",
+            "2. Configuration management",
+            "3. Test control",
+            "4. Test reporting"
+        ],
+        "answer": ["2. Configuration management"],
+        "explaination": {
+            "1. Tracker control": "Incorrect!",
+            "2. Configuration management": "Correct! Configuration management ensures all items of testware (scripts, test plans, datasets) are versioned, traceable, and controlled.",
+            "3. Test control": "Incorrect!",
+            "4. Test reporting": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following is a project risk that could threaten project objectives?",
+        "options": [
+            "1. The software fails to detect the selection of an invalid workflow path by a user",
+            "2. A data conversion is failing because of an unexpected data format",
+            "3. The test environment is not ready on time",
+            "4. There are several usability issues in the software"
+        ],
+        "answer": ["3. The test environment is not ready on time"],
+        "explaination": {
+            "1. The software fails to detect the selection of an invalid workflow path by a user": "Incorrect! Product risk.",
+            "2. A data conversion is failing because of an unexpected data format": "Incorrect! Product risk.",
+            "3. The test environment is not ready on time": "Correct! Environmental unavailability is a classic project risk impacting project delivery schedules and resources.",
+            "4. There are several usability issues in the software": "Incorrect! Product risk."
+        }
+    },
+    {
+        "question": "What can a risk-based approach to testing help identify?",
+        "options": [
+            "1. Levels of system access to provide to testers",
+            "2. Appropriate testing techniques and focus areas to allocate testing effort",
+            "3. Role of the test lead for the project",
+            "4. Responsibility for failures that occur in production"
+        ],
+        "answer": ["2. Appropriate testing techniques and focus areas to allocate testing effort"],
+        "explaination": {
+            "1. Levels of system access to provide to testers": "Incorrect!",
+            "2. Appropriate testing techniques and focus areas to allocate testing effort": "Correct! Risk-based testing prioritizes high-risk areas, guiding where to focus testing effort and which techniques to employ.",
+            "3. Role of the test lead for the project": "Incorrect!",
+            "4. Responsibility for failures that occur in production": "Incorrect!"
+        }
+    },
+    {
+        "question": "In an incident report, what attribute indicates the urgency or business priority of fixing the defect?",
+        "options": [
+            "1. Severity",
+            "2. Risk",
+            "3. Priority",
+            "4. Impact"
+        ],
+        "answer": ["3. Priority"],
+        "explaination": {
+            "1. Severity": "Incorrect! Measures technical impact on system behavior.",
+            "2. Risk": "Incorrect!",
+            "3. Priority": "Correct! Priority indicates the degree of urgency to fix an incident or defect.",
+            "4. Impact": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which of the following tools would be most appropriate for managing defects throughout the software lifecycle?",
+        "options": [
+            "1. Configuration management tools",
+            "2. Requirements management tools",
+            "3. Failure management tools",
+            "4. Incident management tools"
+        ],
+        "answer": ["4. Incident management tools"],
+        "explaination": {
+            "1. Configuration management tools": "Incorrect! Manage versioning.",
+            "2. Requirements management tools": "Incorrect! Manage requirements.",
+            "3. Failure management tools": "Incorrect!",
+            "4. Incident management tools": "Correct! Incident management tools (defect tracking systems) record, track, and manage defect lifecycle states."
+        }
+    },
+    {
+        "question": "Which of the following statements is CONTRARY to standard ISTQB testing principles?",
+        "options": [
+            "1. Testing can show that defects are present, but cannot prove that there are no defects.",
+            "2. Exhaustive testing is feasible when risk analysis is used.",
+            "3. To find defects early, testing activities shall start as early as possible in the software development lifecycle.",
+            "4. Finding and fixing defects does not help if the system built is unusable and does not fulfill user needs."
+        ],
+        "answer": ["2. Exhaustive testing is feasible when risk analysis is used."],
+        "explaination": {
+            "1. Testing can show that defects are present...": "Incorrect! True principle.",
+            "2. Exhaustive testing is feasible when risk analysis is used.": "Correct (Contradicts principle)! Principle #2 states: 'Exhaustive testing is impossible' except for trivial cases.",
+            "3. To find defects early...": "Incorrect! True principle.",
+            "4. Finding and fixing defects does not help...": "Incorrect! True principle (Absence-of-errors fallacy)."
+        }
+    },
+    {
+        "question": "If the same tests are repeated over and over again, eventually the same set of test cases will no longer find any new defects. Which testing principle describes this phenomenon?",
+        "options": [
+            "1. Pesticide paradox",
+            "2. Defect clustering",
+            "3. Absence-of-errors fallacy",
+            "4. Early testing"
+        ],
+        "answer": ["1. Pesticide paradox"],
+        "explaination": {
+            "1. Pesticide paradox": "Correct! The Pesticide Paradox states that repeating identical tests over time leads to diminishing defect detection returns, requiring test cases to be periodically updated.",
+            "2. Defect clustering": "Incorrect! Small number of modules contain most defects.",
+            "3. Absence-of-errors fallacy": "Incorrect! Unusable product despite zero defects.",
+            "4. Early testing": "Incorrect! Testing early in the lifecycle."
+        }
+    },
+    {
+        "question": "In which review process activity are reviewers evaluating the work product and recording potential defects, recommendations, and questions?",
+        "options": [
+            "1. Fixing and reporting",
+            "2. Individual review",
+            "3. Planning",
+            "4. Issue communication and analysis"
+        ],
+        "answer": ["2. Individual review"],
+        "explaination": {
+            "1. Fixing and reporting": "Incorrect!",
+            "2. Individual review": "Correct! During individual review (individual preparation), reviewers read the work product independently to identify and document candidate defects.",
+            "3. Planning": "Incorrect!",
+            "4. Issue communication and analysis": "Incorrect! Meeting/discussion phase."
+        }
+    },
+    {
+        "question": "If you are applying risk-based testing, which category of test strategy/approach are you using?",
+        "options": [
+            "1. Analytical",
+            "2. Methodical",
+            "3. Regulatory",
+            "4. Model-based"
+        ],
+        "answer": ["1. Analytical"],
+        "explaination": {
+            "1. Analytical": "Correct! Risk-based testing is a classic Analytical test strategy (testing based on analysis of risk factors).",
+            "2. Methodical": "Incorrect! Uses structured checklists/error lists.",
+            "3. Regulatory": "Incorrect! Driven by legal compliance.",
+            "4. Model-based": "Incorrect! Uses formal models like state diagrams."
+        }
+    },
+    {
+        "question": "Which of the following is NOT one of the recognized formal or informal review types in ISTQB?",
+        "options": [
+            "1. Informal review",
+            "2. Walkthrough",
+            "3. Inspection",
+            "4. Regression review"
+        ],
+        "answer": ["4. Regression review"],
+        "explaination": {
+            "1. Informal review": "Incorrect! Standard review type.",
+            "2. Walkthrough": "Incorrect! Standard review type.",
+            "3. Inspection": "Incorrect! Standard review type.",
+            "4. Regression review": "Correct! 'Regression review' is not a standard review type in ISTQB (standard types are Informal, Walkthrough, Technical Review, and Inspection)."
+        }
+    },
+    {
+        "question": "What is a primary objective of testing in Software Development, Maintenance, and Operations?",
+        "options": [
+            "1. Testing can be used to assess and evaluate quality levels",
+            "2. Testing ensures that the code contains no syntax errors",
+            "3. Testing directly fixes source code defects",
+            "4. Testing proves that software is completely error-free"
+        ],
+        "answer": ["1. Testing can be used to assess and evaluate quality levels"],
+        "explaination": {
+            "1. Testing can be used to assess and evaluate quality levels": "Correct! One major objective of testing is to measure software quality and evaluate system readiness.",
+            "2. Testing ensures that the code contains no syntax errors": "Incorrect!",
+            "3. Testing directly fixes source code defects": "Incorrect! Debugging fixes defects, testing finds them.",
+            "4. Testing proves that software is completely error-free": "Incorrect! Testing shows presence of defects, not absence."
+        }
+    },
+    {
+        "question": "In a formal review, which statement describes the role of the Facilitator (Moderator)?",
+        "options": [
+            "1. Identify potential defects in the work product under review",
+            "2. Executes management control decisions",
+            "3. Mediates, ensures effective meetings, and leads the review discussions",
+            "4. Fixes defects in the work product under review"
+        ],
+        "answer": ["3. Mediates, ensures effective meetings, and leads the review discussions"],
+        "explaination": {
+            "1. Identify potential defects in the work product under review": "Incorrect! Reviewer role.",
+            "2. Executes management control decisions": "Incorrect! Management role.",
+            "3. Mediates, ensures effective meetings, and leads the review discussions": "Correct! The facilitator/moderator leads the review meeting, mediates discussions, and keeps the meeting on track.",
+            "4. Fixes defects in the work product under review": "Incorrect! Author role."
+        }
+    },
+    {
+        "question": "Which of the following describes a valid decision table test case application?",
+        "options": [
+            "1. Evaluating combinations of boolean or discrete conditions to determine business outcome rules",
+            "2. Calculating linear boundary values for continuous integers",
+            "3. Testing code statement execution paths",
+            "4. Measuring API response latency"
+        ],
+        "answer": ["1. Evaluating combinations of boolean or discrete conditions to determine business outcome rules"],
+        "explaination": {
+            "1. Evaluating combinations of boolean or discrete conditions to determine business outcome rules": "Correct! Decision tables specifically systematically map out rule combinations of discrete inputs to expected outcomes.",
+            "2. Calculating linear boundary values for continuous integers": "Incorrect! Boundary Value Analysis.",
+            "3. Testing code statement execution paths": "Incorrect! White-box testing.",
+            "4. Measuring API response latency": "Incorrect! Performance testing."
+        }
+    },
+    {
+        "question": "Which test strategies/approaches correspond to the descriptions provided?\n- S: Process-compliant approaches (Adheres to standards)\n- T: Heuristic approaches (Runs execution concurrently)\n- U: Consultative approaches (Listens to technology experts)\n- V: Regression-averse approaches (Reuses test material)",
+        "options": [
+            "1. S -> Adheres to industry-specific standards; T -> Runs execution concurrently; U -> Listens to technology experts; V -> Includes reuse of existing test material",
+            "2. S -> Includes reuse of existing test material; T -> Listens to technology experts",
+            "3. S -> Adheres to industry standards; T -> Reuses test material",
+            "4. S -> Runs execution concurrently"
+        ],
+        "answer": ["1. S -> Adheres to industry-specific standards; T -> Runs execution concurrently; U -> Listens to technology experts; V -> Includes reuse of existing test material"],
+        "explaination": {
+            "1. S -> Adheres to industry-specific standards; T -> Runs execution concurrently; U -> Listens to technology experts; V -> Includes reuse of existing test material": "Correct! Process-compliant adheres to standards; Heuristic includes exploratory testing (concurrent execution/evaluation); Consultative relies on expert advice; Regression-averse maximizes test reuse.",
+            "2. S -> Includes reuse of existing test material...": "Incorrect!",
+            "3. S -> Adheres to industry standards...": "Incorrect!",
+            "4. S -> Runs execution concurrently": "Incorrect!"
+        }
+    },
+    {
+        "question": "What is the minimum number of independent paths or test cases required to achieve 100% statement coverage in a control flow graph containing linear decision paths?",
+        "options": [
+            "1. Single path if all statements lie on a linear sequence",
+            "2. All possible combinations of branches",
+            "3. Infinite paths",
+            "4. Zero paths"
+        ],
+        "answer": ["1. Single path if all statements lie on a linear sequence"],
+        "explaination": {
+            "1. Single path if all statements lie on a linear sequence": "Correct! Statement coverage requires executing every statement at least once; if no branches exist, one path covers 100%.",
+            "2. All possible combinations of branches": "Incorrect! Required for branch/path coverage.",
+            "3. Infinite paths": "Incorrect!",
+            "4. Zero paths": "Incorrect!"
+        }
+    },
+    {
+        "question": "Which formula represents Cyclomatic Complexity V(G) where L = edges, N = nodes, and P = independent path?",
+        "options": [
+            "1. L - N + 2P",
+            "2. N - L + 2P",
+            "3. N - L + P",
+            "4. L - N + P"
+        ],
+        "answer": ["1. L - N + 2P"],
+        "explaination": {
+            "1. L - N + 2P": "Correct! The standard formula for Cyclomatic Complexity is V(G) = E - N + 2P (Edges - Nodes + 2 * P).",
+            "2. N - L + 2P": "Incorrect!",
+            "3. N - L + P": "Incorrect!",
+            "4. L - N + P": "Incorrect!"
+        }
+    },
+    {
+        "question": "How many test cases are required to cover 100% 1 - switch coverage respectively from X4?",
+        "images": ["data/istqb/ctfl/images/3.png"],
+        "options": [
+            "a. 2",
+            "b. 3",
+            "c. 4",
+            "d. 5"
+        ],
+        "answer": ["c. 4"],
+        "explaination": {
+            "a. 2": "Incorrect!",
+            "b. 3": "Incorrect!",
+            "c. 4": "Correct! 1-switch coverage requires executing all valid sequences of two consecutive state transitions (S1 -> S2 -> S3), which typically expands to 4 test cases depending on state tree branching.",
+            "d. 5": "Incorrect!"
+        }
+    },
+    {
+        "question": "Given the following decision table: Which of the following test cases and expected results is VALID?",
+        "images": ["data/istqb/ctfl/images/1.png"],
+        "options": [
+            "a. 23 year old in insurance class A Premium is 90 and excess is 2,500.",
+            "b. 51 year old in insurance class C Premium is 70 and excess is 500.",
+            "c. 31 year old in insurance class B Premium is 90 and excess is 2,500.",
+            "d. 43 year old in insurance class C Premium is 70 and excess is 1,000."
+        ],
+        "answer": ["a. 23 year old in insurance class A Premium is 90 and excess is 2,500."],
+        "explaination": {
+            "a. 23 year old in insurance class A Premium is 90 and excess is 2,500.": "Correct!",
+            "b. 51 year old in insurance class C Premium is 70 and excess is 500.": "Incorrect!",
+            "c. 31 year old in insurance class B Premium is 90 and excess is 2,500.": "Incorrect",
+            "d. 43 year old in insurance class C Premium is 70 and excess is 1,000.": "Incorrect!"
+        }
+    },
+    {
+        "question": "The above diagram represents the following paths through the code: \n A.vwy \n B.vwz \n C.vxy \n D.vxz. \n What is the MINIMUM combination of paths required to provide full statement coverage?",
+        "images": ["data/istqb/ctfl/images/2.png"],
+        "options": [
+            "a. A",
+            "b. ABD",
+            "c. ABCD",
+            "d. ACD"
+        ],
+        "answer": ["b. ABD"],
+        "explaination": {
+            "a. A": "Incorrect",
+            "b. ABD": "Correct",
+            "c. ABCD": "Incorrect",
+            "d. ACD": "Incorrect"
+        }
+    }
+
+]

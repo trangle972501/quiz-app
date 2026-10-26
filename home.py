@@ -48,7 +48,11 @@ for idx, tab in enumerate(category_tab):
                         st.session_state.selected_category = cat_name          # e.g., "ISTQB"
                         st.session_state.selected_exam_type = item["key"]  # e.g., "CTFL" or "CT-GenAI"
                         
-                        # 2. Reset quiz navigation variables
+                        # 2. Store in URL query parameters so it survives a page reload
+                        st.query_params["category"] = cat_name
+                        st.query_params["exam_type"] = item.get("key")
+                        
+                        # 3. Reset quiz navigation variables
                         st.session_state.selected_exam = None
                         st.session_state.current_quiz_data = []
                         st.session_state.current_q = 0
@@ -58,4 +62,9 @@ for idx, tab in enumerate(category_tab):
                         st.session_state.submitted = False
                         
                         # 3. Switch to the quiz application page
-                        st.switch_page("pages/exam.py")
+                        st.switch_page(
+                            "pages/exam.py", 
+                            query_params={
+                                "category": cat_name,
+                                "exam_type": item["key"]
+                            })
