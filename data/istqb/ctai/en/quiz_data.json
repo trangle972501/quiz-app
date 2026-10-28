@@ -1,21 +1,23 @@
 [
     {
+        "id": "1",
         "question": "Which of the following best describes a primary difference between a conventional software system and an AI-based system?",
         "options": [
             "A. Conventional systems are non-deterministic, whereas AI-based systems always produce identical outputs for given inputs.",
-            "B. Conventional systems rely on explicit step-by-step instructions written by developers, whereas AI-based systems learn patterns directly from data.",
+            "B. Conventional systems rely on explicit step-by-step instructions written by developers, whereas AI-based systems learn patterns directly from data",
             "C. AI-based systems do not require continuous monitoring after deployment, whereas conventional systems require constant manual oversight.",
             "D. Conventional systems adapt automatically to changes in their operating environment, whereas AI-based systems remain strictly static"
         ],
         "answer": ["B. Conventional systems rely on explicit step-by-step instructions written by developers, whereas AI-based systems learn patterns directly from data"],
         "explaination": {
             "A. Conventional systems are non-deterministic, whereas AI-based systems always produce identical outputs for given inputs.": "Incorrect! Conventional systems are typically deterministic, meaning they produce the same output for a given input. AI-based systems can be non-deterministic due to their learning nature and probabilistic models.",
-            "B. Conventional systems rely on explicit step-by-step instructions written by developers, whereas AI-based systems learn patterns directly from data.": "Correct! Conventional software systems are built using explicit programming, while AI-based systems learn from data and can adapt to new patterns without being explicitly programmed.",
+            "B. Conventional systems rely on explicit step-by-step instructions written by developers, whereas AI-based systems learn patterns directly from data": "Correct! Conventional software systems are built using explicit programming, while AI-based systems learn from data and can adapt to new patterns without being explicitly programmed.",
             "C. AI-based systems do not require continuous monitoring after deployment, whereas conventional systems require constant manual oversight.": "Incorrect! Both AI-based and conventional systems may require monitoring after deployment, especially in critical applications. AI systems may require monitoring to ensure they are performing as expected and to detect any drift in their learning.",
             "D. Conventional systems adapt automatically to changes in their operating environment, whereas AI-based systems remain strictly static": "Incorrect! Conventional systems do not typically adapt automatically; they require updates or changes to their code. AI-based systems can adapt to changes in their environment through learning and retraining, although this may require additional data and intervention."
         }
     },
     {
+        "id": "2",
         "question": "Which statement correctly reflects the adaptability of AI-based systems compared to conventional software?",
         "options": [
             "A. Conventional systems automatically rewrite their own code when encountering unseen data in production.",
@@ -32,6 +34,7 @@
         }
     },
     {
+        "id": "3",
         "question": "Which of the following statements regarding the spectrum of AI capabilities is TRUE?",
         "options": [
             "A. General AI is widely deployed in current commercial applications such as facial recognition and translation tools.",
@@ -48,6 +51,7 @@
         }
     },
     {
+         "id": "4",
         "question": "A software tester is reviewing deep learning model architectures. Which neural network type is correctly matched with its primary application area?",
         "options": [
             "A. Recurrent Neural Networks (RNN) – Optimized specifically for processing 2D grid-like image datasets.",
@@ -63,6 +67,7 @@
         }
     },
     {
+         "id": "5",
         "question": "Which AI technology is characterized by evaluating partial truth using certainty factors between 0 and 1 to support reasoning under uncertainty?",
         "options": [
             "A. Expert Systems",
@@ -79,6 +84,7 @@
         }
     },
     {
+         "id": "6",
         "question": "Question 6: How do Generative Adversarial Networks (GANs) produce synthetic content?",
         "options": [
             "A. By utilizing self-attention mechanisms to calculate probability distributions over textual tokens.",
@@ -95,6 +101,7 @@
         }
     },
     {
+        "id": "7",
         "question": "When selecting hardware for Machine Learning Systems, what is the main advantage of applying quantization (low-precision arithmetic)?",
         "options": [
             "A. It increases the precision of arithmetic calculations from 32-bit to 64-bit floating points.",
@@ -111,6 +118,7 @@
         }
     },
     {
+        "id": "8",
         "question": "Which hardware architecture is specifically designed to mimic biological neuronal structures rather than using the traditional von Neumann computer architecture?",
         "options": [
             "A. Central Processing Units (CPUs)",
@@ -127,6 +135,7 @@
         }
     },
     {
+         "id": "9",
         "question": "An organization needs to prototype an AI system using sensitive customer data locally, while needing elastic computational power for large-scale model training. Which hosting/development approach is most appropriate?",
         "options": [
             "A. Pure Local Hosting on personal mobile devices.",
@@ -143,6 +152,7 @@
         }
     },
     {
+         "id": "10",
         "question": "Which set of activities represents core functionalities provided by Machine Learning Development Frameworks (e.g., PyTorch, TensorFlow)?",
         "options": [
             "A. Hardware manufacturing, chip fabrication, and physical cooling management.",
@@ -159,6 +169,7 @@
         }
     },
     {
+        "id": "11",
         "question": "Under the EU AI Act, how are AI systems that function as safety components in critical domains (e.g., automotive or medical devices) classified?",
         "options": [
             "A. Low-Risk",
@@ -175,6 +186,7 @@
         }
     },
     {
+        "id": "12",
         "question": "Which international standard provides specific guidance and best practices on the TESTING of AI-based systems?",
         "options": [
             "A. ISO/IEC 25010",
@@ -191,6 +203,7 @@
         }
     },
     {
+        "id": "13",
         "question": "Which of the following statements BEST highlights the difference between conventional and AI based systems?",
         "options": [
             "A. AI-based systems tend to learn from patterns in data and can adapt to new scenarios, while conventional systems follow predefined rules and produce consistent outputs for the same inputs",
@@ -207,6 +220,7 @@
         }
     },
     {
+        "id": "14",
         "question": "Which TWO of the following statements BEST distinguish between narrow AI, general AI, and super AI? Select TWO answers.",
         "options": [
             "A. Narrow AI is self-learning, general AI focuses on solving specialized problems, and super AI is limited to tasks defined during its development",
@@ -228,6 +242,7 @@
         }
     },
     {
+        "id": "15",
         "question": "Which of the following statements BEST describes the relationship between AI, ML, and DL?",
         "options": [
             "A. ML is a subset of AI, and DL is a further subset of ML, representing a hierarchy of specialized technologies",
@@ -244,6 +259,7 @@
         }
     },
     {
+        "id": "16",
         "question": "Which of the following statements BEST explains generative AI?",
         "options": [
             "A. It is designed to analyze and understand existing data, such as text or images, allowing machines to categorize information and extract key insights",
@@ -260,6 +276,7 @@
         }
     },
     {
+        "id": "17",
         "question": "Which of the following statements BEST compares the hardware options available for implementing machine learning systems?",
         "options": [
             "A. GPUs are well-suited for training and running ML models due to their ability to handle massively parallel processing, while CPUs are better for general-purpose computing b",
@@ -276,7 +293,8 @@
         }
     },
     {
-        "question": "Given the following statements about AI model development and hosting:\n i. It achieves lower development costs by using public cloud resources, eliminating the need for local hardware investment\n ii. It uses local development of data preparation components for sensitive data for increased security before moving to the cloud for training of the full system\n iii. It results in lower costs because laptops are used for local development and there are low upfront hardware costs by hosting AI models on public clouds\n iv. It simplifies development and hosting by standardizing processes on local servers, removing the need for complex cloud-based configurations\n Which of the following BEST reflects advantages of using a hybrid approach for this development and hosting?",
+         "id": "18",
+        "question": "Given the following statements about AI model development and hosting:\n i. It achieves lower development costs by using public cloud resources, eliminating the need for local hardware investment\n ii. It uses local development of data preparation components for sensitive data for increased security before moving to the cloud for training of the full system\n iii. It results in lower costs because laptops are used for local development and there are low upfront hardware costs by hosting AI models on public clouds\n iv. It simplifies development and hosting by standardizing processes on local servers, removing the need for complex cloud-based configurations\n It guarantees the highest security by hosting AI models on private clouds, thereby avoiding the risks associated with local hardware vulnerabilities  \n Which of the following BEST reflects advantages of using a hybrid approach for this development and hosting?",
         "options": [
             "A. i, ii and v",
             "B. ii and iii",
@@ -292,6 +310,7 @@
         }
     },
     {
+         "id": "19",
         "question": "According to ISO/IEC 25059, which quality characteristic is defined as a new sub-characteristic of RELIABILITY that enables an AI-based system to maintain its functional correctness despite invalid inputs or adverse environmental conditions?",
         "options": [
             "A. Functional adaptability",
@@ -308,6 +327,7 @@
         }
     },
     {
+         "id": "20",
         "question": "A tester is classifying quality characteristics for an autonomous industrial robot. The requirement states: 'An operator must be able to shut down the robot within 0.5 seconds if it breaches its physical safety boundary to prevent human injury.' Which ISO/IEC 25059 quality characteristic does this requirement BEST represent?",
         "options": [
             "A. User controllability under Interaction Capability",
@@ -324,6 +344,7 @@
         }
     },
     {
+         "id": "21",
         "question": "Which of the following statements correctly matches an ISO/IEC 25059 quality characteristic with its parent characteristic in the updated ISO/IEC 25010 framework?",
         "options": [
             "A. Functional adaptability is a sub-characteristic of Performance Efficiency.",
@@ -333,13 +354,14 @@
         ],
         "answer": ["B. User controllability is a sub-characteristic of Interaction Capability."],
         "explaination": {
-            "A. Functional adaptability is a sub-characteristic of Performance Efficiency.": "Incorrect! Functional adaptability is not a sub-characteristic of Performance Efficiency.",
+            "A. Functional adaptability is a sub-characteristic of Performance Efficiency.": "Incorrect! Functional adaptability is a sub-characteristic of Functional Suitability.",
             "B. User controllability is a sub-characteristic of Interaction Capability.": "Correct! User controllability is indeed a sub-characteristic of Interaction Capability in the updated ISO/IEC 25010 framework.",
-            "C. AI robustness is a sub-characteristic of Maintainability.": "Incorrect! AI robustness is not a sub-characteristic of Maintainability.",
-            "D. Intervenability is a sub-characteristic of Freedom from Risk.": "Incorrect! Intervenability is not a sub-characteristic of Freedom from Risk."
+            "C. AI robustness is a sub-characteristic of Maintainability.": "Incorrect! AI robustness is a sub-characteristic of Reliability.",
+            "D. Intervenability is a sub-characteristic of Freedom from Risk.": "Incorrect! Intervenability is a sub-characteristic of Sercurity."
         }
     },
     {
+        "id": "22",
         "question": "Why does the \"self-learning\" capability of adaptive AI systems pose a major challenge in safety-critical applications?",
         "options": [
             "A. Self-learning systems convert all deep neural networks into deterministic, rule-based expert systems.",
@@ -356,6 +378,7 @@
         }
     },
     {
+         "id": "23",
         "question": "An engineering team is deploying a deep learning model for medical image diagnosis. Which technique can help provide insights into why the AI model made a specific classification, despite potentially impacting system performance?",
         "options": [
             "A. Quantization",
@@ -371,6 +394,7 @@
             "D. Automated A/B deployment testing": "Incorrect! This is a deployment strategy, not an explanation technique."
         }
     },{
+         "id": "24",
         "question": "Which of the following represents a typical ACCEPTANCE CRITERION for the \"Societal and Ethical Risk Mitigation\" quality characteristic?",
         "options": [
             "A. The automated sentencing system must maintain an inference response time of under 100 milliseconds.",
@@ -388,6 +412,7 @@
     },
 
     {
+         "id": "25",
         "question": "How do acceptance criteria for AI-based systems generally differ from those of conventional software systems?",
         "options": [
             "A. AI acceptance criteria are always binary pass/fail statements based on fixed step-by-step logic.",
@@ -403,6 +428,7 @@
             "D. AI acceptance criteria apply only to hardware power consumption rather than software accuracy.": "Incorrect! AI acceptance criteria focus on software performance and accuracy, not just hardware power consumption."
         }
     },{
+         "id": "26",
         "question": "Given the following ISO/IEC 25059 quality characteristics:\n 1. AI robustness\n 2. User controllability\n 3. Functional adaptability\n 4. Intervenability\n And the following examples of quality characteristic measures:\n A. The success rate of a remote operator in forcing a drone into the safe-landing protocol when its AI navigation system exhibits hazardous behavior\n B. The average time required to successfully override a fraud management system’s automated decision to block a customer's transaction \n C. The F1-score of an object detection model in an autonomous car in heavy rain \nD. The time required for an e-commerce recommendation engine to update its suggestions to reflect a new, rapidly emerging fashion trend\n Which of the following BEST matches the quality characteristics with the example measures?",
         "options": [
             "a) 1D – 2A – 3C – 4B",
@@ -419,6 +445,7 @@
         }
     },
     {
+         "id": "27",
         "question": "Which of the following statements BEST describes a key challenge when AI is used in safety related systems?",
         "options": [
             "A. When the requirements are too detailed, it leaves little room for the ML system to learn from the implicit goals contained within the training data",
@@ -435,6 +462,7 @@
         }
     },
     {
+         "id": "28",
         "question": "Which of the following examples is LEAST likely to be a valid acceptance criterion for AI-specific quality characteristics defined in the ISO 25059 standard for an AI-based system?",
         "options": [
             "A. The security guard in the museum control room can trigger an immediate 'all-stop' command that causes the patrol robot to cease all motion within 0.5 seconds to prevent collision with a sculpture",
@@ -451,6 +479,7 @@
         }
     },
     {
+         "id": "29",
         "question": "A software development team is developing an ML component for an e-commerce platform that automatically clusters users based on shopping behaviors without pre-assigned labels. Which form of machine learning is being utilized?",
         "options": [
             "A. Supervised Learning – Classification",
@@ -467,6 +496,7 @@
         }
     },
     {
+         "id": "30",
         "question": "During the Model Generation phase of the ML workflow, a machine learning engineer adjusts the depth of a decision tree and the maximum number of training iterations. How are these parameters classified according to ISTQB CTAI terminology?",
         "options": [
             "A. Decision tree depth is an algorithm hyperparameter; training iterations are model parameters.",
@@ -483,6 +513,7 @@
         }
     },
     {
+         "id": "31",
         "question": "An engineering team wants to enhance a Large Language Model (LLM) so that it answers queries using an up-to-date internal company knowledge base without modifying the underlying model weights. Which approach is MOST suitable?",
         "options": [
             "A. Supervised Fine-Tuning",
@@ -499,6 +530,7 @@
         }
     },
     {
+         "id": "32",
         "question": "Which of the following data preparation activities is correctly categorized under Feature Engineering?",
         "options": [
             "A. Generating synthetic images to balance class distributions.",
@@ -515,6 +547,7 @@
         }
     },
     {
+         "id": "33",
         "question": "Why is it critical to keep the Test Dataset (Holdout set) strictly separate from the Training and Validation Datasets during ML model development?",
         "options": [
             "A. To prevent algorithm hyperparameters from being updated during neural network forward passes.", 
@@ -531,6 +564,7 @@
         }
     },
     {
+         "id": "34",
         "question": "A test engineer wants to measure the proportion of neurons whose outputs during testing exceed the maximum value or fall below the minimum value recorded during training. Which structural coverage metric should be applied?",
         "options": [
             "A. Neuron Coverage",
@@ -547,6 +581,7 @@
         }
     },
     {
+         "id": "35",
         "question": "A machine learning model for automated medical diagnosis was evaluated on an independent test dataset of 200 patient records. The test results produced the following Confusion Matrix:\nActual Positive + Predicted Positive = 70\nActual Positive + Predicted Negative = 20\nActual Negative + Predicted Positive = 10\nActual Negative + Predicted Negative = 100\nCalculate the Accuracy, Precision, Recall, and F1-score of this diagnostic model.",
         "options": [
             "A. Accuracy = 85%, Precision = 87.5%, Recall = 77.8%, F1-score = 82.4%",
@@ -563,6 +598,7 @@
         }
     },
     {
+         "id": "36",
         "question": "You are testing an AI-based fraud detection system where missing a fraudulent transaction (False Negative) results in severe financial loss ($1,000,000+), while falsely flagging a legitimate transaction (False Positive) merely causes a minor 5-second SMS verification delay. Which metric should be PRIMARILY maximized to meet acceptance criteria?",
         "options": [
             "A. Precision, to minimize the number of SMS verification alerts sent to customers.",
@@ -579,6 +615,7 @@
         }
     },
     {
+         "id": "37",
         "question": "A software company is building an AI classifier to detect a rare industrial defect occurring in only 1.5% of manufacturing samples. The available dataset contains 10,000 total samples. When partitioning data for k-fold cross-validation, which sampling technique MUST be applied to ensure every fold contains an equal 1.5% defect proportion?",
         "options": [
             "A. Pure Random Sampling",
@@ -595,6 +632,7 @@
         }
     },
     {
+         "id": "38",
         "question": "A QA team evaluates a deep learning image classification model across training, validation, and holdout test datasets and obtains the following F1-score results:\nTraining Dataset F1-Score: 99.4%\nValidation Dataset F1-Score: 98.9%\nHoldout Test Dataset F1-Score: 61.2%\nWhich phenomenon is occurring, and what is the MOST effective remediation strategy?",
         "options": [
             "A. Underfitting; remediate by simplifying the model architecture and increasing regularization.",
@@ -611,6 +649,7 @@
         }  
     },
     {
+         "id": "39",
         "question": "Given the following forms of ML:\n1. Clustering\n2. Reinforcement learning\n3. Classification\n4. Regression\nAnd the following examples:\nA. The mobile game app updates its feedback, response timing, and the number of user options it provides based on how much the players spend\nB. The language translation app searches the internet to find text provided in multiple languages to improve its translation function\nC. A manufacturing company predicts when equipment is likely to fail based on sensor data and historical maintenance records\nD. A social network platform groups its users into communities based on their interactions with each other and their stated interests\nWhich of the following BEST matches the examples with the forms of ML?",
         "options": [
             "a) 1B – 2D – 3A – 4C",
@@ -627,6 +666,7 @@
         }  
     },
     {
+         "id": "40",
         "question": "Given the following activities from the ML workflow:\n1. Deploy the Model\n2. Prepare & Test Data\n3. Test the Model\n4. Evaluate the Model\n And, given the following descriptions:\nA. Model performance is tested using validation data\nB. The origin of the test data used to test the model is identified\nC. Test data are used to verify the agreed performance criteria are met\nD. The model is tested on the target platform\nWhich of the following BEST matches the descriptions with the activities in the ML workflow?",
         "options": [
             "a) 1A – 2C – 3B – 4D",
@@ -645,6 +685,7 @@
         }  
     },
     {
+         "id": "41",
         "question": "Which of the following statements about the use of pre-trained models is CORRECT?",
         "options": [
             "a) When applied to a neural network, the RAG approach works by adding additional layers that hold documentation specifically related to the prompt",
@@ -663,6 +704,7 @@
         }  
     },
     {
+         "id": "42",
         "question": "Which of the following statements BEST describes a key activity in data preparation for machine learning?",
         "options": [
             "a) Data preparation comprises the identification and gathering of data from various sources, providing the algorithm with raw data to learn from",
@@ -679,6 +721,7 @@
         }  
     },
     {
+         "id": "43",
         "question": "Which of the following statements BEST contrasts the roles of training, validation, and test datasets in ML model development?",
         "options": [
             "a) The training dataset is used to optimize hyperparameters, the validation dataset is used to tune predictions, and the test dataset is used to generate training data",
@@ -695,6 +738,7 @@
         }  
     },
     {
+         "id": "44",
         "question": "Consider the following confusion matrix for an image classifier:\nActual Positive + Predicted Positive = 78\nActual Positive + Predicted Negative = 6\nActual Negative + Predicted Positive = 22\nActual Negative + Predicted Negative = 14\nWhich of the following options represents the CORRECT formula for calculating the precision of the classifier?",
         "options": [
             "a) (20/120) *100",
@@ -711,6 +755,7 @@
         }  
     },
     {
+         "id": "45",
         "question": "During the training of a deep neural network, the network produces an output, and the loss is calculated. Which of the following CORRECTLY describes the next step in the training process?",
         "options": [
             "a) The weights and biases across the network are adjusted to reduce the calculated loss",
@@ -727,6 +772,7 @@
         }
     },
     {
+         "id": "46",
         "question": "Which of the following statements correctly compares the testability of locked AI-based systems and adaptive AI-based systems?",
         "options": [
             "A. Adaptive systems are easier to test because their parameters remain frozen after deployment.",
@@ -743,6 +789,7 @@
         }
     },
     {
+         "id": "47",
         "question": "Why is a statistical testing approach required when evaluating probabilistic Machine Learning Systems?",
         "options": [
             "A. Because a single test failure (e.g., one misclassification) cannot accurately reflect the overall functional correctness of a probabilistic model.",
@@ -759,6 +806,7 @@
         }
     },
     {
+         "id": "48",
         "question": "A test team is testing a complex AI system where no explicit ground truth or expected output exists for new test inputs. Which test technique provides a pseudo-oracle by comparing the System Under Test against an alternative independent implementation?",
         "options": [
             "A. Red Teaming",
@@ -775,6 +823,7 @@
         }  
     },
     {
+         "id": "49",
         "question": "Which combination of factors contributes directly to the \"Input Explosion Problem\" when testing Generative AI applications?",
         "options": [
             "A. Frozen weights, single-turn prompts, and 4-bit quantization.",
@@ -791,6 +840,7 @@
         }  
     },
     {
+         "id": "50",
         "question": "What is a primary distinction between Red Teaming and Blue Teaming in the context of AI safety?",
         "options": [
             "A. Red Teaming is an automated production filter, whereas Blue Teaming is a pre-deployment unit test.",
@@ -807,6 +857,7 @@
         }  
     },
     {
+         "id": "51",
         "question": "According to the ISTQB CTAI syllabus, which two test levels are specifically designed to address Machine Learning risks?",
         "options": [
             "A. Component Testing and System Integration Testing",
@@ -825,6 +876,7 @@
         }  
     },
     {
+         "id": "52",
         "question": "Scenario: You are leading a Red Teaming assessment for a newly fine-tuned customer support LLM prior to its public release. Your objective is to identify potential policy violations regarding unauthorized financial advice.\nWhich of the following operational procedures represents the MOST effective Red Teaming implementation?",
         "options": [
             "A. Execute a single-turn prompt asking \"What is the stock market?\" and mark the test as Passed if the model responds.",
@@ -843,6 +895,7 @@
         }  
     },
     {
+         "id": "53",
         "question": "Scenario: An engineering team is testing an AI-based audio transcription model. The exact word-for-word transcript for noisy background environments is unavailable (no ground truth oracle). However, the team knows that if background noise is reduced, the transcription accuracy should remain identical or improve, but never degrade.\nWhich test technique is being applied here to overcome the test oracle problem?",
         "options": [
             "A. Metamorphic Testing using a Monotonicity/Invariance relation",
@@ -859,6 +912,7 @@
         }  
     },
     {
+         "id": "54",
         "question": "Scenario: A QA team is validating an LLM designed to generate Boundary Value Analysis (BVA) test suites for traditional software. During testing, the team provides a specification requiring 2-value BVA for an integer range . The LLM outputs the boundary values {0, 1, 100, 101}. \nHow should the tester debrief and classify this result during Exploratory Testing session analysis?",
         "options": [
             "A. Pass; the LLM output is completely correct for 3-value BVA.",
@@ -875,6 +929,7 @@
         }  
     },
     {
+         "id": "55",
         "question": "Scenario: A bank is integrating a 3rd-party credit scoring ML model via an API (AIaaS). The primary risk identified during risk analysis is that network latency or mismatched JSON data schemas between the bank's core system and the external API could cause transaction dropouts.\nWhich test level and activity should be prioritized in the test strategy to mitigate this specific risk?",
         "options": [
             "A. Input Data Testing focused on label correctness in the training dataset.",
@@ -891,6 +946,7 @@
         }  
     },
     {
+         "id": "56",
         "question": "Given the following examples of AI-based systems:\ni. A system that learns from real-time data to improve its failure predictions and automatically updates maintenance schedules\nii. A spam filter for an email app, which identifies spam based on predefined rules\niii. A recommendation engine on a streaming service that updates its suggestions based on a user’s changing viewing habits and preferences\niv. A personal assistant that learns continuously from its user\nv. A rule-based system for medical diagnosis\nWhich of the following BEST describes the systems which can be considered to be locked AI-based systems?",
         "options": [
             "a) ii and v",
@@ -906,6 +962,7 @@
             "d) ii, iv, and v": "Incorrect! While ii and v are locked systems, iv is an adaptive system."
         }  
     },{
+         "id": "57",
         "question": "Which of the following options BEST explains why a statistical approach is necessary when testing an AI-based system?",
         "options": [
             "a) The system is typically large and complex, making test automation impractical without the use of statistical sampling",
@@ -922,6 +979,7 @@
         }  
     },
     {
+         "id": "58",
         "question": "Which of the following BEST describes why self-learning AI systems can suffer from the test oracle problem?",
         "options": [
             "a) The exploratory nature of the development of these AI systems means that the system requirements often change during development",
@@ -938,6 +996,7 @@
         }  
     },
     {
+         "id": "59",
         "question": "Which of the following statements BEST describes a common approach to testing GenAI models?",
         "options": [
             "a) GenAI models are tested by verifying that their outputs exactly match predefined expected results",
@@ -954,6 +1013,7 @@
         }  
     },
     {
+         "id": "60",
         "question": "Your organization plans to deploy a GenAI-powered legal document generator. During implementation planning, the security team argues for focusing red teaming efforts on preventing prompt injection attacks, while the compliance team wants to prioritize bias detection in legal advice generation. The development team suggests running red teaming after the system goes live to save time.\nWhich of the following is the MOST effective red teaming implementation strategy for this scenario?",
         "options": [
             "a) Prioritize security vulnerabilities first, then address bias issues in a separate phase after deployment",
@@ -970,6 +1030,7 @@
         }  
     },
     {
+         "id": "61",
         "question": "An ML-based weather prediction system provides excellent results for most locations; however, it has been noticed that the predictions for areas in the UK with an altitude greater than 1250 meters are regularly inaccurate.\nWhich of the following test levels should have been performed MORE thoroughly?",
         "options": [
             "a) System testing",
@@ -986,6 +1047,7 @@
         }  
     },
     {
+         "id": "62",
         "question": "Which of the following statements about applying risk-based testing to ML systems is CORRECT?",
         "options": [
             "a) Security and usability risks can apply to any system, while risks associated with data bias and ML model performance are specific to ML systems",
@@ -1002,6 +1064,7 @@
         }  
     },
     {
+         "id": "63",
         "question": "Which of the following test procedures BEST describes how Disparate Impact Analysis is performed to detect bias in a machine learning system?",
         "options": [
             "A. Measuring the training loss across all epochs and retraining the model if loss exceeds a predefined threshold.",
@@ -1018,6 +1081,7 @@
         }
     },
     {
+         "id": "64",
         "question": "A test engineer is designing a test suite for a Machine Learning Data Pipeline. During which test level are transformation scripts, data ingestion rules, and error handling logic explicitly validated using code reviews and static analysis?",
         "options": [
             "A. System Integration Testing",
@@ -1034,6 +1098,7 @@
         }
     },
     {
+         "id": "65",
         "question": "Which statistical tests are explicitly recommended in the ISTQB CTAI syllabus to compare feature distributions during Data Representativeness Testing?",
         "options": [
             "A. Student's t-test and Mann-Whitney U test",
@@ -1050,6 +1115,7 @@
         }
     },
     {
+         "id": "66",
         "question": "What does a LOW Inter-Annotator Agreement (IAA) score (e.g., a low Cohen's Kappa metric) typically indicate during Label Correctness Testing?",
         "options": [
             "A. The machine learning model is severely overfitted to training noise.",
@@ -1066,6 +1132,7 @@
         }
     },
     {
+         "id": "67",
         "question": "How can model training metrics be leveraged as an automated technique to identify potentially mislabeled samples in a supervised learning dataset?",
         "options": [
             "A. By filtering out samples that achieve zero loss during early epoch training.",
@@ -1082,6 +1149,7 @@
         }
     },
     {
+         "id": "68",
         "question": "Scenario: You are implementing automated dataset constraint checks inside an ETL pipeline for a healthcare ML dataset. You have defined the following four data validation rules:\n- Rule A: The Patient_Age attribute must fall between 0 and 120.\n- Rule B: The Patient_ID column must contain fewer than 1% duplicate entries.\n- Rule C: The Discharge_Date attribute value must be greater than or equal to the Admission_Date attribute value.\n- Rule D: The total count of non-null records in Blood_Pressure_Readings must exceed 5,000.\nHow should these four validation rules be classified according to ISTQB CTAI dataset constraint categories?",
         "options": [
             "A. Rule A = Single-Value (Range); Rule B = Multi-Value (Duplicate); Rule C = Comparison (Greater Than); Rule D = Multi-Value (Count)",
@@ -1098,6 +1166,7 @@
         }
     },
     {
+         "id": "69",
         "question": "Scenario: A data scientist presents you with a training dataset for an insurance risk model. During data validation, you analyze the Policy_Holder_SSN attribute (Social Security Number) and discover that every single row contains a unique 9-digit alphanumeric string. No duplicate values exist.\nWhich dataset constraint check is violated, and what is the potential negative impact on the ML model?",
         "options": [
             "A. Multi-Value (Useful) constraint is violated; because every value is unique, the attribute provides no learnable patterns for the ML algorithm and should be excluded.",
@@ -1114,6 +1183,7 @@
         }
     },
     {
+         "id": "70",
         "question": "Scenario: An automated recruiting platform uses an ML model to rank job applicants. During pre-deployment testing, a QA engineer creates two identical resume profiles (Profile 1 and Profile 2) with identical work histories, test scores, and education degrees. The ONLY difference is that Profile 1 lists the candidate's name as \"John\" (male) and Profile 2 lists the name as \"Jane\" (female).\nWhen submitted to the model, Profile 1 receives a score of 92/100, while Profile 2 receives a score of 68/100.\nWhat type of testing was performed, what issue was exposed, and what is the MOST appropriate root-cause investigation?",
         "options": [
             "A. Dataset Constraint Testing; exposed an Outlier failure; investigate memory leakage in the data pipeline.",
@@ -1130,6 +1200,7 @@
         }
     },
     {
+         "id": "71",
         "question": "Scenario: A computer vision ML model for autonomous driving is trained exclusively on sunny, daytime driving footage gathered in California. During pre-training input data testing, a test engineer runs Exploratory Data Analysis (EDA) and distribution tests against the target deployment operational profile (which includes European winter driving in snow and rain).\nWhich test level activity failed, and what action MUST be taken before model training begins?",
         "options": [
             "A. Data Representativeness Testing failed due to incomplete operational scenario coverage; collect or synthesize representative rainy/snowy driving datasets prior to model training.",
@@ -1146,6 +1217,7 @@
         }
     },
     {
+         "id": "72",
         "question": "The team developing a new machine learning model has received a dataset from a new, unverified third-party vendor. They are uncertain about the origin of this dataset and concerned that the raw data may have been tampered with.\nWhich of the following test approaches is MOST suitable for addressing this specific risk?",
         "options": [
             "a) Data provenance testing",
@@ -1162,6 +1234,7 @@
         }
     },
     {
+         "id": "73",
         "question": "A financial services company has developed an ML system for loan approval. A tester responsible for testing this system wants to determine if there is potential bias in the system related to factors such as gender and age attributes.\nWhich of the following approaches would be MOST suitable for detecting bias in the training data early?",
         "options": [
             "a) Conducting static analysis of the model’s source code to identify how its operations on the age and gender related attributes could lead to bias",
@@ -1178,6 +1251,7 @@
         }
     },
     {
+         "id": "74",
         "question": "What is a KEY difference in the test strategy for a data pipeline built for training versus one designed for an operational system?",
         "options": [
             "a) Testing an operational pipeline would focus mainly on validating individual transformation scripts, whereas a training pipeline's testing would prioritize end-to-end system testing",
@@ -1194,6 +1268,7 @@
         }
     },
     {
+         "id": "75",
         "question": "What is the purpose of creating a ‘reference dataset’ during data representativeness testing?",
         "options": [
             "a) It serves as a universally applicable dataset derived from trusted industry benchmarks",
@@ -1210,6 +1285,7 @@
         }
     },
     {
+         "id": "76",
         "question": "You are testing an ML dataset for a banking loan approval system. The dataset contains the following attributes:\n- applicant_id (integer, unique)\n- annual_income (decimal, in USD)\n- loan_amount (decimal, in USD)\n- credit_score (integer, 300-850)\n- employment_years (integer, 0-50)\n- monthly_payment (decimal, in USD)\nThe following business rules apply:\n- Loan amount cannot exceed 5 times annual income\n- Monthly payment = loan_amount / 324 (for 30-year loans)\n- Credit scores must be within the standard range\n- All monetary values must be positive\nWhen applying dataset constraint testing to validate the ‘monthly_payment’ for 30-year loans, which type of constraint would be MOST appropriate?",
         "options": [
             "a) Single-value range constraint",
@@ -1226,6 +1302,7 @@
         }
     },
     {
+         "id": "77",
         "question": "Which of the following BEST explains the role of multiple annotations in data label correctness testing?",
         "options": [
             "a) Multiple annotations can be used to automate label verification to ensure consistency",
@@ -1242,6 +1319,7 @@
         }
     },
     {
+         "id": "78",
         "question": "Why is reviewing ML model documentation (such as Model Cards and Datasheets for Datasets) considered a critical test activity in AI testing?",
         "options": [
             "A. Because inspecting Python source code directly reveals all decision boundaries of a deep neural network.",
@@ -1258,6 +1336,7 @@
         }
     },
     {
+         "id": "79",
         "question": "How should the results of ML functional performance testing be reported for probabilistic machine learning systems?",
         "options": [
             "A. As a single binary pass/fail decision based on a single test case execution.",
@@ -1274,6 +1353,7 @@
         }
     },
     {
+         "id": "80",
         "question": "A test team performs black-box adversarial testing on an image classification model without access to its internal weights. How can the team generate effective adversarial test inputs?",
         "options": [
             "A. By adjusting algorithm hyperparameters such as learning rate and epoch count directly.",
@@ -1290,6 +1370,7 @@
         }
     },
     {
+         "id": "81",
         "question": "An e-commerce recommendation model experiences a drop in prediction accuracy after a new tax law alters customer purchasing classifications. The statistical properties of the incoming customer feature data remain unchanged, but the target outcome definitions have shifted. Which form of drift has occurred?",
         "options": [
             "A. Data Drift",
@@ -1306,6 +1387,7 @@
         }
     },
     {
+         "id": "82",
         "question": "Which testing outcome indicates that a machine learning model is suffering from UNDERFITTING?",
         "options": [
             "A. The model achieves 99% accuracy on the training set but 55% accuracy on the test set.",
@@ -1322,6 +1404,7 @@
         }
     },
     {
+         "id": "83",
         "question": "What is a key distinction between A/B Testing and Back-to-Back Testing in the context of ML model testing?",
         "options": [
             "A. A/B testing is used to detect functional defects during unit testing, whereas back-to-back testing evaluates live customer satisfaction.",
@@ -1338,6 +1421,7 @@
         }
     },
     {
+         "id": "84",
         "question": "Scenario: You are testing an AI-based shortest-path navigation application. You have a passed source test case:\n- Source Input (TC1): Route from Point A to Point B on a map with 100 intersections.\n- Source Output (Result1): Distance = 12.5 km, Estimated Time = 15 minutes.\nYou define a Metamorphic Relation (MR_1): \"Scaling all map road distance values by a constant factor k (k > 0) must scale the total estimated route distance by exactly factor k”\nYou construct a follow-up test case (TC2) by scaling all road distances on the map by k = 2.0.\nWhat is the expected output for TC2, and what conclusion should be drawn if TC2 yields a distance of 30.0 km?",
         "options": [
             "A. Expected Distance = 12.5 km; if TC2 yields 30.0 km, the test Passes under Invariance MR.",
@@ -1354,6 +1438,7 @@
         }
     },
     {
+         "id": "85",
         "question": "Scenario: A test team evaluates an automated medical imaging model across three separate dataset splits during model validation and obtains the following Recall metrics:\n- Training Dataset Recall: 98.6%\n- Validation Dataset Recall: 97.8%\n- Independent Test Dataset (Holdout) Recall: 62.4%\nHow should the test engineer evaluate this model, and what is the MOST appropriate recommendation?",
         "options": [
             "A. The model is Underfitted; recommend increasing neural network layer depth and training epochs.",
@@ -1370,6 +1455,7 @@
         }
     },
     {
+         "id": "86",
         "question": "Scenario: A machine learning system filters customer loan applications. You monitor the system in production over 6 months and observe two distinct phenomena:\n- Phenomenon 1: Due to a marketing campaign targeting young adults, the average age of applicants drops from 45 to 22 years old. The model's internal decision logic remains valid, but input feature distributions shift significantly.\n- Phenomenon 2: A economic recession occurs, causing loan default rates among previously \"stable\" credit score bands to double. Applicants with a credit score of 700 who were previously approved now frequently default.\nHow should these two phenomena be classified?",
         "options": [
             "A. Phenomenon 1 = Concept Drift; Phenomenon 2 = Data Drift",
@@ -1386,6 +1472,7 @@
         }
     },
     {
+         "id": "87",
         "question": "Scenario: An engineering team is migrating an autonomous vehicle object-detection model from a cloud development environment to an edge device System-on-Chip (SoC) with 4-bit quantization. The team must verify that model conversion did not introduce subtle functional bugs or behavioral divergences across 50,000 test frames.\nWhich testing approach provides the MOST efficient solution without requiring manual expected output labeling for all 50,000 frames?",
         "options": [
             "A. Manual Exploratory Testing with session sheets.",
@@ -1402,6 +1489,7 @@
         }
     },
     {
+         "id": "88",
         "question": "Given the following test techniques and test types:\n1. ML functional performance testing\n​2. Testing for bias\n3. Adversarial testing\n4. Drift testing\nAnd the following risks:\nA. The ML model might perform differently for different demographic groups\nB. Slightly modified inputs to the ML model might cause quite different and unexpected responses\nC. Predictions made by the ML model might be inaccurate in some cases\nD. ML model accuracy might have significantly decreased since it was deployed\nWhich of the following options BEST matches the test techniques and test types with the risks?",
         "options": [
             "a) 1A – 2D – 3C – 4B",
@@ -1418,6 +1506,7 @@
         }
     },
     {
+         "id": "89",
         "question": "Which of the following statements about the documentation of ML models is CORRECT?",
         "options": [
             "a) Information related to the speed of model prediction is a part of the documentation of an AI component",
@@ -1434,6 +1523,7 @@
         }
     },
     {
+         "id": "90",
         "question": "Upon release, an ML model provided correct predictions fewer times than expected. Additional tests have been conducted, and the level of accuracy for these tests was measured at 83%. Previously, the ML model had achieved an accuracy of 83% ± 4% at a confidence level of 94%.\nWhich of the following options is MOST likely to represent the current situation?",
         "options": [
             "a) accuracy of 83% ± 2% at 94% confidence level",
@@ -1450,6 +1540,7 @@
         }
     },
     {
+         "id": "91",
         "question": "Which of the following statements BEST summarizes adversarial testing of machine learning systems?",
         "options": [
             "a) It is a form of black-box testing, ignoring knowledge of the internals of the machine learning system to create adversarial examples",
@@ -1466,6 +1557,7 @@
         }
     },
     {
+         "id": "92",
         "question": "An AI-based mobile phone search system provides a list of phones that it believes are most suitable for the user based on its knowledge of the user’s previous mobile phone usage and their specified preferences.\nMetamorphic testing is being used with the following source test case:\nInputs\n- Selected price range: $200-$300\n- 3D camera: Don’t care\n- Screen size: mid to large\n- OS: Android or iOS\n- Battery Life: Don’t care\nOutputs: Recommended Phones:\n  - SnapHappy_X1\n  - SnapHappy_M2\n  - SnapHappy_M3\n  - ClickNow_1000x\n  - ClickNow_1000xs\n And this test data for two corresponding follow-up test cases:\n- Input 1\n  - Selected price range: $200-$300\n  - 3D camera: yes\n  - Screen size: mid to large\n  - OS: Android or iOS\n  - Battery Life: Don’t care\n - Input 2\n  --  Selected price range: $200-$300\n  -- 3D camera: no\n  -- Screen size: mid to large\n  -- OS: Android or iOS\n  -- Battery Life: Don’t care\n\tWhich of the following options is MOST likely to be a valid list of recommended phones for the follow-up test cases?",
         "options": [
             "a)T1: SnapHappy_X1, SnapHappy_M2 -- T2: ClickNow_1000x, ClickNow_1000xs",
@@ -1482,6 +1574,7 @@
         }
     },
     {
+         "id": "93",
         "question": "An organization uses an ML model to predict customer churn but has no mechanism to get direct user feedback or track when customers leave. They want to test for drift by analyzing the data being fed into the live ML model. '\nWhich test type would be MOST appropriate in this situation and why?",
         "options": [
             "a) Dynamic drift testing, because it can infer the current ground truth by analyzing the input data's statistical properties",
@@ -1498,6 +1591,7 @@
         }
     },
     {
+         "id": "94",
         "question": "When testing a trained ML model, the development team found that the model was highly accurate when evaluated using validation data but performed poorly with independent test data.\nWhich of the following options is MOST likely to cause this situation?",
         "options": [
             "a) Underfitting",
@@ -1514,6 +1608,7 @@
         }
     },
     {
+         "id": "95",
         "question": "Which of the following statements BEST describes how A/B testing is used in the context of a machine learning system (MLS)?",
         "options": [
             "a) A/B testing is primarily used to generate diverse test cases that cover all possible inputs for an MLS",
@@ -1530,6 +1625,7 @@
         }
     },
     {
+         "id": "96",
         "question": "Which of the following descriptions of the creation of a pseudo-oracle used to support the back-to-back testing of an ML model is MOST likely to be CORRECT?",
         "options": [
             "a) By varying the hyperparameters used for training the ML model that is being tested",
@@ -1546,6 +1642,7 @@
         }
     },
     {
+         "id": "97",
         "question": "Which of the following BEST describes the primary focus of Machine Learning Development Testing compared to Model Testing?",
         "options": [
             "A. Machine learning development testing focuses on evaluating the internal mathematical weights and decision boundaries of a trained neural network.",
@@ -1562,6 +1659,7 @@
         }
     },
     {
+         "id": "98",
         "question": "An engineering team is concerned that data leakage might occur due to an improper split between training, validation, and holdout test datasets. Which risk mitigation activity should be performed?",
         "options": [
             "A. Model conversion testing",
@@ -1578,6 +1676,7 @@
         }
     },
     {
+         "id": "99",
         "question": "When MUST Rollback Testing be executed during the deployment lifecycle of a Machine Learning System?",
         "options": [
             "A. Only after a critical production failure has already occurred in the live environment.",
@@ -1594,6 +1693,7 @@
         }
     },
     {
+         "id": "100",
         "question": "An AI development team converts a PyTorch model into ONNX format for deployment on mobile devices. Which test type explicitly verifies that predictive accuracy and inference speed are maintained after format conversion?",
         "options": [
             "A. Model Conversion Testing",
@@ -1610,6 +1710,7 @@
         }
     },
     {
+         "id": "101",
         "question": "A QA manager notices that developers frequently misuse complex PyTorch API methods, introducing hidden runtime errors in model pipelines. Which testing activity directly mitigates this specific development risk?",
         "options": [
             "A. Shadow Testing",
@@ -1626,6 +1727,7 @@
         }
     },
     {
+         "id": "102",
         "question": "Scenario: A financial institution wants to evaluate a newly trained fraud-detection model against live operational data. However, compliance regulations strictly forbid exposing live customers to unverified model predictions until performance is proven.\nWhich deployment testing strategy is MOST appropriate for this scenario?",
         "options": [
             "A. Canary Testing, because only 5% of users receive responses from the new model.",
@@ -1642,6 +1744,7 @@
         }
     },
     {
+         "id": "103",
         "question": "Scenario: An e-commerce company wishes to release an updated product recommendation engine. The team wants a small percentage of real online buyers (e.g., 3%) to actively interact with the new model so they can monitor real-time purchase conversion rates and system latency before a full rollout.\nWhich deployment test approach meets this objective?",
         "options": [
             "A. Shadow Testing",
@@ -1658,6 +1761,7 @@
         }
     },
     {
+         "id": "104",
         "question": "Scenario: A computer vision model trained on cloud GPUs is quantized from 32-bit floating-point to 4-bit integer precision for deployment on low-power IoT cameras. During field testing, the camera system experiences unexpected memory crashes and reduced frame rates across different camera hardware models.\nWhich TWO testing types were likely omitted or inadequately performed during deployment preparation?\n1. Model Conversion Testing\n2. Cross-Device Testing\n3. Label Correctness Testing\n4. Metamorphic Testing",
         "options": [
             "A. 1 and 2",
@@ -1674,6 +1778,7 @@
         }
     },
     {
+         "id": "105",
         "question": "Scenario: A data science team runs a single training pass of a deep learning model and obtains an accuracy score of 91.2%. They immediately claim the model passes acceptance criteria. However, when the QA team retrains the model with a different random seed, accuracy drops to 82.5%.\nWhat risk occurred, and how should it be systematically addressed according to ISTQB CTAI development testing principles?",
         "options": [
             "A. Risk: Unacceptable Data Drift; Address by running Chi-squared tests on raw input data.",
@@ -1690,6 +1795,7 @@
         }
     },
     {
+         "id": "106",
         "question": "Scenario: You are establishing a CI/CD pipeline for deploying an ML-based translation service. You need to ensure that if a new model deployment causes an immediate crash or high error rate on the server, the deployment pipeline automatically reverts to the previous stable model within 10 seconds.\nWhich testing process MUST be automated and validated in the CI/CD pipeline to guarantee this safety net?",
         "options": [
             "A. Rollback Testing",
@@ -1706,6 +1812,7 @@
         }
     },
     {
+         "id": "107",
         "question": "Which TWO of the following scenarios describe ML development risks that can be EFFECTIVELY mitigated by performing ML functional performance testing?",
         "options": [
             "a) A team notices that their ML development framework becomes slow and even unresponsive when processing large batches of data",
@@ -1727,6 +1834,7 @@
         }
     },
     {
+         "id": "108",
         "question": "Which of the following statements CORRECTLY describes how shadow testing differs from canary testing in the deployment of ML models?",
         "options": [
             "a) Shadow testing affects the responses from real users, while canary testing does not involve real users",
@@ -1743,6 +1851,7 @@
         }
     },
     {
+         "id": "109",
         "question": "What are the characteristics of a conventional computer system?",
         "options": [
             "1. Learn from new data automatically",
@@ -1759,6 +1868,7 @@
         }
     },
     {
+         "id": "110",
         "question": "What is the main difference between AI-based systems and conventional systems?",
         "options": [
             "1. AI-based systems use more loops.",
@@ -1775,6 +1885,7 @@
         }
     },
     {
+        "id": "111",
         "question": "Which term describes the situation where the same input always produces the same output?",
         "options": [
             "1. Adaptive",
@@ -1791,6 +1902,7 @@
         }
     },
     {
+        "id": "112",
         "question": "An image recognition system returns: Cat = 92% Dog = 8% . What characteristics of AI are demonstrated?",
         "options": [
             "1. Deterministic processing",
@@ -1807,6 +1919,7 @@
         }
     },
     {
+        "id": "113",
         "question": "Why is testing AI-based systems often more difficult than testing conventional systems?",
         "options": [
             "1. AI has no input.",
@@ -1823,6 +1936,7 @@
         }
     },
     {
+        "id": "114",
         "question": "What does \"Black Box Nature\" in AI mean?",
         "options": [
             "1. AI runs in the dark.",
@@ -1839,6 +1953,7 @@
         }
     },
     {
+        "id": "115",
         "question": "You are testing an AI system for diagnosing diseases. Which factor is most important?",
         "options": [
             "1. Beautiful interface",
@@ -1855,6 +1970,7 @@
         }
     },
     {
+        "id": "116",
         "question": "Transparency and explainability are of particular interest for what reason?",
         "options": [
             "1. Reducing model size",
@@ -1871,6 +1987,7 @@
         }
     },
     {
+        "id": "117",
         "question": "Which is an example of adaptability?",
         "options": [
             "1. Manually modifying source code to add new rules",
@@ -1887,6 +2004,7 @@
         }
     },
     {
+        "id": "118",
         "question": "Which of the following systems is most likely an AI-based system?",
         "options": [
             "1. Calculator",
@@ -1903,6 +2021,7 @@
         }
     },
     {
+        "id": "119",
         "question": "A tester observed that the same email was passed through an AI spam filter twice, but the probability of it being spam the first time was 91% and the second time was 89%. Which characteristic of AI-based systems does this reflect?",
         "options": [
             "1. Explainability",
@@ -1919,6 +2038,7 @@
         }
     },
     {
+        "id": "120",
         "question": "Which statement is TRUE?",
         "options": [
             "1. AI systems are always more accurate than conventional systems.",
@@ -1935,6 +2055,7 @@
         }
     },
     {
+        "id": "121",
         "question": "A conventional software system calculates shipping costs using predefined business rules. Which characteristic does this demonstrate?",
         "options": [
             "1. Pattern recognition",
@@ -1951,6 +2072,7 @@
         }
     },
     {
+        "id": "122",
         "question": "An AI model was trained using thousands of customer emails to classify messages as \"spam\" or \"not spam\". What is the primary source of the model's behavior?",
         "options": [
             "1. If-then-else statements created by developers",
@@ -1967,6 +2089,7 @@
         }
     },
     {
+        "id": "123",
         "question": "Which statement about AI-based systems is TRUE?",
         "options": [
             "1. They always produce identical outputs for identical inputs.",
@@ -1983,6 +2106,7 @@
         }
     },
     {
+        "id": "124",
         "question": "A tester notices that understanding how an AI model reached a decision is very difficult. Which AI challenge is being observed?",
         "options": [
             "1. Scalability",
@@ -1999,6 +2123,7 @@
         }
     },
     {
+        "id": "125",
         "question": "Why are AI systems often described as \"black boxes\"?",
         "options": [
             "1. Their source code is encrypted.",
@@ -2015,6 +2140,7 @@
         }
     },
     {
+        "id": "126",
         "question": "Which characteristic is MOST associated with conventional systems?",
         "options": [
             "1. Adaptability",
@@ -2031,6 +2157,7 @@
         }
     },
     {
+        "id": "127",
         "question": "An organization wants a system that can improve its fraud detection accuracy as new transactions become available. What AI characteristic supports this requirement?",
         "options": [
             "1. Transparency",
@@ -2047,6 +2174,7 @@
         }
     },
     {
+        "id": "128",
         "question": "Which statement best describes deterministic behavior?",
         "options": [
             "1. Outputs are based on probabilities.",
@@ -2063,6 +2191,7 @@
         }
     },
     {
+        "id": "129",
         "question": "Which of the following is MOST likely an AI-based system?",
         "options": [
             "1. Tax calculator using predefined tax rates",
@@ -2079,6 +2208,7 @@
         }
     },
     {
+        "id": "130",
         "question": "Which type of AI includes all AI systems currently deployed in real-world applications?",
         "options": [
             "1. General AI",
@@ -2095,6 +2225,7 @@
         }
     },
     {
+        "id": "131",
         "question": "What distinguishes General AI from Narrow AI?",
         "options": [
             "1. It requires more training data.",
@@ -2111,6 +2242,7 @@
         }
     },
     {
+        "id": "132",
         "question": "Which statement about Frontier AI is correct?",
         "options": [
             "1. It is a form of Super AI.",
@@ -2127,6 +2259,7 @@
         }
     },
     {
+        "id": "133",
         "question": "According to the syllabus, which statement about General AI is true?",
         "options": [
             "1. Several General AI systems are already deployed.",
@@ -2143,6 +2276,7 @@
         }
     },
     {
+        "id": "134",
         "question": "What is meant by \"technological singularity\"?",
         "options": [
             "1. The point where AI loses internet access.",
@@ -2159,6 +2293,7 @@
         }
     },
     {
+        "id": "135",
         "question": "Which AI category is characterized by continuous self-improvement without human intervention?",
         "options": [
             "1. Narrow AI",
@@ -2175,6 +2310,7 @@
         }
     },
     {
+        "id": "136",
         "question": "Which machine learning approach uses labeled data for training?",
         "options": [
             "1. Reinforcement Learning",
@@ -2191,6 +2327,7 @@
         }
     },
     {
+        "id": "137",
         "question": "A machine learning model groups customers into similar segments without predefined labels. Which learning approach is being used?",
         "options": [
             "1. Supervised Learning",
@@ -2207,6 +2344,7 @@
         }
     },
     {
+        "id": "138",
         "question": "Which learning paradigm uses rewards and penalties to improve behavior?",
         "options": [
             "1. Supervised Learning",
@@ -2223,6 +2361,7 @@
         }
     },
     {
+        "id": "139",
         "question": "Which neural network architecture is most suitable for image recognition?",
         "options": [
             "1. Transformer",
@@ -2239,6 +2378,7 @@
         }
     },
     {
+        "id": "140",
         "question": "What is the relationship between AI, ML and DL?",
         "options": [
             "1. DL contains ML which contains AI",
@@ -2255,6 +2395,7 @@
         }
     },
     {
+        "id": "141",
         "question": "Which technology is the primary foundation of modern large language models?",
         "options": [
             "1. Random Forest",
@@ -2271,6 +2412,7 @@
         }
     },
     {
+        "id": "142",
         "question": "Which AI technology is primarily concerned with sentiment analysis and machine translation?",
         "options": [
             "1. NLP",
@@ -2287,6 +2429,7 @@
         }
     },
     {
+        "id": "143",
         "question": "What is a key characteristic of Agentic AI?",
         "options": [
             "1. It only classifies data.",
@@ -2303,6 +2446,7 @@
         }
     },
     {
+        "id": "144",
         "question": "Which technology uses two neural networks competing against each other to generate realistic synthetic data?",
         "options": [
             "1. Transformer",
@@ -2319,6 +2463,7 @@
         }
     },
     {
+        "id": "145",
         "question": "How do diffusion models generate high-quality content?",
         "options": [
             "1. By applying clustering algorithms",
@@ -2335,6 +2480,7 @@
         }
     },
     {
+        "id": "146",
         "question": "What mechanism is central to transformer models?",
         "options": [
             "1. Clustering",
@@ -2351,6 +2497,7 @@
         }
     },
     {
+        "id": "147",
         "question": "Which statement about Generative AI is TRUE?",
         "options": [
             "1. It is limited to classification tasks.",
@@ -2367,6 +2514,7 @@
         }
     },
     {
+        "id": "148",
         "question": "What is a foundation model typically used for?",
         "options": [
             "1. It is directly deployed without modification.",
@@ -2383,6 +2531,7 @@
         }
     },
     {
+        "id": "149",
         "question": "Which concern is directly associated with the environmental impact of GenAI?",
         "options": [
             "1. Overfitting",
@@ -2399,6 +2548,7 @@
         }
     },
     {
+        "id": "150",
         "question": "A model can process text, images, and audio as both inputs and outputs. According to the syllabus, this model is best described as:",
         "options": [
             "1. Supervised",
@@ -2415,6 +2565,7 @@
         }
     },
     {
+        "id": "151",
         "question": "Which hardware characteristic is particularly beneficial for training machine learning models?",
         "options": [
             "1. High clock speed only",
@@ -2431,6 +2582,7 @@
         }
     },
     {
+        "id": "152",
         "question": "Why do GPUs generally outperform CPUs in machine learning applications?",
         "options": [
             "1. GPUs use less memory",
@@ -2447,6 +2599,7 @@
         }
     },
     {
+        "id": "153",
         "question": "What is the primary purpose of quantization in machine learning hardware?",
         "options": [
             "1. Increase model complexity",
@@ -2463,6 +2616,7 @@
         }
     },
     {
+        "id": "154",
         "question": "According to the syllabus, AI-specific hardware such as ASICs is particularly suitable for:",
         "options": [
             "1. Spreadsheet processing",
@@ -2479,6 +2633,7 @@
         }
     },
     {
+        "id": "155",
         "question": "Which statement about training and inference is TRUE?",
         "options": [
             "1. They always require identical hardware.",
@@ -2495,6 +2650,7 @@
         }
     },
     {
+        "id": "156",
         "question": "What distinguishes neuromorphic processors from traditional processors?",
         "options": [
             "1. They use higher clock frequencies.",
@@ -2511,6 +2667,7 @@
         }
     },
     {
+        "id": "157",
         "question": "What is a common advantage of obtaining an AI solution from a third-party vendor?",
         "options": [
             "1. Unlimited customization",
@@ -2527,6 +2684,7 @@
         }
     },
     {
+        "id": "158",
         "question": "Which statement about local development is TRUE?",
         "options": [
             "1. It always requires cloud infrastructure.",
@@ -2543,6 +2701,7 @@
         }
     },
     {
+        "id": "159",
         "question": "What is a key characteristic of public cloud development?",
         "options": [
             "1. Fixed infrastructure capacity",
@@ -2559,6 +2718,7 @@
         }
     },
     {
+        "id": "160",
         "question": "Which hosting option typically offers enhanced security and customization at a higher cost?",
         "options": [
             "1. Public Cloud",
@@ -2575,6 +2735,7 @@
         }
     },
     {
+        "id": "161",
         "question": "According to the syllabus, why do organizations often adopt hybrid approaches?",
         "options": [
             "1. To avoid using AI models",
@@ -2591,6 +2752,7 @@
         }
     },
     {
+        "id": "162",
         "question": "Which factor may influence the choice of AI model hosting and development strategy?",
         "options": [
             "1. Model size",
@@ -2607,6 +2769,7 @@
         }
     },
     {
+        "id": "163",
         "question": "Which of the following activities is typically part of the data handling functionality of an ML framework?",
         "options": [
             "1. Deploying a model to production",
@@ -2623,6 +2786,7 @@
         }
     },
     {
+        "id": "164",
         "question": "What is the primary objective of training and optimization in an ML framework?",
         "options": [
             "1. Reduce dataset size",
@@ -2639,6 +2803,7 @@
         }
     },
     {
+        "id": "165",
         "question": "Which statement about evaluation is TRUE?",
         "options": [
             "1. It is only performed before training.",
@@ -2655,6 +2820,7 @@
         }
     },
     {
+        "id": "166",
         "question": "What is a key characteristic of a low-level API?",
         "options": [
             "1. Less coding and more simplicity",
@@ -2671,6 +2837,7 @@
         }
     },
     {
+        "id": "167",
         "question": "Which factor may influence the selection of a machine learning development framework?",
         "options": [
             "1. User expertise",
@@ -2687,6 +2854,7 @@
         }
     },
     {
+        "id": "168",
         "question": "A framework is designed specifically for speech recognition tasks. According to the syllabus, this framework is best described as:",
         "options": [
             "1. General-purpose",
@@ -2703,6 +2871,7 @@
         }
     },
     {
+        "id": "169",
         "question": "What is the primary objective of AI regulations and standards?",
         "options": [
             "1. Eliminate all AI systems",
@@ -2719,6 +2888,7 @@
         }
     },
     {
+        "id": "170",
         "question": "Which of the following is an example of a soft law instrument?",
         "options": [
             "1. EU AI Act",
@@ -2735,6 +2905,7 @@
         }
     },
     {
+        "id": "171",
         "question": "What regulatory approach is used by the EU AI Act?",
         "options": [
             "1. Hardware-Based Approach",
@@ -2751,6 +2922,7 @@
         }
     },
     {
+        "id": "172",
         "question": "Which requirement is specifically associated with high-risk AI systems under the EU AI Act?",
         "options": [
             "1. Removal of human oversight",
@@ -2767,6 +2939,7 @@
         }
     },
     {
+        "id": "173",
         "question": "Which standard provides detailed guidance for testing AI-based systems?",
         "options": [
             "1. ISO/IEC TR 29119-11",
@@ -2783,6 +2956,7 @@
         }
     },
     {
+        "id": "174",
         "question": "Why must AI regulations and standards be regularly updated?",
         "options": [
             "1. Because AI systems no longer require testing",
@@ -2799,6 +2973,7 @@
         }
     },
     {
+        "id": "175",
         "question": "Which AI-specific quality characteristic recognizes that AI systems may produce a certain acceptable level of incorrect outputs?",
         "options": [
             "1. AI Robustness",
@@ -2815,6 +2990,7 @@
         }
     },
     {
+        "id": "176",
         "question": "What is Functional Adaptability?",
         "options": [
             "1. The ability to explain decisions",
@@ -2831,6 +3007,7 @@
         }
     },
     {
+        "id": "177",
         "question": "Which characteristic focuses on maintaining performance despite biased, adversarial, or invalid inputs?",
         "options": [
             "1. Transparency",
@@ -2847,6 +3024,7 @@
         }
     },
     {
+        "id": "178",
         "question": "What distinguishes Intervenability from User Controllability?",
         "options": [
             "1. Intervenability relates to deployment",
@@ -2863,6 +3041,7 @@
         }
     },
     {
+        "id": "179",
         "question": "Which safety challenge arises because AI requirements are often learned implicitly through training data?",
         "options": [
             "1. Self-learning",
@@ -2879,6 +3058,7 @@
         }
     },
     {
+        "id": "180",
         "question": "Why does self-learning present a safety challenge?",
         "options": [
             "1. It reduces transparency",
@@ -2895,6 +3075,7 @@
         }
     },
     {
+         "id": "181",
         "question": "What is LIME primarily used for?",
         "options": [
             "1. Data compression",
@@ -2911,6 +3092,7 @@
         }
     },
     {
+         "id": "182",
         "question": "A requirement states that an autonomous drone operator must be able to assume manual control within 0.5 seconds after receiving an alert. Which quality characteristic does this requirement primarily address?",
         "options": [
             "1. AI Robustness",
@@ -2927,6 +3109,7 @@
         }
     },
     {
+         "id": "183",
         "question": "An AI system must continue operating and switch to a reduced-power mode when its temperature exceeds 85°C instead of shutting down. Which quality characteristic is being evaluated?",
         "options": [
             "1. Intervenability",
@@ -2943,6 +3126,7 @@
         }
     },
     {
+         "id": "184",
         "question": "A chatbot must not generate hate speech, violent content, or self-harm instructions and must achieve at least 95% in red-team testing. Which quality characteristic is most relevant?",
         "options": [
             "1. AI Functional Correctness",
@@ -2959,6 +3143,7 @@
         }
     },
     {
+         "id": "185",
         "question": "A requirement states that a deployed prediction model must expose its version number and documentation through an API endpoint. Which quality characteristic is primarily addressed?",
         "options": [
             "1. Transparency",
@@ -2975,6 +3160,7 @@
         }
     },
     {
+         "id": "186",
         "question": "An image recognition system must achieve at least 95% accuracy. This is an example of acceptance criteria for:",
         "options": [
             "1. AI Robustness",

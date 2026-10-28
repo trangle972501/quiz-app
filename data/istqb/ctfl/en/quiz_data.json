@@ -1,5 +1,6 @@
 [
     {
+         "id": "1",
         "question": "Which of the following is the best example of a defect that causes harm?",
         "options": [
             "1. A usability defect that results in user dissatisfaction",
@@ -16,6 +17,7 @@
         }
     },
     {
+         "id": "2",
         "question": "Which of the following will help prevent defects from reoccurring?",
         "options": [
             "1. Rotating developers to keep them motivated",
@@ -32,6 +34,7 @@
         }
     },
     {
+         "id": "3",
         "question": "Which characteristic must a tester possess in order to be successful when working with a project team?",
         "options": [
             "1. Constructive communication skills",
@@ -48,6 +51,7 @@
         }
     },
     {
+         "id": "4",
         "question": "Which testing level is primarily focused on building confidence rather than finding defects?",
         "options": [
             "1. Unit testing",
@@ -64,6 +68,7 @@
         }
     },
     {
+         "id": "5",
         "question": "If you need to add system integration testing as a test level for a particular project, what testing level should it directly follow?",
         "options": [
             "1. Component",
@@ -80,6 +85,7 @@
         }
     },
     {
+         "id": "6",
         "question": "In which testing level are the developers most heavily involved?",
         "options": [
             "1. Component",
@@ -96,6 +102,7 @@
         }
     },
     {
+         "id": "7",
         "question": "If you are testing to ensure that the software will be easy to analyze and change, what type of non-functional testing are you conducting?",
         "options": [
             "1. Portability",
@@ -112,6 +119,7 @@
         }
     },
     {
+         "id": "8",
         "question": "Which of the following is an important characteristic of tests used for regression testing?",
         "options": [
             "1. They focus on testing the intricate and difficult-to-test aspects of the software",
@@ -128,6 +136,7 @@
         }
     },
     {
+         "id": "9",
         "question": "Which of the following is a trigger for maintenance testing?",
         "options": [
             "1. A new software product is being developed and defects have been found in unit testing",
@@ -144,6 +153,7 @@
         }
     },
     {
+         "id": "10",
         "question": "Which of the following is an effective method for finding defects early in the software lifecycle?",
         "options": [
             "1. Static analysis",
@@ -160,6 +170,7 @@
         }
     },
     {
+         "id": "11",
         "question": "What is one potential benefit of using a test automation tool?",
         "options": [
             "1. The quality of defects will improve",
@@ -176,6 +187,7 @@
         }
     },
     {
+         "id": "12",
         "question": "Which of the following is a key factor in the success of a work product review?",
         "options": [
             "1. Limit the number of defects found",
@@ -192,6 +204,7 @@
         }
     },
     {
+         "id": "13",
         "question": "When should the expected results of a test case be defined?",
         "options": [
             "1. When the test case is written, prior to execution",
@@ -208,6 +221,7 @@
         }
     },
     {
+         "id": "14",
         "question": "Which of the following black-box testing techniques focuses on covering all combinations of triggering conditions?",
         "options": [
             "1. State transition testing",
@@ -224,6 +238,7 @@
         }
     },
     {
+         "id": "15",
         "question": "What do use cases describe?",
         "options": [
             "1. Process flows",
@@ -240,6 +255,7 @@
         }
     },
     {
+         "id": "16",
         "question": "If you are using a testing technique to identify test cases that were missed when you applied formal testing techniques, what type of test design are you doing?",
         "options": [
             "1. Experience-based",
@@ -256,6 +272,7 @@
         }
     },
     {
+         "id": "17",
         "question": "If you need to attain a certain level of code coverage for a particular software product your team is testing, what type of testing should you use?",
         "options": [
             "1. Specification-based",
@@ -272,6 +289,7 @@
         }
     },
     {
+         "id": "18",
         "question": "Which of the following is a primary task of a Tester during test planning and implementation?",
         "options": [
             "1. Coordinate the testing strategy with project managers",
@@ -288,6 +306,7 @@
         }
     },
     {
+         "id": "19",
         "question": "At what point in the project should the test execution schedule be finalized?",
         "options": [
             "1. During test planning",
@@ -304,6 +323,7 @@
         }
     },
     {
+         "id": "20",
         "question": "Which of the following activities is part of test planning?",
         "options": [
             "1. Test approach formulation",
@@ -320,6 +340,7 @@
         }
     },
     {
+        "id": "21",
         "question": "If the project is using highly skilled and experienced developers, how is test estimation affected?",
         "options": [
             "1. The test strategy changes completely",
@@ -336,6 +357,7 @@
         }
     },
     {
+        "id": "22",
         "question": "Which of the following test estimation approaches is based on metrics from historical data of similar projects?",
         "options": [
             "1. Risk-based",
@@ -352,6 +374,7 @@
         }
     },
     {
+        "id": "23",
         "question": "For what level of testing is the following criterion appropriate?\n\"No priority 1, 2, or 3 defects are open and all priority 4 defects must have a documented workaround and are accepted by the business.\"",
         "options": [
             "1. Exit from unit testing",
@@ -368,6 +391,7 @@
         }
     },
     {
+        "id": "24",
         "question": "If you want to track all changes to versions of your testware, what should you implement?",
         "options": [
             "1. Tracker control",
@@ -384,6 +408,7 @@
         }
     },
     {
+        "id": "25",
         "question": "Which of the following is a project risk that could threaten project objectives?",
         "options": [
             "1. The software fails to detect the selection of an invalid workflow path by a user",
@@ -400,6 +425,7 @@
         }
     },
     {
+        "id": "26",
         "question": "What can a risk-based approach to testing help identify?",
         "options": [
             "1. Levels of system access to provide to testers",
@@ -416,6 +442,7 @@
         }
     },
     {
+        "id": "27",
         "question": "In an incident report, what attribute indicates the urgency or business priority of fixing the defect?",
         "options": [
             "1. Severity",
@@ -432,6 +459,7 @@
         }
     },
     {
+        "id": "28",
         "question": "Which of the following tools would be most appropriate for managing defects throughout the software lifecycle?",
         "options": [
             "1. Configuration management tools",
@@ -448,6 +476,7 @@
         }
     },
     {
+        "id": "29",
         "question": "Which of the following statements is CONTRARY to standard ISTQB testing principles?",
         "options": [
             "1. Testing can show that defects are present, but cannot prove that there are no defects.",
@@ -464,6 +493,7 @@
         }
     },
     {
+        "id": "30",
         "question": "If the same tests are repeated over and over again, eventually the same set of test cases will no longer find any new defects. Which testing principle describes this phenomenon?",
         "options": [
             "1. Pesticide paradox",
@@ -480,6 +510,7 @@
         }
     },
     {
+         "id": "31",
         "question": "In which review process activity are reviewers evaluating the work product and recording potential defects, recommendations, and questions?",
         "options": [
             "1. Fixing and reporting",
@@ -496,6 +527,7 @@
         }
     },
     {
+         "id": "32",
         "question": "If you are applying risk-based testing, which category of test strategy/approach are you using?",
         "options": [
             "1. Analytical",
@@ -512,6 +544,7 @@
         }
     },
     {
+         "id": "33",
         "question": "Which of the following is NOT one of the recognized formal or informal review types in ISTQB?",
         "options": [
             "1. Informal review",
@@ -528,6 +561,7 @@
         }
     },
     {
+         "id": "34",
         "question": "What is a primary objective of testing in Software Development, Maintenance, and Operations?",
         "options": [
             "1. Testing can be used to assess and evaluate quality levels",
@@ -544,6 +578,7 @@
         }
     },
     {
+         "id": "35",
         "question": "In a formal review, which statement describes the role of the Facilitator (Moderator)?",
         "options": [
             "1. Identify potential defects in the work product under review",
@@ -560,6 +595,7 @@
         }
     },
     {
+         "id": "36",
         "question": "Which of the following describes a valid decision table test case application?",
         "options": [
             "1. Evaluating combinations of boolean or discrete conditions to determine business outcome rules",
@@ -576,6 +612,7 @@
         }
     },
     {
+         "id": "37",
         "question": "Which test strategies/approaches correspond to the descriptions provided?\n- S: Process-compliant approaches (Adheres to standards)\n- T: Heuristic approaches (Runs execution concurrently)\n- U: Consultative approaches (Listens to technology experts)\n- V: Regression-averse approaches (Reuses test material)",
         "options": [
             "1. S -> Adheres to industry-specific standards; T -> Runs execution concurrently; U -> Listens to technology experts; V -> Includes reuse of existing test material",
@@ -592,6 +629,7 @@
         }
     },
     {
+         "id": "38",
         "question": "What is the minimum number of independent paths or test cases required to achieve 100% statement coverage in a control flow graph containing linear decision paths?",
         "options": [
             "1. Single path if all statements lie on a linear sequence",
@@ -608,6 +646,7 @@
         }
     },
     {
+         "id": "39",
         "question": "Which formula represents Cyclomatic Complexity V(G) where L = edges, N = nodes, and P = independent path?",
         "options": [
             "1. L - N + 2P",
@@ -624,6 +663,7 @@
         }
     },
     {
+         "id": "40",
         "question": "How many test cases are required to cover 100% 1 - switch coverage respectively from X4?",
         "images": ["data/istqb/ctfl/images/3.png"],
         "options": [
@@ -641,6 +681,7 @@
         }
     },
     {
+         "id": "41",
         "question": "Given the following decision table: Which of the following test cases and expected results is VALID?",
         "images": ["data/istqb/ctfl/images/1.png"],
         "options": [
@@ -658,6 +699,7 @@
         }
     },
     {
+         "id": "42",
         "question": "The above diagram represents the following paths through the code: \n A.vwy \n B.vwz \n C.vxy \n D.vxz. \n What is the MINIMUM combination of paths required to provide full statement coverage?",
         "images": ["data/istqb/ctfl/images/2.png"],
         "options": [
