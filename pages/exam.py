@@ -12,12 +12,15 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# RECOVERY LOGIC ON RELOAD: Check URL query parameters if session state is empty
-if "selected_category" not in st.session_state or "selected_exam_type" not in st.session_state:
-    query_params = st.query_params
-    if "category" in query_params and "exam_type" in query_params:
-        st.session_state.selected_category = query_params["category"]
-        st.session_state.selected_exam_type = query_params["exam_type"]
+# RECOVERY LOGIC ON RELOAD: Check URL query parameters
+query_params = st.query_params
+
+if "selected_category" not in st.session_state and "category" in query_params:
+    st.session_state.selected_category = query_params["category"]
+if "selected_exam_type" not in st.session_state and "exam_type" in query_params:
+    st.session_state.selected_exam_type = query_params["exam_type"]
+if "selected_exam" not in st.session_state and "exam_name" in query_params:
+    st.session_state.selected_exam = query_params["exam_name"]
 
 # 2. Safety check: If still missing, redirect back to home
 if "selected_category" not in st.session_state or "selected_exam_type" not in st.session_state:
@@ -29,23 +32,33 @@ if "selected_category" not in st.session_state or "selected_exam_type" not in st
 category = st.session_state.selected_category
 exam_type = st.session_state.selected_exam_type
 
-# Initialize Session State Variables
-if "selected_exam" not in st.session_state:
-    st.session_state.selected_exam = None
+# Initialize other Session State Variables
 if "current_quiz_data" not in st.session_state:
     st.session_state.current_quiz_data = []
 if "current_q" not in st.session_state:
-    st.session_state.current_q = 0
+    # Recover current question index from URL if available
+    st.session_state.current_q = int(query_params.get("q_idx", 0))
 if "score" not in st.session_state:
-    st.session_state.score = 0
+    st.session_state.score = int(query_params.get("score", 0))
 if "user_answers" not in st.session_state:
     st.session_state.user_answers = {}
 if "quiz_complete" not in st.session_state:
-    st.session_state.quiz_complete = False
+    st.session_state.quiz_complete = query_params.get("complete", "false") == "true"
 if "submitted" not in st.session_state:
     st.session_state.submitted = False
 
-# 2. Load exams dynamically using the passed category and exam_type
+# Helper function to update URL query params dynamically
+def update_query_params():
+    st.query_params.update({
+        "category": st.session_state.selected_category,
+        "exam_type": st.session_state.selected_exam_type,
+        "exam_name": st.session_state.selected_exam or "",
+        "q_idx": st.session_state.current_q,
+        "score": st.session_state.score,
+        "complete": str(st.session_state.quiz_complete).lower()
+    })
+
+# Load exams dynamically using the passed category and exam_type
 @st.cache_data
 def load_all_exams(cat, e_type):
     return JsonUtil.chunk_exams(cat, e_type)
@@ -64,12 +77,9 @@ if st.session_state.selected_exam is None:
     
     # Back button to return to home page catalog
     if st.button("⬅️ Back to Home Catalog"):
-        st.session_state.pop("selected_category", None)
-        st.session_state.pop("selected_exam_type", None)
-        st.session_state.selected_exam = None
+        st.session_state.clear()
         # Clear URL query parameters
         st.query_params.clear()
-
         st.switch_page("home.py")
 
     for exam_name, question_list in exams_pool.items():
@@ -79,27 +89,35 @@ if st.session_state.selected_exam is None:
         
         if col1.button(f"Start {exam_name}", key=exam_name, type="primary"):
             st.session_state.selected_exam = exam_name
-            
-            # Shuffle the order of the questions for this attempt
             st.session_state.current_quiz_data = random.sample(question_list, len(question_list))
             
-            # Reset states
+            # Reset states for new attempt
             st.session_state.current_q = 0
             st.session_state.score = 0
             st.session_state.user_answers = {}
             st.session_state.quiz_complete = False
             st.session_state.submitted = False
+            
+            # Update query params & rerun
+            update_query_params()
             st.rerun()
         st.divider()
 
 # --- SCREEN 2: ACTIVE QUIZ OR RESULTS ---
 else:
     active_exam_name = st.session_state.selected_exam
+    # If quiz data pool got wiped on reload, restore it from the pool
+    if not st.session_state.current_quiz_data and active_exam_name in exams_pool:
+        st.session_state.current_quiz_data = exams_pool[active_exam_name]
+
     quiz_data = st.session_state.current_quiz_data
     total_questions = len(quiz_data)
     
     if st.button("⬅️ Back to Exam Menu"):
         st.session_state.selected_exam = None
+        st.session_state.current_q = 0
+        st.session_state.score = 0
+        update_query_params()
         st.rerun()
 
     st.title(f"🧠 {active_exam_name}")
@@ -198,6 +216,7 @@ else:
                     st.session_state.quiz_complete = True
                 else:
                     st.session_state.current_q += 1
+                update_query_params()    
                 st.rerun()
 
     else:
@@ -227,4 +246,5 @@ else:
             st.session_state.user_answers = {}
             st.session_state.quiz_complete = False
             st.session_state.submitted = False
+            update_query_params()
             st.rerun()
