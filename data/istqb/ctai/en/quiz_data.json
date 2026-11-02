@@ -1490,7 +1490,7 @@
     },
     {
          "id": "88",
-        "question": "Given the following test techniques and test types:\n1. ML functional performance testing\n​2. Testing for bias\n3. Adversarial testing\n4. Drift testing\nAnd the following risks:\nA. The ML model might perform differently for different demographic groups\nB. Slightly modified inputs to the ML model might cause quite different and unexpected responses\nC. Predictions made by the ML model might be inaccurate in some cases\nD. ML model accuracy might have significantly decreased since it was deployed\nWhich of the following options BEST matches the test techniques and test types with the risks?",
+        "question": "Given the following test techniques and test types:\n1.ML functional performance testing\n ​2.Testing for bias\n 3.Adversarial testing\n4.Drift testing\nAnd the following risks:\nA. The ML model might perform differently for different demographic groups\nB. Slightly modified inputs to the ML model might cause quite different and unexpected responses\nC. Predictions made by the ML model might be inaccurate in some cases\nD. ML model accuracy might have significantly decreased since it was deployed\nWhich of the following options BEST matches the test techniques and test types with the risks?",
         "options": [
             "a) 1A – 2D – 3C – 4B",
             "b) 1C – 2A – 3B – 4D",
