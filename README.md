@@ -2,4 +2,7 @@
 This quiz application in Python
 
 # Run app
-`streamlit run app.py`
+`streamlit run home.py`
+
+# Pin python for project
+`uv python pin 3.13`
